@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public sealed class MouseSpawner : MonoBehaviour
 {
@@ -17,8 +18,18 @@ public sealed class MouseSpawner : MonoBehaviour
     public LayerMask blockLayer;
     public Transform[] blocks;
     public Transform eggFormation;
-    [Min(0.01f)] public float spawnInterval = 2f;
-    [Min(0.01f)] public float moveSpeed = 3f;
+    [Header("Difficulty")]
+    [FormerlySerializedAs("moveSpeed")]
+    [Min(0.01f)] public float startMouseSpeed = 1.5f;
+    [Min(0.01f)] public float maxMouseSpeed = 2.7f;
+    [FormerlySerializedAs("spawnInterval")]
+    [Min(0.01f)] public float startSpawnInterval = 1.8f;
+    [Min(0.01f)] public float minSpawnInterval = 0.6f;
+    public AnimationCurve difficultyCurve = AnimationCurve.Linear(0f, 0f, 1f, 1f);
+    [Header("Current Difficulty (runtime values)")]
+    [SerializeField] private float currentMouseSpeed = 1.5f;
+    [SerializeField] private float currentSpawnInterval = 1.8f;
+    [SerializeField] private float currentDifficulty;
     public float mouseTopRotationOffset = 90f;
     public float mouseRightRotationOffset = 180f;
 
@@ -26,13 +37,20 @@ public sealed class MouseSpawner : MonoBehaviour
     readonly HashSet<Collider2D> eggColliders = new HashSet<Collider2D>();
     readonly List<RaycastHit2D> hits = new List<RaycastHit2D>();
     readonly List<StraightLineMouse> mice = new List<StraightLineMouse>();
-    float nextSpawn;
+    float spawnTimer;
     bool gameplayEnded;
     public bool GameplayActive => !gameplayEnded && (!gameManager || gameManager.IsPlaying);
     public StraightLineMouse[] GetActiveMiceSnapshot() => mice.ToArray();
+    public float CurrentMouseSpeed => currentMouseSpeed;
+    public float CurrentSpawnInterval => currentSpawnInterval;
+    public float CurrentDifficulty => currentDifficulty;
 
     void Awake()
     {
+        ValidateDifficultySettings();
+        ApplyDifficulty(0f);
+        // Preserve the existing immediate first spawn.
+        spawnTimer = currentSpawnInterval;
         if (!targetCenter || !spawnCamera || !mouseTop || !mouseRight || !spawnCamera.orthographic)
         {
             Debug.LogError("MouseSpawner needs its target, orthographic camera and both mouse prefabs.", this);
@@ -58,10 +76,44 @@ public sealed class MouseSpawner : MonoBehaviour
 
     void Update()
     {
-        if (!GameplayActive || Time.time < nextSpawn) return;
-        nextSpawn = Time.time + Mathf.Max(0.01f, spawnInterval);
+        if (!GameplayActive) return;
+        RefreshDifficulty();
+        spawnTimer += Time.deltaTime;
+        if (spawnTimer < currentSpawnInterval) return;
+        spawnTimer = 0f;
         TrySpawnMouse();
     }
+
+    void RefreshDifficulty()
+    {
+        float progress = 0f;
+        if (gameManager)
+        {
+            float duration = gameManager.gameDuration;
+            float elapsedTime = duration - gameManager.RemainingTime;
+            progress = duration > 0f ? Mathf.Clamp01(elapsedTime / duration) : 1f;
+        }
+        ApplyDifficulty(progress);
+    }
+
+    void ApplyDifficulty(float progress)
+    {
+        ValidateDifficultySettings();
+        currentDifficulty = Mathf.Clamp01(difficultyCurve != null && difficultyCurve.length > 0
+            ? difficultyCurve.Evaluate(progress) : progress);
+        currentMouseSpeed = Mathf.Lerp(startMouseSpeed, maxMouseSpeed, currentDifficulty);
+        currentSpawnInterval = Mathf.Lerp(startSpawnInterval, minSpawnInterval, currentDifficulty);
+    }
+
+    void ValidateDifficultySettings()
+    {
+        startMouseSpeed = Mathf.Max(0.01f, startMouseSpeed);
+        maxMouseSpeed = Mathf.Max(startMouseSpeed, maxMouseSpeed);
+        startSpawnInterval = Mathf.Max(0.01f, startSpawnInterval);
+        minSpawnInterval = Mathf.Clamp(minSpawnInterval, 0.01f, startSpawnInterval);
+    }
+
+    void OnValidate() => ValidateDifficultySettings();
 
     public static Region Classify(Vector2 directionToCenter)
     {
@@ -111,6 +163,7 @@ public sealed class MouseSpawner : MonoBehaviour
     {
         if (!isActiveAndEnabled || !GameplayActive || !targetCenter || !spawnCamera || !mouseTop || !mouseRight)
             return false;
+        RefreshDifficulty();
         Physics2D.SyncTransforms();
         for (int attempt = 0; attempt < Mathf.Max(1, maxSpawnAttempts); attempt++)
         {
@@ -127,7 +180,7 @@ public sealed class MouseSpawner : MonoBehaviour
 
             GameObject instance = Instantiate(prefab, spawn, GetMouseRotation(region, toCenter));
             StraightLineMouse mouse = instance.AddComponent<StraightLineMouse>();
-            mouse.Initialize(this, toCenter.normalized, moveSpeed, radius);
+            mouse.Initialize(this, toCenter.normalized, currentMouseSpeed, radius);
             mice.Add(mouse);
             return true;
         }
@@ -177,6 +230,9 @@ public sealed class MouseSpawner : MonoBehaviour
 
     public void EndGameplay()
     {
+        if (gameplayEnded) return;
+        // Capture the timer's final progress once, then freeze these values too.
+        RefreshDifficulty();
         gameplayEnded = true;
         foreach (StraightLineMouse mouse in mice)
             if (mouse) mouse.Stop();

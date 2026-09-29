@@ -1,0 +1,17 @@
+{
+  "$schema": "https:/opencode.ai/config.json",
+  "mcp": {
+    "mcp-unity": {
+      "type": "local",
+      "enabled": true,
+      "command": [
+        "node",
+        "Library/PackageCache/com.gamelovers.mcp-unity@382a43a30f4d/Server~/build/index.js"
+      ],
+      "environment": {
+        "MCP_UNITY_SETTINGS_PATH": "D:/Repo/MajorStudio/Prototype/Prototype03/ProjectSettings/McpUnitySettings.json",
+        "MCP_UNITY_AUTH_TOKEN_PATH": "D:/Repo/MajorStudio/Prototype/Prototype03/Library/McpUnity/bridge-token"
+      }
+    }
+  }
+}

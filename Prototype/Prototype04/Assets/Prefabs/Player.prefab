@@ -10,6 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7601607374296037932}
   - component: {fileID: 3758300407687250068}
+  - component: {fileID: 8903889408350041879}
+  - component: {fileID: 1780699048959085666}
+  - component: {fileID: 4987836014545364050}
+  - component: {fileID: 2233466623637432238}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -87,3 +91,109 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &8903889408350041879
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374222466806438015}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!58 &1780699048959085666
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374222466806438015}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 98163201fe1ba4049a5a6a1cc2b4f4e1, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.08223653, y: -0.31798005}
+  m_Radius: 2.085733
+--- !u!114 &4987836014545364050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374222466806438015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d787263aba5d5b44ab37fd328c58b590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputActions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  movementSpeed: 4
+--- !u!114 &2233466623637432238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374222466806438015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8729ef73429ba418d764b9ae5e1e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eggPrefab: {fileID: 1962080113670253450, guid: 4adfa1096e19d0a4ca5c33afc140d36b, type: 3}
+  gridMaker: {fileID: 0}
+  aimCamera: {fileID: 0}
+  throwRange: 4
+  throwDuration: 0.6
+  throwHeight: 1.5
+  bobaPrefab: {fileID: 825176550994860719, guid: e15c15d9764972a4695c8d1d9aa840fe, type: 3}
+  bobaThrowRange: 4
+  bobaThrowDuration: 0.6
+  bobaThrowHeight: 1.5
+  watcherTargetLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  debugThrows: 1
+  selectedItem: 0
+  currentWatcherTarget: {fileID: 0}
+  currentTarget: {fileID: 0}

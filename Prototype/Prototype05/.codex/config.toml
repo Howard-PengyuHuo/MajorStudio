@@ -1,0 +1,4 @@
+[mcp_servers.mcp-unity]
+command = "node"
+args = ["Library/PackageCache/com.gamelovers.mcp-unity@d572dc88f1b9/Server~/build/index.js"]
+env = { MCP_UNITY_SETTINGS_PATH = "D:/Repo/MajorStudio/Prototype/Prototype05/ProjectSettings/McpUnitySettings.json", MCP_UNITY_AUTH_TOKEN_PATH = "D:/Repo/MajorStudio/Prototype/Prototype05/Library/McpUnity/bridge-token" }

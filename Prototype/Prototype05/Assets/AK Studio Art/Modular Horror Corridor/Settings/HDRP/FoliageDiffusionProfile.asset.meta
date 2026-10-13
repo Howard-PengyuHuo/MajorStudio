@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: db845bc446120e34ab967f79b9ed9140
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 264581
+  packageName: Modular Horror Corridor
+  packageVersion: 1.0
+  assetPath: Assets/AK Studio Art/Modular Horror Corridor/Settings/HDRP/FoliageDiffusionProfile.asset
+  uploadId: 741258

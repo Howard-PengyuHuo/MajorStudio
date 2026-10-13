@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 32841b1cb0d12934ba6821f8836d77c0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 264581
+  packageName: Modular Horror Corridor
+  packageVersion: 1.0
+  assetPath: Assets/AK Studio Art/Modular Horror Corridor/Settings/URP/UniversalRenderPipelineGlobalSettings.asset
+  uploadId: 741258

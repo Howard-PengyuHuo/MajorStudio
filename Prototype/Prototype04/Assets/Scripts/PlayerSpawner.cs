@@ -51,19 +51,21 @@ public class PlayerSpawner : MonoBehaviour
         var preferred = new List<TerrainTile>();
         var visible = new List<TerrainTile>();
         foreach (TerrainTile tile in grid.Tiles) {
-            if (tile.terrainType != TerrainType.Grass && tile.terrainType != TerrainType.Sand) continue;
+            if (!tile.IsWalkable || (tile.terrainType != TerrainType.Grass && tile.terrainType != TerrainType.Forest)) continue;
+            if (grid.IsWatcherSpawnTile(tile) || tile.GetComponentInChildren<Watcher>() != null ||
+                tile.GetComponentInChildren<CollectibleApple>() != null) continue;
             Vector3 viewport = spawnCamera.WorldToViewportPoint(tile.transform.position);
             if (viewport.z < spawnCamera.nearClipPlane || viewport.z > spawnCamera.farClipPlane ||
                 viewport.x <= 0f || viewport.x >= 1f || viewport.y <= 0f || viewport.y >= 1f ||
                 (spawnCamera.cullingMask & (1 << tile.gameObject.layer)) == 0) continue;
-            if (!HasClearance(tile.transform.position)) continue;
+            if (!HasClearance(tile)) continue;
             visible.Add(tile);
             if (viewport.x >= viewportMargin && viewport.x <= 1f - viewportMargin &&
                 viewport.y >= viewportMargin && viewport.y <= 1f - viewportMargin) preferred.Add(tile);
         }
         var candidates = preferred.Count > 0 ? preferred : visible;
         if (candidates.Count == 0) {
-            Debug.LogError("PlayerSpawner: No clear Grass or Sand tile is visible to Main Camera. No player spawned; the map and camera were left unchanged.", this);
+            Debug.LogError("PlayerSpawner: No unoccupied Grass or Forest tile is visible to Main Camera. No player spawned; the map and camera were left unchanged.", this);
             return;
         }
         SpawnTile = candidates[Random.Range(0, candidates.Count)];
@@ -87,11 +89,16 @@ public class PlayerSpawner : MonoBehaviour
         PlayerSpawned?.Invoke(this);
     }
 
-    bool HasClearance(Vector2 position)
+    bool HasClearance(TerrainTile tile)
     {
-        foreach (Collider2D collider in Physics2D.OverlapCircleAll(position, spawnClearanceRadius, blockingLayers)) {
-            if (collider.isTrigger) continue;
+        // Reject obstacles anywhere on this tile, including offset Palm colliders.
+        foreach (Collider2D collider in tile.GetComponentsInChildren<Collider2D>()) {
+            if (collider.enabled && !collider.isTrigger) return false;
+        }
+        foreach (Collider2D collider in Physics2D.OverlapCircleAll(tile.transform.position, spawnClearanceRadius, blockingLayers)) {
             if (existingPlayer != null && collider.transform.IsChildOf(existingPlayer.transform)) continue;
+            if (collider.GetComponentInParent<Watcher>() != null || collider.GetComponentInParent<CollectibleApple>() != null) return false;
+            if (collider.isTrigger) continue;
             return false;
         }
         return true;

@@ -741,7 +741,9 @@ MonoBehaviour:
   palmTreePrefab: {fileID: 4121262041235994600, guid: 44bb5c393f56a5f41bc2fdd8b236da91, type: 3}
   palmSpawnChance: 0.05
   watcherPrefab: {fileID: 7415673349868723446, guid: fbe3f900cd4a06c4ca8e79f207593e3a, type: 3}
-  watchRange: 3
+  watcherCount: 3
+  watcherMinSpacing: 7
+  watchRange: 6
   watchedIndicatorPrefab: {fileID: 6255952879224594770, guid: 125adef057376cc41bfa6a00cb1779fb, type: 3}
   debugWatcherGeneration: 1
   width: 20

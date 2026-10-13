@@ -1,9 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class Watcher : MonoBehaviour
 {
     [Min(0.01f)] public float blindDuration = 5f;
+    [Header("Sound")]
+    public AudioClip closedEyeClip;
+    [SerializeField] AudioSource audioSource;
     [SerializeField] bool isBlinded;
     GridMaker grid;
     TerrainTile origin;
@@ -15,6 +19,16 @@ public class Watcher : MonoBehaviour
     public bool IsBlinded => isBlinded;
     public int WatchedTileCount => watchedTiles.Count;
     public GridMaker Grid => grid;
+    public TerrainTile OriginTile => origin;
+
+    void Awake()
+    {
+        if (audioSource == null) audioSource = GetComponent<AudioSource>();
+        if (audioSource != null) {
+            audioSource.playOnAwake = false;
+            audioSource.loop = false;
+        }
+    }
 
     public void Initialize(GridMaker gridMaker, TerrainTile originTile, int watchRange, GameObject indicator)
     {
@@ -30,10 +44,13 @@ public class Watcher : MonoBehaviour
     public void Blind(float duration)
     {
         if (duration <= 0f || float.IsNaN(duration) || float.IsInfinity(duration)) return;
+        bool enteredBlindState = !isBlinded;
         recoverAt = Mathf.Max(recoverAt, Time.time + duration);
         isBlinded = true;
         ReleaseWatching();
-        Debug.Log($"Watcher blinded for {duration:0.##} seconds.", this);
+        if (enteredBlindState && closedEyeClip != null && audioSource != null && audioSource.isActiveAndEnabled)
+            audioSource.PlayOneShot(closedEyeClip);
+        Debug.Log($"{name}: Watcher blinded for {duration:0.##} seconds; its watch registrations were removed.", this);
     }
 
     void Update()
@@ -41,7 +58,7 @@ public class Watcher : MonoBehaviour
         if (!isBlinded || Time.time < recoverAt) return;
         isBlinded = false;
         RefreshWatching();
-        Debug.Log("Watcher recovered.", this);
+        Debug.Log($"{name}: Watcher recovered; watching {WatchedTileCount} remaining Water tiles.", this);
     }
 
     void OnEnable()

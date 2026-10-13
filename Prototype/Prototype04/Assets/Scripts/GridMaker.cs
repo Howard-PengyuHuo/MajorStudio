@@ -15,8 +15,11 @@ public class GridMaker : MonoBehaviour
 
     [Header("Watcher")]
     public GameObject watcherPrefab;
+    [Min(0)] public int watcherCount = 3;
+    [Tooltip("Preferred minimum Manhattan distance between Watcher spawn tiles. Relaxed only if there are not enough spaced candidates.")]
+    [Min(0)] public int watcherMinSpacing = 6;
     [Tooltip("Manhattan distance: abs(dx) + abs(dy), in grid cells.")]
-    [Min(0)] public int watchRange = 3;
+    [Min(0)] public int watchRange = 5;
     public GameObject watchedIndicatorPrefab;
     [Tooltip("Temporary diagnostics for Watcher candidates, references and spawning.")]
     public bool debugWatcherGeneration = true;
@@ -47,6 +50,10 @@ public class GridMaker : MonoBehaviour
     public bool IsGenerated { get; private set; }
     public Bounds GeneratedBounds { get; private set; }
     public Watcher GeneratedWatcher { get; private set; }
+    public IReadOnlyList<Watcher> GeneratedWatchers => generatedWatchers;
+    readonly List<Watcher> generatedWatchers = new List<Watcher>();
+    readonly HashSet<TerrainTile> watcherSpawnTiles = new HashSet<TerrainTile>();
+    public bool IsWatcherSpawnTile(TerrainTile tile) => tile != null && watcherSpawnTiles.Contains(tile);
     public event System.Action<GridMaker> GenerationCompleted;
 
     public IEnumerable<TerrainTile> Tiles
@@ -87,7 +94,7 @@ public class GridMaker : MonoBehaviour
         }
         CalculateGeneratedBounds();
         SpawnPalms();
-        SpawnWatcher();
+        SpawnWatchers();
         IsGenerated = true;
         Debug.Log($"GridMaker: Generated {width} x {height} tiles with seed {seed}.", this);
         GenerationCompleted?.Invoke(this);
@@ -137,8 +144,8 @@ public class GridMaker : MonoBehaviour
             mountainColor.a <= 0f || sandColor.a <= 0f) {
             Debug.LogWarning("GridMaker: A terrain color has zero alpha and will be invisible. Set each terrain color's alpha to 1 in the Inspector.", this);
         }
-        if (watchRange < 0 || float.IsNaN(palmSpawnChance) || palmSpawnChance < 0f || palmSpawnChance > 1f) {
-            Debug.LogError("GridMaker: watchRange must be non-negative and palmSpawnChance must be between 0 and 1.", this);
+        if (watchRange < 0 || watcherCount < 0 || watcherMinSpacing < 0 || float.IsNaN(palmSpawnChance) || palmSpawnChance < 0f || palmSpawnChance > 1f) {
+            Debug.LogError("GridMaker: watchRange, watcherCount and watcherMinSpacing must be non-negative; palmSpawnChance must be between 0 and 1.", this);
             return false;
         }
         return true;
@@ -208,10 +215,17 @@ public class GridMaker : MonoBehaviour
         }
     }
 
-    void SpawnWatcher()
+    void SpawnWatchers()
     {
-        if (debugWatcherGeneration) Debug.Log($"GridMaker: SpawnWatcher after terrain/Palms; watcherPrefab={watcherPrefab}, watchedIndicatorPrefab={watchedIndicatorPrefab}.", this);
-        if (!ValidateSpawnPrefab(watcherPrefab, "watcherPrefab")) return;
+        if (debugWatcherGeneration) Debug.Log($"GridMaker: SpawnWatchers after terrain/Palms; requested={watcherCount}, range={watchRange}, preferred spacing={watcherMinSpacing}; watcherPrefab={watcherPrefab}, watchedIndicatorPrefab={watchedIndicatorPrefab}.", this);
+        if (watcherCount == 0) {
+            if (debugWatcherGeneration) Debug.Log("GridMaker: Spawned 0/0 Watchers.", this);
+            return;
+        }
+        if (!ValidateSpawnPrefab(watcherPrefab, "watcherPrefab")) {
+            Debug.LogWarning($"GridMaker: Spawned 0/{watcherCount} Watchers; Watcher prefab is unavailable.", this);
+            return;
+        }
         var grassAdjacent = new List<TerrainTile>();
         var sandAdjacent = new List<TerrainTile>();
         var nearbyDry = new List<TerrainTile>();
@@ -225,19 +239,76 @@ public class GridMaker : MonoBehaviour
             } else if (HasWaterWithinDistance(tile.gridX, tile.gridY, nearbyRange)) nearbyDry.Add(tile);
         }
         if (debugWatcherGeneration) Debug.Log($"GridMaker: Watcher candidates: Grass adjacent={grassAdjacent.Count}, Sand adjacent={sandAdjacent.Count}, Grass/Sand within {nearbyRange} cells={nearbyDry.Count}.", this);
-        var candidates = grassAdjacent.Count > 0 ? grassAdjacent : sandAdjacent.Count > 0 ? sandAdjacent : nearbyDry;
-        if (candidates.Count == 0) {
+        var tiers = new List<TerrainTile>[] { grassAdjacent, sandAdjacent, nearbyDry };
+        if (grassAdjacent.Count + sandAdjacent.Count + nearbyDry.Count == 0) {
             Debug.LogWarning($"GridMaker: No Grass/Sand tile lies within {nearbyRange} cells of Water, including shoreline fallbacks. Cannot place a Watcher without changing this map.", this);
+            Debug.LogWarning($"GridMaker: Spawned 0/{watcherCount} Watchers; Perlin terrain was preserved.", this);
             return;
         }
-        TerrainTile watcherTile = candidates[Random.Range(0, candidates.Count)];
-        GameObject watcherObject = SpawnOnTile(watcherPrefab, watcherTile, "Watcher");
-        GeneratedWatcher = watcherObject.GetComponent<Watcher>();
-        if (GeneratedWatcher == null) GeneratedWatcher = watcherObject.AddComponent<Watcher>();
         bool showIndicators = watchedIndicatorPrefab != null &&
             ValidateSpawnPrefab(watchedIndicatorPrefab, "watchedIndicatorPrefab");
-        GeneratedWatcher.Initialize(this, watcherTile, watchRange, showIndicators ? watchedIndicatorPrefab : null);
-        Debug.Log($"GridMaker: Watcher spawned successfully on {watcherTile.terrainType} at ({watcherTile.gridX}, {watcherTile.gridY}); {GeneratedWatcher.WatchedTileCount} Water tiles watched within Manhattan range {watchRange}.", this);
+        for (int i = 0; i < watcherCount; i++) {
+            TerrainTile watcherTile = ChooseWatcherTile(tiers, true);
+            if (watcherTile == null) {
+                watcherTile = ChooseWatcherTile(tiers, false);
+                if (watcherTile != null && debugWatcherGeneration)
+                    Debug.Log($"GridMaker: Relaxing preferred Watcher spacing for spawn {i + 1}; no spaced candidate remains. Tile reuse is still prohibited.", this);
+            }
+            if (watcherTile == null) break;
+            watcherSpawnTiles.Add(watcherTile);
+            GameObject watcherObject = SpawnOnTile(watcherPrefab, watcherTile, $"Watcher {i + 1}");
+            Watcher watcher = watcherObject.GetComponent<Watcher>();
+            if (watcher == null) watcher = watcherObject.AddComponent<Watcher>();
+            generatedWatchers.Add(watcher);
+            // Retain the original first-Watcher accessor for existing integrations.
+            if (GeneratedWatcher == null) GeneratedWatcher = watcher;
+            watcher.Initialize(this, watcherTile, watchRange, showIndicators ? watchedIndicatorPrefab : null);
+            if (debugWatcherGeneration)
+                Debug.Log($"GridMaker: {watcher.name} spawned on {watcherTile.terrainType} ({watcherTile.gridX}, {watcherTile.gridY}), world {watcher.transform.position}; watching {watcher.WatchedTileCount} Water tiles within range {watchRange}.", watcher);
+        }
+        if (generatedWatchers.Count < watcherCount)
+            Debug.LogWarning($"GridMaker: Only {generatedWatchers.Count}/{watcherCount} Watchers could spawn on distinct valid tiles. Perlin terrain was preserved.", this);
+        if (debugWatcherGeneration) {
+            int overlapping = 0;
+            foreach (var tile in terrainInGrid) {
+                if (tile.ActiveWatcherCount <= 1) continue;
+                overlapping++;
+                Debug.Log($"GridMaker: Overlapping Water ({tile.gridX}, {tile.gridY}) activeWatcherCount={tile.ActiveWatcherCount}.", tile);
+            }
+            Debug.Log($"GridMaker: Spawned {generatedWatchers.Count}/{watcherCount} Watchers; {overlapping} Water tiles watched by multiple Watchers.", this);
+        }
+    }
+
+    TerrainTile ChooseWatcherTile(List<TerrainTile>[] tiers, bool requireSpacing)
+    {
+        foreach (var tier in tiers) {
+            var candidates = new List<TerrainTile>();
+            foreach (var tile in tier) {
+                if (watcherSpawnTiles.Contains(tile)) continue;
+                if (requireSpacing && NearestWatcherDistance(tile) < watcherMinSpacing) continue;
+                candidates.Add(tile);
+            }
+            if (candidates.Count == 0) continue;
+            // Start randomly; subsequent spawns spread across the available shoreline.
+            if (watcherSpawnTiles.Count == 0) return candidates[Random.Range(0, candidates.Count)];
+            int farthest = -1;
+            var spread = new List<TerrainTile>();
+            foreach (var tile in candidates) {
+                int distance = NearestWatcherDistance(tile);
+                if (distance > farthest) { farthest = distance; spread.Clear(); }
+                if (distance == farthest) spread.Add(tile);
+            }
+            return spread[Random.Range(0, spread.Count)];
+        }
+        return null;
+    }
+
+    int NearestWatcherDistance(TerrainTile tile)
+    {
+        int distance = int.MaxValue;
+        foreach (var occupied in watcherSpawnTiles)
+            distance = Mathf.Min(distance, Mathf.Abs(tile.gridX - occupied.gridX) + Mathf.Abs(tile.gridY - occupied.gridY));
+        return distance;
     }
 
     bool HasWaterWithinDistance(int x, int y, int distance)

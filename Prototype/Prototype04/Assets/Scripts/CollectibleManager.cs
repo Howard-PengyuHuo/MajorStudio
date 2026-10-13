@@ -59,13 +59,11 @@ public class CollectibleManager : MonoBehaviour
         int sectionCount = Mathf.Min(requested, gridMaker.height);
         var sections = new List<List<TerrainTile>>();
         for (int i = 0; i < sectionCount; i++) sections.Add(new List<TerrainTile>());
-        TerrainTile watcherTile = gridMaker.GeneratedWatcher != null
-            ? gridMaker.GeneratedWatcher.GetComponentInParent<TerrainTile>() : null;
         int candidateCount = 0;
         if (sectionCount > 0) {
             foreach (TerrainTile tile in gridMaker.Tiles) {
                 if (tile == null || (tile.terrainType != TerrainType.Grass && tile.terrainType != TerrainType.Sand) ||
-                    tile == spawner.SpawnTile || tile == watcherTile || !HasClearance(tile.transform.position)) continue;
+                    tile == spawner.SpawnTile || gridMaker.IsWatcherSpawnTile(tile) || !HasClearance(tile.transform.position)) continue;
                 int section = Mathf.Min(sectionCount - 1, tile.gridY * sectionCount / gridMaker.height);
                 sections[section].Add(tile);
                 candidateCount++;

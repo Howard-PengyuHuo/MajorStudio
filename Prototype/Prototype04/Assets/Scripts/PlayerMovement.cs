@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public InputActionAsset inputActions;
     [Min(0f)] public float movementSpeed = 4f;
+    [SerializeField] SpriteRenderer spriteRenderer;
     Rigidbody2D body;
     InputActionAsset runtimeActions;
     InputAction move;
@@ -13,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Awake()
     {
+        if (spriteRenderer == null) spriteRenderer = GetComponentInChildren<SpriteRenderer>(true);
+        if (spriteRenderer == null) Debug.LogWarning("PlayerMovement: Assign the Player SpriteRenderer to enable horizontal facing.", this);
         body = GetComponent<Rigidbody2D>();
         body.bodyType = RigidbodyType2D.Dynamic;
         body.gravityScale = 0f;
@@ -38,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         movement = move == null ? Vector2.zero : Vector2.ClampMagnitude(move.ReadValue<Vector2>(), 1f);
+        if (spriteRenderer != null && movement.x != 0f) spriteRenderer.flipX = movement.x < 0f;
     }
 
     void FixedUpdate()

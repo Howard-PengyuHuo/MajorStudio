@@ -13,6 +13,7 @@ public class EggProjectile : MonoBehaviour
     float height;
     float elapsed;
     bool flying;
+    public bool IsFlying => flying;
 
     public void Launch(Vector3 origin, TerrainTile targetTile, float throwDuration, float throwHeight)
     {

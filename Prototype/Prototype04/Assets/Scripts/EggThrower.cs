@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public enum ThrowableType { Egg, Boba }
 
+[RequireComponent(typeof(AudioSource))]
 public class EggThrower : MonoBehaviour
 {
     public GameObject eggPrefab;
@@ -22,6 +23,9 @@ public class EggThrower : MonoBehaviour
     public LayerMask watcherTargetLayers = ~0;
     [Tooltip("Temporary target/throw diagnostics; logs on target changes and clicks.")]
     public bool debugThrows = true;
+    [Header("Sound")]
+    public AudioClip eggThrowClip;
+    [SerializeField] AudioSource audioSource;
     readonly List<Collider2D> watcherHits = new List<Collider2D>();
     GameObject lastDebugObject;
     Component lastDebugComponent;
@@ -40,6 +44,15 @@ public class EggThrower : MonoBehaviour
     {
         gridMaker = grid;
         aimCamera = camera;
+    }
+
+    void Awake()
+    {
+        if (audioSource == null) audioSource = GetComponent<AudioSource>();
+        if (audioSource != null) {
+            audioSource.playOnAwake = false;
+            audioSource.loop = false;
+        }
     }
 
     void Start()
@@ -157,6 +170,8 @@ public class EggThrower : MonoBehaviour
         EggProjectile projectile = CreateProjectile(eggPrefab, tile.GetComponent<SpriteRenderer>());
         if (projectile == null) return false;
         projectile.Launch(transform.position, tile, throwDuration, throwHeight);
+        if (projectile.IsFlying && eggThrowClip != null && audioSource != null && audioSource.isActiveAndEnabled)
+            audioSource.PlayOneShot(eggThrowClip);
         if (debugThrows) Debug.Log($"EggThrower: Egg projectile launched toward {tile.name}.", this);
         return true;
     }

@@ -18,6 +18,8 @@ public class TerrainTile : MonoBehaviour
     [SerializeField] int x;
     [SerializeField] int y;
     [SerializeField] bool watched;
+    [SerializeField, Tooltip("Debug: number of Watchers currently registered on this Water tile.")]
+    int activeWatcherCount;
     [SerializeField] Color eggPlatformColor = new Color(1f, 0.95f, 0.7f, 1f);
     [SerializeField] BoxCollider2D terrainBlocker;
     readonly HashSet<Watcher> watchSources = new HashSet<Watcher>();
@@ -28,6 +30,7 @@ public class TerrainTile : MonoBehaviour
     public int gridX => x;
     public int gridY => y;
     public bool isWatched => watched;
+    public int ActiveWatcherCount => type == TerrainType.Water ? watchSources.Count : 0;
     public bool IsWalkable => type == TerrainType.Grass || type == TerrainType.Sand ||
         type == TerrainType.Forest || type == TerrainType.EggPlatform;
 
@@ -39,6 +42,7 @@ public class TerrainTile : MonoBehaviour
         watched = false;
         manualWatch = false;
         watchSources.Clear();
+        activeWatcherCount = 0;
         if (watchedIndicator != null) watchedIndicator.SetActive(false);
         if (terrainBlocker == null) terrainBlocker = gameObject.AddComponent<BoxCollider2D>();
         // Account for authored tile scale: the blocker fills the grid cell in container units.
@@ -60,13 +64,18 @@ public class TerrainTile : MonoBehaviour
     public void SetWatchSource(Watcher source, bool active, GameObject indicatorPrefab)
     {
         if (source == null) return;
+        int previousCount = watchSources.Count;
         if (active && type == TerrainType.Water) watchSources.Add(source);
         else watchSources.Remove(source);
         RefreshWatchedState(indicatorPrefab);
+        if (previousCount != activeWatcherCount && (previousCount > 1 || activeWatcherCount > 1) &&
+            source.Grid != null && source.Grid.debugWatcherGeneration)
+            Debug.Log($"Watcher overlap: Water ({x}, {y}) activeWatcherCount {previousCount} -> {activeWatcherCount}; isWatched={watched}; source={source.name}.", this);
     }
 
     void RefreshWatchedState(GameObject indicatorPrefab)
     {
+        activeWatcherCount = ActiveWatcherCount;
         watched = type == TerrainType.Water && (manualWatch || watchSources.Count > 0);
         if (watched && watchedIndicator == null && indicatorPrefab != null) {
             watchedIndicator = Instantiate(indicatorPrefab, transform, false);
@@ -93,6 +102,7 @@ public class TerrainTile : MonoBehaviour
         watched = false;
         manualWatch = false;
         watchSources.Clear();
+        activeWatcherCount = 0;
         if (watchedIndicator != null) watchedIndicator.SetActive(false);
         if (terrainBlocker != null) terrainBlocker.enabled = false;
         GetComponent<SpriteRenderer>().color = eggPlatformColor;

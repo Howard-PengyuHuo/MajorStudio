@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2fff2bf038977e54b8ca9b737596441b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260526
+  packageName: Scary Trees Pack
+  packageVersion: 1.0
+  assetPath: Assets/AK Studio Art/Scary Trees Pack/Settings/HDRP/HDRenderPipelineGlobalSettings
+    - Copy.asset
+  uploadId: 651555

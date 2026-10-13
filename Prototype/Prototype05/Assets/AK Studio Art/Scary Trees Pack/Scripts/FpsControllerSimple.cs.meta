@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 00553728294bd2f4680ba594802e507c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 260526
+  packageName: Scary Trees Pack
+  packageVersion: 1.0
+  assetPath: Assets/AK Studio Art/Scary Trees Pack/Scripts/FpsControllerSimple.cs
+  uploadId: 651555

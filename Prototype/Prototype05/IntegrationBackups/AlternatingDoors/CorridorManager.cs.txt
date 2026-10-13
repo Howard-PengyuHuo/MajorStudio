@@ -1,0 +1,179 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+
+[DefaultExecutionOrder(1100)]
+public sealed class CorridorManager : MonoBehaviour
+{
+    [Serializable] public class Destination
+    {
+        [Tooltip("Preferred: an already loaded corridor with a valid SpawnPoint.")]
+        public CorridorDestination instance;
+        [Tooltip("Optional self-contained corridor prefab with CorridorDestination on its root; instantiated once when needed.")]
+        public GameObject prefab;
+    }
+    public CorridorLoopManager loop;
+    public Camera gameplayCamera;
+    public ScreenFadeController screenFade;
+    [HideInInspector] public Destination[] destinations = Array.Empty<Destination>();
+    public BlackDoorTransitionManager blackDoorDestinations;
+    public Behaviour[] controlsToSuspend = Array.Empty<Behaviour>();
+    public KeyCode interactionKey = KeyCode.E;
+    [Min(0.1f)] public float interactionRange = 3f;
+    public LayerMask interactionMask = ~0;
+    [HideInInspector] public bool preferDifferentCorridor = true; // Legacy tooling; registry weights govern independent draws.
+    [Min(0)] public float fadeOutSeconds = 0.45f, blackHoldSeconds = 0.08f, fadeInSeconds = 0.45f;
+    [Min(0)] public float arrivalCooldownSeconds = 1;
+    public bool debugLogs;
+    public bool IsBusy { get; private set; }
+    public int CompletedTransitions { get; private set; }
+    // Raised only after a successful doorway teleport, never by look-back resets.
+    public event Action<CorridorDestination, bool> DoorTransitionCompleted;
+    public DoorInteraction TargetDoor { get; private set; }
+    readonly HashSet<BlackDoorTransition> doors = new HashSet<BlackDoorTransition>();
+    readonly HashSet<BlackDoorTransition> arrivalBlocks = new HashSet<BlackDoorTransition>();
+    bool[] previousControlStates;
+    Rigidbody body;
+    CharacterController controller;
+    bool controlsLocked, oldKinematic, oldGravity, oldControllerEnabled;
+    RigidbodyInterpolation oldInterpolation;
+    float nextAllowedTime;
+
+    void Update()
+    {
+        if (loop && loop.player) arrivalBlocks.RemoveWhere(d => !d || !OverlapsDoor(d));
+        TargetDoor = FindTargetDoor();
+        if (TargetDoor && Input.GetKeyDown(interactionKey)) TargetDoor.TryOpen();
+    }
+    public DoorInteraction FindTargetDoor()
+    {
+        if (!gameplayCamera || !gameplayCamera.isActiveAndEnabled || IsBusy) return null;
+        var ray = gameplayCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
+        ray.origin = gameplayCamera.transform.position;
+        if (!Physics.Raycast(ray, out var hit, interactionRange, interactionMask, QueryTriggerInteraction.Ignore)) return null;
+        var door = hit.collider.GetComponentInParent<DoorInteraction>();
+        // A configured door must belong to this transition system.
+        return door && door.CanInteract && doors.Any(d => d && d.door == door) ? door : null;
+    }
+    public bool TryInteract() { TargetDoor = FindTargetDoor(); return TargetDoor && TargetDoor.TryOpen(); }
+    public void RegisterDoor(BlackDoorTransition door) { if (door) doors.Add(door); }
+    public void UnregisterDoor(BlackDoorTransition door) { doors.Remove(door); arrivalBlocks.Remove(door); }
+    Bounds PlayerBounds()
+    {
+        var cc = loop.player.GetComponent<CharacterController>();
+        var capsule = loop.player.GetComponent<CapsuleCollider>();
+        Vector3 center = cc ? cc.center : capsule ? capsule.center : Vector3.up * 0.9f;
+        float radius = cc ? cc.radius : capsule ? capsule.radius : 0.3f;
+        float height = cc ? cc.height : capsule ? capsule.height : 1.8f;
+        Vector3 scale = loop.player.lossyScale;
+        float diameter = 2 * radius * Mathf.Max(Mathf.Abs(scale.x), Mathf.Abs(scale.z));
+        return new Bounds(loop.player.TransformPoint(center), new Vector3(diameter, height * Mathf.Abs(scale.y), diameter));
+    }
+    public void ReleaseArrivalBlock(BlackDoorTransition door)
+    {
+        // Physics may issue Exit/Enter while a Rigidbody becomes kinematic or a
+        // CharacterController is toggled. Only a real spatial exit releases arrival.
+        if (!door || !OverlapsDoor(door)) arrivalBlocks.Remove(door);
+    }
+    public bool OverlapsDoor(BlackDoorTransition door)
+    {
+        if (!door || !loop || !loop.player) return false;
+        var capsule = loop.player.GetComponent<CapsuleCollider>();
+        if (capsule)
+            return Physics.ComputePenetration(capsule, capsule.transform.position, capsule.transform.rotation,
+                door.Trigger, door.Trigger.transform.position, door.Trigger.transform.rotation, out _, out _);
+        // Disabled CharacterControllers have empty native bounds during a fade.
+        return door.Trigger.bounds.Intersects(PlayerBounds());
+    }
+    public bool CanEnter(BlackDoorTransition door) => isActiveAndEnabled && !IsBusy && loop && screenFade
+        && Time.unscaledTime >= nextAllowedTime && doors.Contains(door) && !arrivalBlocks.Contains(door);
+    // Compatibility for editor tooling; runtime arrivals always carry a DoorExitPoint.
+    public bool TrySelectDestination(out CorridorDestination selected)
+    {
+        selected = null;
+        if (!blackDoorDestinations || !blackDoorDestinations.TrySelect(out var exit)) return false;
+        selected = exit.environment; return true;
+    }
+    public bool TryBeginTransition(BlackDoorTransition source)
+    {
+        if (!Application.isPlaying || !source || !source.door || !source.door.IsOpen || !CanEnter(source)
+            || !source.IsEntranceArmed || source.SignedDistance(loop.player.position) < source.crossingDistance) return false;
+        if (!blackDoorDestinations || !blackDoorDestinations.TrySelect(out var destination))
+        { if (debugLogs) Debug.LogWarning("Black door has no valid, unobstructed destination.", this); return false; }
+        // Set the lock synchronously so multiple physics callbacks cannot start two fades.
+        IsBusy = true;
+        loop.SuspendForDoor(true);
+        LockControls();
+        foreach (var door in doors) if (door) door.Disarm();
+        StartCoroutine(Transition(destination));
+        return true;
+    }
+    IEnumerator Transition(DoorExitPoint destination)
+    {
+        try
+        {
+            yield return screenFade.FadeTo(1, fadeOutSeconds);
+            yield return null; // Guarantee a fully black rendered frame before teleportation.
+            if (destination && destination.IsValid(loop))
+            {
+                // Play the destination door's existing animation while the screen is black.
+                if (!destination.portal.door.IsOpen)
+                {
+                    destination.portal.door.TryOpen();
+                    float timeout = Time.unscaledTime + destination.portal.door.openDuration + 2;
+                    while (!destination.portal.door.IsOpen && Time.unscaledTime < timeout) yield return null;
+                }
+                bool changedCorridor = loop.CurrentEnvironment != destination.environment;
+                if (destination.portal.door.IsOpen && loop.EnterDoorExit(destination))
+                {
+                    CompletedTransitions++;
+                    DoorTransitionCompleted?.Invoke(destination.environment, changedCorridor);
+                    arrivalBlocks.Add(destination.portal);
+                    foreach (var door in doors)
+                        if (door && OverlapsDoor(door)) arrivalBlocks.Add(door);
+                    if (debugLogs) Debug.Log("Black door arrived through " + destination.name + " in " + destination.environment.name, this);
+                }
+            }
+            if (blackHoldSeconds > 0) yield return new WaitForSecondsRealtime(blackHoldSeconds);
+            yield return screenFade.FadeTo(0, fadeInSeconds);
+        }
+        finally { FinishTransition(); }
+    }
+    void LockControls()
+    {
+        var playerAudio = loop.player.GetComponentInChildren<FirstPersonAudio>();
+        if (playerAudio) playerAudio.ResetMotionAudio();
+        controlsLocked = true;
+        previousControlStates = controlsToSuspend.Select(c => c && c.enabled).ToArray();
+        foreach (var control in controlsToSuspend) if (control) control.enabled = false;
+        body = loop.player.GetComponent<Rigidbody>();
+        controller = loop.player.GetComponent<CharacterController>();
+        if (controller) { oldControllerEnabled = controller.enabled; controller.enabled = false; }
+        if (body)
+        {
+            oldKinematic = body.isKinematic; oldGravity = body.useGravity; oldInterpolation = body.interpolation;
+            if (!body.isKinematic) { body.linearVelocity = Vector3.zero; body.angularVelocity = Vector3.zero; }
+            body.interpolation = RigidbodyInterpolation.None; body.useGravity = false; body.isKinematic = true;
+        }
+    }
+    void FinishTransition()
+    {
+        if (controlsLocked)
+        {
+            for (int i = 0; i < controlsToSuspend.Length; i++) if (controlsToSuspend[i]) controlsToSuspend[i].enabled = previousControlStates[i];
+            if (controller) controller.enabled = oldControllerEnabled;
+            if (body)
+            { body.isKinematic = oldKinematic; body.useGravity = oldGravity; body.interpolation = oldInterpolation;
+                if (!body.isKinematic) { body.linearVelocity = Vector3.zero; body.angularVelocity = Vector3.zero; } }
+            controlsLocked = false;
+        }
+        if (loop) loop.SuspendForDoor(false);
+        if (screenFade) screenFade.SetImmediate(0);
+        nextAllowedTime = Time.unscaledTime + arrivalCooldownSeconds;
+        IsBusy = false;
+    }
+    void OnDisable() { StopAllCoroutines(); FinishTransition(); }
+}
+

@@ -1,0 +1,537 @@
+PLAYER capsule radius=0.4320523 height=1.8 center=(-0.04, 0.90, 0.04) scale=(1.00, 1.00, 1.00) mask=-1
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B/Door frame=(201.60, -5.69, 0.20) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, 0.20), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, 0.56), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B/Door ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 06 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B/Door frame=(4.45, -5.69, 19.60) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (4.45, -4.72, 19.60), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (4.45, -4.67, 19.96), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165557 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B/Door
+  ray 0.8206502 Corridor_A/Assets/Decals/Decal 4 (2)
+  exact obstacle Corridor_A/Assets/Decals/Decal 4 (2) ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B/Door ignored=False
+  ground Corridor_A/Assets/Floor/Floor 05 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Assets/Decals/Decal 4 (2) local center=(-0.03, 2.29, -0.03) size=(0.00, 1.40, 2.92)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B/Door frame=(1.60, -5.69, 2.95) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, 2.95), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, 3.31), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B ignored=False
+  ground Corridor_A/Assets/Floor/Floor 02 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B/Door frame=(198.40, -5.69, -30.36) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, -30.36), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, -30.72), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 02 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2/Wall with Door B 04/Door 1 B/Door frame=(201.60, -5.69, -5.54) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.76, -5.54), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.71, -5.18), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 04/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 04/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 04/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 04/Door 1 B/Door ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 04/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B/Door frame=(1.60, -5.69, -27.61) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -27.61), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -27.25), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B ignored=False
+  ground Corridor_A/Corridor (1)/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Corridor (1)/Decal 3 (1) local center=(-0.56, 2.35, -0.03) size=(0.00, 1.20, 1.48)
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B/Door frame=(200.00, -5.69, 21.17) forward=(0.00, 0.00, 1.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (200.00, -4.72, 21.17), Extents: (0.41, 0.96, 0.03),BoxCollider enabled=True bounds=Center: (199.64, -4.67, 21.17), Extents: (0.03, 0.03, 0.09)
+  ray 0.8165562 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 07 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B/Door frame=(201.60, -5.69, -22.11) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, -22.11), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, -21.75), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 09 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B/Door frame=(198.40, -5.69, 11.20) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, 11.20), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, 10.84), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 09 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2/Wall with Door B 11/Door 1 B/Door frame=(201.60, -5.69, -11.04) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.76, -11.04), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.71, -10.68), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 11/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Decal 3 (1) ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 11/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 11/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 11/Door 1 B/Door ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 11/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+  crossing obstacle Corridor_B/Corridor2/Decal 3 (1) local center=(-0.56, 2.31, -0.03) size=(0.00, 1.20, 1.48)
+Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B/Door frame=(200.00, -5.69, -34.66) forward=(0.00, 0.00, -1.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (200.00, -4.72, -34.66), Extents: (0.41, 0.96, 0.03),BoxCollider enabled=True bounds=Center: (200.36, -4.67, -34.66), Extents: (0.03, 0.03, 0.09)
+  ray 0.8165581 Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Decal 1 (1) ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 06 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_B/Corridor2 Extension/Decal 1 (1) local center=(-0.75, 2.29, -0.03) size=(1.27, 1.97, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B/Door frame=(-1.60, -5.69, 0.20) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, 0.20), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -0.16), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Decals/Decal 1 (2) ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B ignored=False
+  ground Corridor_A/Assets/Floor/Floor 06 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Assets/Decals/Decal 1 (2) local center=(0.83, 1.97, -0.03) size=(0.00, 1.97, 1.27)
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B/Door frame=(198.40, -5.69, 5.70) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, 5.70), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, 5.34), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B/Door frame=(201.60, -5.69, -33.11) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, -33.11), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, -32.75), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 06 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B/Door frame=(-1.60, -5.69, 2.95) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, 2.95), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, 2.59), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B ignored=False
+  ground Corridor_A/Assets/Floor/Floor 02 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B/Door frame=(1.60, -5.69, 11.20) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, 11.20), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, 11.56), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Assets/Decals/Decal 4 (3) ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B/Door ignored=False
+  ground Corridor_A/Assets/Floor/Floor 09 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Assets/Decals/Decal 4 (3) local center=(-0.02, 2.34, -0.03) size=(0.00, 1.24, 2.58)
+Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B/Door frame=(1.60, -5.69, -24.86) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -24.86), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -24.50), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B ignored=False
+  ground Corridor_A/Corridor (1)/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor/Wall with Door A 07/Door 2 B/Door frame=(-1.60, -5.69, -13.63) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, -13.63), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -13.99), Extents: (0.09, 0.03, 0.03)
+  ray 0.8174967 Corridor_A/Corridor/Wall with Door A 07/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor/Wall with Door A 07/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 07/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 07/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Black Door - Door 2 B - Wall with Door A 07/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_B/Corridor2/Wall with Door B 02/Door 1 B/Door frame=(201.60, -5.69, -2.79) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.76, -2.79), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.71, -2.43), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 02/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 02/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 02/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 02/Door 1 B/Door ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 02/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B/Door frame=(-1.60, -5.69, -33.11) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, -33.11), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -33.47), Extents: (0.09, 0.03, 0.03)
+  ray 0.816556 Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Decal 1 (2) ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Corridor (1)/Floor 06 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Corridor (1)/Decal 1 (2) local center=(0.83, 1.97, -0.03) size=(0.00, 1.97, 1.27)
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B/Door frame=(201.60, -5.69, 5.70) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, 5.70), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, 6.06), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B/Door ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_B/Original Environment/Decals/Decal 3 (1) local center=(-0.56, 2.35, -0.03) size=(0.00, 1.20, 1.48)
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B/Door frame=(198.40, -5.69, 2.95) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, 2.95), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, 2.59), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 02 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B/Door frame=(1.60, -5.69, 0.20) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, 0.20), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, 0.56), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B ignored=False
+  ground Corridor_A/Assets/Floor/Floor 06 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2/Wall with Door B 03/Door 1 B/Door frame=(198.40, -5.69, -8.29) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.76, -8.29), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.71, -8.65), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 03/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 03/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 03/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 03/Door 1 B/Door ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 03/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B/Door frame=(198.40, -5.69, -24.86) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, -24.86), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, -25.22), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2/Wall with Door B 07/Door 1 B/Door frame=(198.40, -5.69, -5.54) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.76, -5.54), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.71, -5.90), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 07/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 07/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 07/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 07/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 07/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_A/Corridor/Wall with Door A 10/Door 2 B/Door frame=(1.60, -5.69, -10.88) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -10.88), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -10.52), Extents: (0.09, 0.03, 0.03)
+  ray 0.8156214 Corridor_A/Corridor/Wall with Door A 10/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor/Wall with Door A 10/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 10/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 10/Door 2 B ignored=False
+  ground Corridor_A/Corridor/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1578924
+  crossing obstacle Corridor_A/Corridor/Decal 3 (1) local center=(-0.56, 2.35, -0.03) size=(0.00, 1.20, 1.49)
+Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B/Door frame=(198.40, -5.69, -27.61) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, -27.61), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, -27.97), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B/Door frame=(1.60, -5.69, -30.36) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -30.36), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -30.00), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Corridor (1)/Floor 02 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2/Wall with Door B 01/Door 1 B/Door frame=(198.40, -5.69, -16.54) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.76, -16.54), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.71, -16.90), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 01/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Decal 1 (2) ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 01/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 01/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Decal 3 (2) ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 01/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 01/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+  crossing obstacle Corridor_B/Corridor2/Decal 1 (2) local center=(0.85, 2.23, -0.03) size=(0.00, 1.97, 1.27)
+  crossing obstacle Corridor_B/Corridor2/Decal 3 (2) local center=(-0.69, 2.43, -0.03) size=(0.00, 1.58, 1.95)
+Corridor_A/Corridor/Wall with Door A 14/Door 2 B/Door frame=(1.60, -5.69, -16.38) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -16.38), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -16.02), Extents: (0.09, 0.03, 0.03)
+  ray 0.8156221 Corridor_A/Corridor/Wall with Door A 14/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor/Wall with Door A 14/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 14/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 14/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Corridor/Floor 06 normal=(0.00, 1.00, 0.00) distance=0.1575305
+Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B/Door frame=(0.00, -5.69, -34.66) forward=(0.00, 0.00, -1.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (0.00, -4.72, -34.66), Extents: (0.41, 0.96, 0.03),BoxCollider enabled=True bounds=Center: (0.36, -4.67, -34.66), Extents: (0.03, 0.03, 0.09)
+  ray 0.8165543 Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Decal 1 (1) ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B/Door ignored=False
+  ground Corridor_A/Corridor (1)/Floor 06 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Corridor (1)/Decal 1 (1) local center=(-0.75, 2.00, -0.03) size=(1.27, 1.97, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B/Door frame=(1.60, -5.69, 8.45) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, 8.45), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, 8.81), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Assets/Floor/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor/Wall with Door A 11/Door 2 B/Door frame=(-1.59, -5.69, -2.63) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.59, -4.72, -2.63), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.59, -4.67, -2.99), Extents: (0.09, 0.03, 0.03)
+  ray 0.8174978 Corridor_A/Corridor/Wall with Door A 11/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor/Wall with Door A 11/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 11/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 11/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Black Door - Door 2 B - Wall with Door A 11/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_B/Corridor2/Wall with Door B 14/Door 1 B/Door frame=(201.60, -5.69, -16.54) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.76, -16.54), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.71, -16.18), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 14/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 14/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 14/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 14/Door 1 B/Door ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 14/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B/Door frame=(201.60, -5.69, -24.86) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, -24.86), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, -24.50), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B/Door ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B/Door frame=(198.40, -5.69, -33.11) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, -33.11), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, -33.47), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Decal 1 (2) ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Decal 3 (2) ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B/Door ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 06 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_B/Corridor2 Extension/Decal 1 (2) local center=(0.85, 2.27, -0.03) size=(0.00, 1.97, 1.27)
+  crossing obstacle Corridor_B/Corridor2 Extension/Decal 3 (2) local center=(-0.69, 2.47, -0.03) size=(0.00, 1.58, 1.95)
+Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B/Door frame=(198.40, -5.69, -19.36) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, -19.36), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, -19.72), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 03 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor/Wall with Door A 03/Door 2 B/Door frame=(1.60, -5.69, -5.38) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -5.38), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -5.02), Extents: (0.09, 0.03, 0.03)
+  ray 0.815621 Corridor_A/Corridor/Wall with Door A 03/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor/Decal 4 (3) ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 03/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 03/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 03/Door 2 B ignored=False
+  ground Corridor_A/Corridor/Floor 09 normal=(0.00, 1.00, 0.00) distance=0.1582567
+  crossing obstacle Corridor_A/Corridor/Decal 4 (3) local center=(-0.02, 2.34, -0.03) size=(0.00, 1.24, 2.58)
+Corridor_A/Corridor/Wall with Door A 15/Door 2 B/Door frame=(-1.60, -5.69, -10.88) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, -10.88), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -11.24), Extents: (0.09, 0.03, 0.03)
+  ray 0.817497 Corridor_A/Corridor/Wall with Door A 15/Door 2 B/Door
+  ray 0.8230249 Corridor_A/Corridor/Decal 3 (2)
+  exact obstacle Corridor_A/Corridor/Decal 3 (2) ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 15/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 15/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 15/Door 2 B ignored=False
+  ground Corridor_A/Black Door - Door 2 B - Wall with Door A 15/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+  crossing obstacle Corridor_A/Corridor/Decal 3 (2) local center=(-0.16, 2.18, -0.03) size=(0.00, 1.58, 1.95)
+Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B/Door frame=(1.60, -5.69, -22.11) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -22.11), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -21.75), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Decal 4 (3) ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B ignored=False
+  ground Corridor_A/Corridor (1)/Floor 09 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Corridor (1)/Decal 4 (3) local center=(-0.02, 2.34, -0.03) size=(0.00, 1.24, 2.58)
+Corridor_B/Corridor2/Wall with Door B 15/Door 1 B/Door frame=(198.40, -5.69, -11.04) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.76, -11.04), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.71, -11.40), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 15/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 15/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 15/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 15/Door 1 B/Door ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 15/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B/Door frame=(1.60, -5.69, 13.95) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, 13.95), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, 14.31), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Assets/Floor/Floor 03 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor/Wall with Door A 08/Door 2 B/Door frame=(1.60, -5.69, -13.63) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -13.63), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -13.27), Extents: (0.09, 0.03, 0.03)
+  ray 0.8156216 Corridor_A/Corridor/Wall with Door A 08/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor/Wall with Door A 08/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 08/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 08/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Corridor/Floor 02 normal=(0.00, 1.00, 0.00) distance=0.1577112
+Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B/Door frame=(-1.60, -5.69, -24.86) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, -24.86), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -25.22), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B ignored=False
+  ground Corridor_A/Corridor (1)/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B/Door frame=(0.00, -5.69, 21.17) forward=(0.00, 0.00, 1.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (0.00, -4.72, 21.17), Extents: (0.41, 0.96, 0.03),BoxCollider enabled=True bounds=Center: (-0.36, -4.67, 21.17), Extents: (0.03, 0.03, 0.09)
+  ray 0.8165562 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B/Door
+  ray 0.8217307 Corridor_A/Assets/Decals/Decal 4 (1)
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Assets/Decals/Decal 4 (1) ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B ignored=False
+  ground Corridor_A/Assets/Floor/Floor 07 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Assets/Decals/Decal 4 (1) local center=(-0.05, 2.29, -0.03) size=(2.90, 1.39, 0.00)
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B/Door frame=(195.55, -5.69, 19.60) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (195.55, -4.72, 19.60), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (195.55, -4.67, 19.24), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 04 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B/Door frame=(201.60, -5.69, 13.95) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, 13.95), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, 14.31), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B/Door ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 03 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B/Door frame=(1.60, -5.69, -19.36) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -19.36), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -19.00), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B ignored=False
+  ground Corridor_A/Corridor (1)/Floor 03 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B/Door frame=(-1.60, -5.69, 8.45) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, 8.45), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, 8.09), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Assets/Floor/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B/Door frame=(-1.60, -5.69, 11.20) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, 11.20), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, 10.84), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Decals/Decal 4 (4) ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B/Door ignored=False
+  ground Corridor_A/Assets/Floor/Floor 09 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Assets/Decals/Decal 4 (4) local center=(0.01, 2.32, -0.03) size=(0.00, 1.31, 2.73)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B/Door frame=(1.60, -5.69, 5.70) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, 5.70), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, 6.06), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B/Door ignored=False
+  ground Corridor_A/Assets/Floor/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Assets/Decals/Decal 3 (1) local center=(-0.56, 2.35, -0.03) size=(0.00, 1.20, 1.48)
+Corridor_A/Corridor/Wall with Door A 01/Door 2 B/Door frame=(1.60, -5.69, -2.63) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -2.63), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -2.27), Extents: (0.09, 0.03, 0.03)
+  ray 0.8156208 Corridor_A/Corridor/Wall with Door A 01/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor/Wall with Door A 01/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 01/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 01/Door 2 B ignored=False
+  ground Corridor_A/Corridor/Floor 03 normal=(0.00, 1.00, 0.00) distance=0.1584374
+Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B/Door frame=(198.40, -5.69, -22.11) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, -22.11), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, -22.47), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 09 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B/Door frame=(-1.60, -5.69, -30.36) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, -30.36), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -30.72), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Corridor (1)/Floor 02 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2/Wall with Door B 12/Door 1 B/Door frame=(198.40, -5.69, -2.79) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.76, -2.79), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.71, -3.15), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 12/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 12/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 12/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 12/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 12/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B/Door frame=(-4.45, -5.69, 19.60) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-4.45, -4.72, 19.60), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-4.45, -4.67, 19.24), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165557 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B/Door ignored=False
+  ground Corridor_A/Assets/Floor/Floor 04 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B/Door frame=(-1.60, -5.69, 5.70) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, 5.70), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, 5.34), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B/Door
+  ray 0.8220827 Corridor_A/Assets/Decals/Decal 3 (2)
+  exact obstacle Corridor_A/Assets/Decals/Decal 3 (2) ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B ignored=False
+  ground Corridor_A/Assets/Floor/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Assets/Decals/Decal 3 (2) local center=(-0.16, 2.19, -0.03) size=(0.00, 1.58, 1.95)
+Corridor_A/Corridor/Wall with Door A 12/Door 2 B/Door frame=(-1.60, -5.69, -16.38) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, -16.38), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -16.74), Extents: (0.09, 0.03, 0.03)
+  ray 0.8174964 Corridor_A/Corridor/Wall with Door A 12/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor/Decal 1 (2) ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 12/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 12/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 12/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Black Door - Door 2 B - Wall with Door A 12/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+  crossing obstacle Corridor_A/Corridor/Decal 1 (2) local center=(0.83, 1.97, -0.03) size=(0.00, 1.97, 1.27)
+Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B/Door frame=(201.60, -5.69, -30.36) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, -30.36), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, -30.00), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B/Door ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 02 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B/Door frame=(-1.60, -5.69, -27.61) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, -27.61), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -27.97), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B/Door
+  ray 0.8220908 Corridor_A/Corridor (1)/Decal 3 (2)
+  exact obstacle Corridor_A/Corridor (1)/Decal 3 (2) ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Corridor (1)/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Corridor (1)/Decal 3 (2) local center=(-0.16, 2.19, -0.03) size=(0.00, 1.58, 1.95)
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B/Door frame=(198.40, -5.69, 8.45) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, 8.45), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, 8.09), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B/Door frame=(201.60, -5.69, -19.36) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, -19.36), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, -19.00), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 03 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor/Wall with Door A 05/Door 2 B/Door frame=(1.60, -5.69, -8.13) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -8.13), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -7.77), Extents: (0.09, 0.03, 0.03)
+  ray 0.8156214 Corridor_A/Corridor/Wall with Door A 05/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor/Wall with Door A 05/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 05/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 05/Door 2 B ignored=False
+  ground Corridor_A/Corridor/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1580741
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B/Door frame=(204.45, -5.69, 19.60) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (204.45, -4.72, 19.60), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (204.45, -4.67, 19.96), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B/Door ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 05 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B/Door frame=(201.60, -5.69, 11.20) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, 11.20), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, 11.56), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 09 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B/Door frame=(198.40, -5.69, 0.20) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, 0.20), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, -0.16), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Decals/Decal 1 (2) ignored=False
+  exact obstacle Corridor_B/Original Environment/Decals/Decal 3 (2) ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 06 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_B/Original Environment/Decals/Decal 1 (2) local center=(0.85, 2.27, -0.03) size=(0.00, 1.97, 1.27)
+  crossing obstacle Corridor_B/Original Environment/Decals/Decal 3 (2) local center=(-0.69, 2.47, -0.03) size=(0.00, 1.58, 1.95)
+Corridor_A/Corridor/Wall with Door A 02/Door 2 B/Door frame=(-1.60, -5.69, -8.13) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, -8.13), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -8.49), Extents: (0.09, 0.03, 0.03)
+  ray 0.8174973 Corridor_A/Corridor/Wall with Door A 02/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor/Wall with Door A 02/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 02/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 02/Door 2 B ignored=False
+  ground Corridor_A/Black Door - Door 2 B - Wall with Door A 02/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B/Door frame=(1.60, -5.69, -33.11) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (1.60, -4.72, -33.11), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (1.60, -4.67, -32.75), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B/Door ignored=False
+  ground Corridor_A/Corridor (1)/Floor 06 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B/Door frame=(-1.60, -5.69, -19.36) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, -19.36), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -19.72), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Corridor (1)/Floor 03 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Corridor2/Wall with Door B 08/Door 1 B/Door frame=(198.40, -5.69, -13.79) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.76, -13.79), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.71, -14.15), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 08/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 08/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 08/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 08/Door 1 B/Door ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 08/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B/Door frame=(-1.60, -5.69, 13.95) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, 13.95), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, 13.59), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B/Door
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B ignored=False
+  exact obstacle Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B/Door/Handles ignored=False
+  ground Corridor_A/Assets/Floor/Floor 03 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B/Door frame=(201.60, -5.69, 2.95) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, 2.95), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, 3.31), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 02 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B/Door frame=(-1.60, -5.69, -22.11) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, -22.11), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -22.47), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165558 Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor (1)/Decal 4 (4) ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B ignored=False
+  ground Corridor_A/Corridor (1)/Floor 09 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_A/Corridor (1)/Decal 4 (4) local center=(0.01, 2.32, -0.03) size=(0.00, 1.31, 2.73)
+Corridor_B/Corridor2/Wall with Door B 09/Door 1 B/Door frame=(201.60, -5.69, -13.79) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.76, -13.79), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.71, -13.43), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 09/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 09/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 09/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 09/Door 1 B/Door ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 09/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B/Door frame=(201.60, -5.69, -27.61) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, -27.61), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, -27.25), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B ignored=False
+  ground Corridor_B/Corridor2 Extension/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003
+  crossing obstacle Corridor_B/Corridor2 Extension/Decal 3 (1) local center=(-0.56, 2.35, -0.03) size=(0.00, 1.20, 1.48)
+Corridor_B/Corridor2/Wall with Door B 06/Door 1 B/Door frame=(201.60, -5.69, -8.29) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.76, -8.29), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.71, -7.93), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Corridor2/Wall with Door B 06/Door 1 B/Door
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 06/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 06/Door 1 B ignored=False
+  exact obstacle Corridor_B/Corridor2/Wall with Door B 06/Door 1 B/Door ignored=False
+  ground Corridor_B/Black Door - Door 1 B - Wall with Door B 06/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B/Door frame=(198.40, -5.69, 13.95) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (198.40, -4.72, 13.95), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (198.40, -4.67, 13.59), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B/Door ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B/Door/Handles ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 03 normal=(0.00, 1.00, 0.00) distance=0.1600003
+Corridor_A/Corridor/Wall with Door A 06/Door 2 B/Door frame=(-1.60, -5.69, -5.38) forward=(-1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (-1.60, -4.72, -5.38), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (-1.60, -4.67, -5.74), Extents: (0.09, 0.03, 0.03)
+  ray 0.8174974 Corridor_A/Corridor/Wall with Door A 06/Door 2 B/Door
+  exact obstacle Corridor_A/Corridor/Decal 4 (4) ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 06/Door 2 B/Door/Handles ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 06/Door 2 B/Door ignored=False
+  exact obstacle Corridor_A/Corridor/Wall with Door A 06/Door 2 B ignored=False
+  ground Corridor_A/Black Door - Door 2 B - Wall with Door A 06/Dark Doorway Floor normal=(0.00, 1.00, 0.00) distance=0.1600005
+  crossing obstacle Corridor_A/Corridor/Decal 4 (4) local center=(0.01, 2.32, -0.03) size=(0.00, 1.31, 2.73)
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B/Door frame=(201.60, -5.69, 8.45) forward=(1.00, 0.00, 0.00) visible=True active=True colliders=BoxCollider enabled=True bounds=Center: (201.60, -4.72, 8.45), Extents: (0.03, 0.96, 0.41),BoxCollider enabled=True bounds=Center: (201.60, -4.67, 8.81), Extents: (0.09, 0.03, 0.03)
+  ray 0.8165619 Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B/Door
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B/Door/Handles ignored=False
+  exact obstacle Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B/Door ignored=False
+  ground Corridor_B/Original Environment/Floor/Floor 08 normal=(0.00, 1.00, 0.00) distance=0.1600003

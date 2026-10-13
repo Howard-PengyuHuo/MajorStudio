@@ -1,0 +1,1180 @@
+PASS All 80 active scene door panels have portals; five inactive connectors retained dormant
+PASS Prompt hidden when no door targeted
+PASS Range respected: Wall with Door B 06
+PASS Center ray resolves door component: Wall with Door B 06 at (201.60, -5.69, -24.86)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 01
+PASS Center ray resolves door component: Wall with Door B 01 at (198.40, -5.69, -16.54)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 08
+PASS Center ray resolves door component: Wall with Door A 08 at (1.60, -5.69, -13.63)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 11
+PASS Center ray resolves door component: Wall with Door A 11 at (-1.60, -5.69, -19.36)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 14
+PASS Center ray resolves door component: Wall with Door B 14 at (201.60, -5.69, -16.54)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 10
+PASS Center ray resolves door component: Wall with Door A 10 at (1.60, -5.69, -27.61)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 06
+PASS Center ray resolves door component: Wall with Door B 06 at (201.60, -5.69, 8.45)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 03
+PASS Center ray resolves door component: Wall with Door A 03 at (1.60, -5.69, -5.38)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 07
+PASS Center ray resolves door component: Wall with Door B 07 at (198.40, -5.69, 11.20)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 04
+PASS Center ray resolves door component: Wall with Door A 04 at (-4.45, -5.69, 19.60)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 10
+PASS Center ray resolves door component: Wall with Door A 10 at (1.60, -5.69, -10.88)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 07
+PASS Center ray resolves door component: Wall with Door A 07 at (-1.60, -5.69, 2.95)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 13
+PASS Center ray resolves door component: Wall with Door A 13 at (4.45, -5.69, 19.60)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 11
+PASS Center ray resolves door component: Wall with Door B 11 at (201.60, -5.69, -27.61)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 01
+PASS Center ray resolves door component: Wall with Door A 01 at (1.60, -5.69, -2.63)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 11
+PASS Center ray resolves door component: Wall with Door A 11 at (-1.60, -5.69, 13.95)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 03
+PASS Center ray resolves door component: Wall with Door A 03 at (1.60, -5.69, -22.11)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 06
+PASS Center ray resolves door component: Wall with Door A 06 at (-1.60, -5.69, 11.20)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 02
+PASS Center ray resolves door component: Wall with Door A 02 at (-1.60, -5.69, -8.13)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 05
+PASS Center ray resolves door component: Wall with Door A 05 at (1.60, -5.69, -24.86)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 02
+PASS Center ray resolves door component: Wall with Door A 02 at (-1.60, -5.69, -24.86)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 08
+PASS Center ray resolves door component: Wall with Door A 08 at (1.60, -5.69, 2.95)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 15
+PASS Center ray resolves door component: Wall with Door B 15 at (198.40, -5.69, 5.70)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 16
+PASS Center ray resolves door component: Wall with Door A 16 at (0.00, -5.69, 21.17)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 04
+PASS Center ray resolves door component: Wall with Door B 04 at (201.60, -5.69, 11.20)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 05
+PASS Center ray resolves door component: Wall with Door A 05 at (1.60, -5.69, -8.13)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 12
+PASS Center ray resolves door component: Wall with Door B 12 at (198.40, -5.69, 13.95)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 05
+PASS Center ray resolves door component: Wall with Door A 05 at (1.60, -5.69, 8.45)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 02
+PASS Center ray resolves door component: Wall with Door B 02 at (201.60, -5.69, -19.36)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 01
+PASS Center ray resolves door component: Wall with Door B 01 at (198.40, -5.69, 0.20)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 13
+PASS Center ray resolves door component: Wall with Door B 13 at (204.45, -5.69, 19.60)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 15
+PASS Center ray resolves door component: Wall with Door B 15 at (198.40, -5.69, -11.04)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 08
+PASS Center ray resolves door component: Wall with Door B 08 at (198.40, -5.69, -30.36)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 07
+PASS Center ray resolves door component: Wall with Door B 07 at (198.40, -5.69, -5.54)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 10
+PASS Center ray resolves door component: Wall with Door A 10 at (1.60, -5.69, 5.70)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 02
+PASS Center ray resolves door component: Wall with Door B 02 at (201.60, -5.69, -2.79)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 14
+PASS Center ray resolves door component: Wall with Door A 14 at (1.60, -5.69, 0.20)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 15
+PASS Center ray resolves door component: Wall with Door A 15 at (-1.60, -5.69, -10.88)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 03
+PASS Center ray resolves door component: Wall with Door A 03 at (1.60, -5.69, 11.20)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 01
+PASS Center ray resolves door component: Wall with Door A 01 at (1.60, -5.69, -19.36)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 12
+PASS Center ray resolves door component: Wall with Door A 12 at (-1.60, -5.69, -16.38)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 08
+PASS Center ray resolves door component: Wall with Door B 08 at (198.40, -5.69, 2.95)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 15
+PASS Center ray resolves door component: Wall with Door B 15 at (198.40, -5.69, -27.61)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 15
+PASS Center ray resolves door component: Wall with Door A 15 at (-1.60, -5.69, -27.61)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 03
+PASS Center ray resolves door component: Wall with Door B 03 at (198.40, -5.69, 8.45)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 03
+PASS Center ray resolves door component: Wall with Door B 03 at (198.40, -5.69, -24.86)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 07
+PASS Center ray resolves door component: Wall with Door A 07 at (-1.60, -5.69, -30.36)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 02
+PASS Center ray resolves door component: Wall with Door A 02 at (-1.60, -5.69, 8.45)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 02
+PASS Center ray resolves door component: Wall with Door B 02 at (201.60, -5.69, 13.95)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 11
+PASS Center ray resolves door component: Wall with Door B 11 at (201.60, -5.69, 5.70)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 03
+PASS Center ray resolves door component: Wall with Door B 03 at (198.40, -5.69, -8.29)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 07
+PASS Center ray resolves door component: Wall with Door A 07 at (-1.60, -5.69, -13.63)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 01
+PASS Center ray resolves door component: Wall with Door A 01 at (1.60, -5.69, 13.95)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 10
+PASS Center ray resolves door component: Wall with Door B 10 at (200.00, -5.69, -34.66)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 09
+PASS Center ray resolves door component: Wall with Door B 09 at (201.60, -5.69, -13.79)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 09
+PASS Center ray resolves door component: Wall with Door A 09 at (0.00, -5.69, -34.66)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 06
+PASS Center ray resolves door component: Wall with Door B 06 at (201.60, -5.69, -8.29)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 14
+PASS Center ray resolves door component: Wall with Door B 14 at (201.60, -5.69, 0.20)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 14
+PASS Center ray resolves door component: Wall with Door B 14 at (201.60, -5.69, -33.11)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 08
+PASS Center ray resolves door component: Wall with Door B 08 at (198.40, -5.69, -13.79)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 01
+PASS Center ray resolves door component: Wall with Door B 01 at (198.40, -5.69, -33.11)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 12
+PASS Center ray resolves door component: Wall with Door B 12 at (198.40, -5.69, -19.36)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 05
+PASS Center ray resolves door component: Wall with Door B 05 at (195.55, -5.69, 19.60)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 16
+PASS Center ray resolves door component: Wall with Door B 16 at (200.00, -5.69, 21.17)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 12
+PASS Center ray resolves door component: Wall with Door B 12 at (198.40, -5.69, -2.79)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 09
+PASS Center ray resolves door component: Wall with Door B 09 at (201.60, -5.69, -30.36)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 11
+PASS Center ray resolves door component: Wall with Door A 11 at (-1.59, -5.69, -2.63)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 15
+PASS Center ray resolves door component: Wall with Door A 15 at (-1.60, -5.69, 5.70)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 14
+PASS Center ray resolves door component: Wall with Door A 14 at (1.60, -5.69, -33.11)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 11
+PASS Center ray resolves door component: Wall with Door B 11 at (201.60, -5.69, -11.04)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 09
+PASS Center ray resolves door component: Wall with Door B 09 at (201.60, -5.69, 2.95)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 06
+PASS Center ray resolves door component: Wall with Door A 06 at (-1.60, -5.69, -5.38)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 14
+PASS Center ray resolves door component: Wall with Door A 14 at (1.60, -5.69, -16.38)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 12
+PASS Center ray resolves door component: Wall with Door A 12 at (-1.60, -5.69, 0.20)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 07
+PASS Center ray resolves door component: Wall with Door B 07 at (198.40, -5.69, -22.11)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 04
+PASS Center ray resolves door component: Wall with Door B 04 at (201.60, -5.69, -5.54)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 06
+PASS Center ray resolves door component: Wall with Door A 06 at (-1.60, -5.69, -22.11)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 12
+PASS Center ray resolves door component: Wall with Door A 12 at (-1.60, -5.69, -33.11)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door B 04
+PASS Center ray resolves door component: Wall with Door B 04 at (201.60, -5.69, -22.11)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Range respected: Wall with Door A 08
+PASS Center ray resolves door component: Wall with Door A 08 at (1.60, -5.69, -30.36)
+PASS Target prompt displayed
+PASS Interaction opens panel and reveals mask
+PASS Opening door cannot trigger premature teleport
+PASS Repeated interaction is disabled
+PASS Open black portal: Wall with Door B 06
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -24.86)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 01
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -16.54)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 08
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -13.63)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 11
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, -19.36)
+PASS Open black portal: Wall with Door B 14
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -16.54)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 10
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -27.61)
+PASS Open black portal: Wall with Door B 06
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, 8.45)
+PASS Open black portal: Wall with Door A 03
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -5.38)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 07
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, 11.20)
+PASS Open black portal: Wall with Door A 04
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-4.45, -5.69, 19.60)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 10
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -10.88)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 07
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, 2.95)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 13
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (4.45, -5.69, 19.60)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 11
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -27.61)
+PASS Open black portal: Wall with Door A 01
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -2.63)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 11
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, 13.95)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 03
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -22.11)
+PASS Open black portal: Wall with Door A 06
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, 11.20)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 02
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, -8.13)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 05
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -24.86)
+PASS Open black portal: Wall with Door A 02
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, -24.86)
+PASS Open black portal: Wall with Door A 08
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, 2.95)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 15
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, 5.70)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 16
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (0.00, -5.69, 21.17)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 04
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, 11.20)
+PASS Open black portal: Wall with Door A 05
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -8.13)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 12
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, 13.95)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 05
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, 8.45)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 02
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -19.36)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 01
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, 0.20)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 13
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (204.45, -5.69, 19.60)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 15
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -11.04)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 08
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -30.36)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 07
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -5.54)
+PASS Open black portal: Wall with Door A 10
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, 5.70)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 02
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -2.79)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 14
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, 0.20)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 15
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, -10.88)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 03
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, 11.20)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 01
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -19.36)
+PASS Open black portal: Wall with Door A 12
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, -16.38)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 08
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, 2.95)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 15
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -27.61)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 15
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, -27.61)
+PASS Open black portal: Wall with Door B 03
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, 8.45)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 03
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -24.86)
+PASS Open black portal: Wall with Door A 07
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, -30.36)
+PASS Open black portal: Wall with Door A 02
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, 8.45)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 02
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, 13.95)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 11
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, 5.70)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 03
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -8.29)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 07
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, -13.63)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 01
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, 13.95)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 10
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (200.00, -5.69, -34.66)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 09
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -13.79)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 09
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (0.00, -5.69, -34.66)
+PASS Open black portal: Wall with Door B 06
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -8.29)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 14
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, 0.20)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 14
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -33.11)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 08
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -13.79)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 01
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -33.11)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 12
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -19.36)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 05
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (195.55, -5.69, 19.60)
+PASS Open black portal: Wall with Door B 16
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (200.00, -5.69, 21.17)
+PASS Open black portal: Wall with Door B 12
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -2.79)
+PASS Open black portal: Wall with Door B 09
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -30.36)
+PASS Open black portal: Wall with Door A 11
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.59, -5.69, -2.63)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 15
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, 5.70)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 14
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -33.11)
+PASS Open black portal: Wall with Door B 11
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -11.04)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 09
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, 2.95)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 06
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, -5.38)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 14
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -16.38)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 12
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, 0.20)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 07
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (198.40, -5.69, -22.11)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door B 04
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -5.54)
+PASS Open black portal: Wall with Door A 06
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, -22.11)
+PASS Open black portal: Wall with Door A 12
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (-1.60, -5.69, -33.11)
+PASS Open black portal: Wall with Door B 04
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (201.60, -5.69, -22.11)
+PASS Existing opening clip held at final pose
+PASS Open black portal: Wall with Door A 08
+PASS Moving panel colliders release passage
+PASS Grounded crossing without wall collision: (1.60, -5.69, -30.36)
+PASS Opening doors and aiming causes no transition
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 06
+PASS Exactly one transition from Wall with Door B 06 at (201.60, -5.69, -24.86)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 01
+PASS Exactly one transition from Wall with Door B 01 at (198.40, -5.69, -16.54)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 08
+PASS Exactly one transition from Wall with Door A 08 at (1.60, -5.69, -13.63)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 11
+PASS Exactly one transition from Wall with Door A 11 at (-1.60, -5.69, -19.36)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 14
+PASS Exactly one transition from Wall with Door B 14 at (201.60, -5.69, -16.54)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 10
+PASS Exactly one transition from Wall with Door A 10 at (1.60, -5.69, -27.61)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 06
+PASS Exactly one transition from Wall with Door B 06 at (201.60, -5.69, 8.45)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 03
+PASS Exactly one transition from Wall with Door A 03 at (1.60, -5.69, -5.38)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 07
+PASS Exactly one transition from Wall with Door B 07 at (198.40, -5.69, 11.20)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 04
+PASS Exactly one transition from Wall with Door A 04 at (-4.45, -5.69, 19.60)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 10
+PASS Exactly one transition from Wall with Door A 10 at (1.60, -5.69, -10.88)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 07
+PASS Exactly one transition from Wall with Door A 07 at (-1.60, -5.69, 2.95)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 13
+PASS Exactly one transition from Wall with Door A 13 at (4.45, -5.69, 19.60)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 11
+PASS Exactly one transition from Wall with Door B 11 at (201.60, -5.69, -27.61)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 01
+PASS Exactly one transition from Wall with Door A 01 at (1.60, -5.69, -2.63)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 11
+PASS Exactly one transition from Wall with Door A 11 at (-1.60, -5.69, 13.95)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 03
+PASS Exactly one transition from Wall with Door A 03 at (1.60, -5.69, -22.11)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 06
+PASS Exactly one transition from Wall with Door A 06 at (-1.60, -5.69, 11.20)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 02
+PASS Exactly one transition from Wall with Door A 02 at (-1.60, -5.69, -8.13)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 05
+PASS Exactly one transition from Wall with Door A 05 at (1.60, -5.69, -24.86)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 02
+PASS Exactly one transition from Wall with Door A 02 at (-1.60, -5.69, -24.86)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 08
+PASS Exactly one transition from Wall with Door A 08 at (1.60, -5.69, 2.95)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 15
+PASS Exactly one transition from Wall with Door B 15 at (198.40, -5.69, 5.70)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 16
+PASS Exactly one transition from Wall with Door A 16 at (0.00, -5.69, 21.17)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 04
+PASS Exactly one transition from Wall with Door B 04 at (201.60, -5.69, 11.20)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 05
+PASS Exactly one transition from Wall with Door A 05 at (1.60, -5.69, -8.13)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 12
+PASS Exactly one transition from Wall with Door B 12 at (198.40, -5.69, 13.95)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 05
+PASS Exactly one transition from Wall with Door A 05 at (1.60, -5.69, 8.45)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 02
+PASS Exactly one transition from Wall with Door B 02 at (201.60, -5.69, -19.36)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 01
+PASS Exactly one transition from Wall with Door B 01 at (198.40, -5.69, 0.20)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 13
+PASS Exactly one transition from Wall with Door B 13 at (204.45, -5.69, 19.60)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 15
+PASS Exactly one transition from Wall with Door B 15 at (198.40, -5.69, -11.04)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 08
+PASS Exactly one transition from Wall with Door B 08 at (198.40, -5.69, -30.36)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 07
+PASS Exactly one transition from Wall with Door B 07 at (198.40, -5.69, -5.54)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 10
+PASS Exactly one transition from Wall with Door A 10 at (1.60, -5.69, 5.70)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 02
+PASS Exactly one transition from Wall with Door B 02 at (201.60, -5.69, -2.79)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 14
+PASS Exactly one transition from Wall with Door A 14 at (1.60, -5.69, 0.20)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 15
+PASS Exactly one transition from Wall with Door A 15 at (-1.60, -5.69, -10.88)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 03
+PASS Exactly one transition from Wall with Door A 03 at (1.60, -5.69, 11.20)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 01
+PASS Exactly one transition from Wall with Door A 01 at (1.60, -5.69, -19.36)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 12
+PASS Exactly one transition from Wall with Door A 12 at (-1.60, -5.69, -16.38)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 08
+PASS Exactly one transition from Wall with Door B 08 at (198.40, -5.69, 2.95)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 15
+PASS Exactly one transition from Wall with Door B 15 at (198.40, -5.69, -27.61)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 15
+PASS Exactly one transition from Wall with Door A 15 at (-1.60, -5.69, -27.61)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 03
+PASS Exactly one transition from Wall with Door B 03 at (198.40, -5.69, 8.45)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 03
+PASS Exactly one transition from Wall with Door B 03 at (198.40, -5.69, -24.86)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 07
+PASS Exactly one transition from Wall with Door A 07 at (-1.60, -5.69, -30.36)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 02
+PASS Exactly one transition from Wall with Door A 02 at (-1.60, -5.69, 8.45)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 02
+PASS Exactly one transition from Wall with Door B 02 at (201.60, -5.69, 13.95)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 11
+PASS Exactly one transition from Wall with Door B 11 at (201.60, -5.69, 5.70)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 03
+PASS Exactly one transition from Wall with Door B 03 at (198.40, -5.69, -8.29)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 07
+PASS Exactly one transition from Wall with Door A 07 at (-1.60, -5.69, -13.63)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 01
+PASS Exactly one transition from Wall with Door A 01 at (1.60, -5.69, 13.95)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 10
+PASS Exactly one transition from Wall with Door B 10 at (200.00, -5.69, -34.66)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 09
+PASS Exactly one transition from Wall with Door B 09 at (201.60, -5.69, -13.79)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 09
+PASS Exactly one transition from Wall with Door A 09 at (0.00, -5.69, -34.66)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 06
+PASS Exactly one transition from Wall with Door B 06 at (201.60, -5.69, -8.29)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 14
+PASS Exactly one transition from Wall with Door B 14 at (201.60, -5.69, 0.20)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 14
+PASS Exactly one transition from Wall with Door B 14 at (201.60, -5.69, -33.11)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 08
+PASS Exactly one transition from Wall with Door B 08 at (198.40, -5.69, -13.79)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 01
+PASS Exactly one transition from Wall with Door B 01 at (198.40, -5.69, -33.11)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 12
+PASS Exactly one transition from Wall with Door B 12 at (198.40, -5.69, -19.36)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 05
+PASS Exactly one transition from Wall with Door B 05 at (195.55, -5.69, 19.60)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 16
+PASS Exactly one transition from Wall with Door B 16 at (200.00, -5.69, 21.17)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 12
+PASS Exactly one transition from Wall with Door B 12 at (198.40, -5.69, -2.79)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 09
+PASS Exactly one transition from Wall with Door B 09 at (201.60, -5.69, -30.36)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 11
+PASS Exactly one transition from Wall with Door A 11 at (-1.59, -5.69, -2.63)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 15
+PASS Exactly one transition from Wall with Door A 15 at (-1.60, -5.69, 5.70)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 14
+PASS Exactly one transition from Wall with Door A 14 at (1.60, -5.69, -33.11)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 11
+PASS Exactly one transition from Wall with Door B 11 at (201.60, -5.69, -11.04)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 09
+PASS Exactly one transition from Wall with Door B 09 at (201.60, -5.69, 2.95)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 06
+PASS Exactly one transition from Wall with Door A 06 at (-1.60, -5.69, -5.38)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 14
+PASS Exactly one transition from Wall with Door A 14 at (1.60, -5.69, -16.38)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 12
+PASS Exactly one transition from Wall with Door A 12 at (-1.60, -5.69, 0.20)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 07
+PASS Exactly one transition from Wall with Door B 07 at (198.40, -5.69, -22.11)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 04
+PASS Exactly one transition from Wall with Door B 04 at (201.60, -5.69, -5.54)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 06
+PASS Exactly one transition from Wall with Door A 06 at (-1.60, -5.69, -22.11)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 12
+PASS Exactly one transition from Wall with Door A 12 at (-1.60, -5.69, -33.11)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door B 04
+PASS Exactly one transition from Wall with Door B 04 at (201.60, -5.69, -22.11)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS Source corridor entered safely
+PASS Real entrance-side approach arms Wall with Door A 08
+PASS Exactly one transition from Wall with Door A 08 at (1.60, -5.69, -30.36)
+PASS Different destination and reset count
+PASS Clear SpawnPoint arrival with forward orientation
+PASS All 80 active doorways physically trigger exactly once

@@ -1,0 +1,38 @@
+using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.RenderGraphModule;
+using UnityEngine.Rendering.Universal;
+
+// Camera-local URP pass: multiplicative grading preserves exact black, including
+// the existing void shader. No LUT, camera duplication or pipeline asset edits.
+public sealed class AtmosphereRenderPass : ScriptableRenderPass
+{
+    readonly Material material;
+    public AtmosphereRenderPass(Material material)
+    {
+        this.material = material;
+        renderPassEvent = RenderPassEvent.BeforeRenderingPostProcessing;
+    }
+#pragma warning disable CS0618, CS0672
+    public override void OnCameraSetup(CommandBuffer cmd, ref RenderingData renderingData) { ResetTarget(); }
+    public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
+    {
+        var cmd = CommandBufferPool.Get("Corridor atmosphere");
+        CoreUtils.SetRenderTarget(cmd, renderingData.cameraData.renderer.cameraColorTargetHandle);
+        cmd.DrawProcedural(Matrix4x4.identity, material, 0, MeshTopology.Triangles, 3);
+        context.ExecuteCommandBuffer(cmd); CommandBufferPool.Release(cmd);
+    }
+#pragma warning restore CS0618, CS0672
+    sealed class PassData { public Material material; }
+    public override void RecordRenderGraph(RenderGraph graph, ContextContainer frameData)
+    {
+        var resources = frameData.Get<UniversalResourceData>();
+        using (var builder = graph.AddRasterRenderPass<PassData>("Corridor atmosphere", out var data))
+        {
+            data.material = material;
+            builder.SetRenderAttachment(resources.activeColorTexture, 0, AccessFlags.ReadWrite);
+            builder.SetRenderFunc((PassData pass, RasterGraphContext context) =>
+                context.cmd.DrawProcedural(Matrix4x4.identity, pass.material, 0, MeshTopology.Triangles, 3));
+        }
+    }
+}

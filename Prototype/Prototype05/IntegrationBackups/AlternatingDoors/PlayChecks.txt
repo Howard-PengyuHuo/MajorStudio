@@ -1,0 +1,440 @@
+PASS Fresh atmosphere baseline
+PASS Four distinct environments in shared registry
+PASS Every active designated door has an exit: Corridor_A
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 12
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 01
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 02
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 03
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 04
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 05
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 06
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 07
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 08
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 10
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 11
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 12
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 13
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 14
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 15
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 16
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 10
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 12
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 15
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 05
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 03
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 11
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 07
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 01
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 06
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 02
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 14
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 08
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 10
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 15
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 05
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 03
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 11
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 07
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 09
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 01
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 06
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 02
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 14
+PASS Clear arrival and first forward step: Corridor_A / DoorExitPoint - Wall with Door A 08
+PASS Opposite category and door-specific random arrival from Corridor_A #0
+PASS Opposite category and door-specific random arrival from Corridor_A #1
+PASS Opposite category and door-specific random arrival from Corridor_A #2
+PASS Opposite category and door-specific random arrival from Corridor_A #3
+PASS Opposite category and door-specific random arrival from Corridor_A #4
+PASS Opposite category and door-specific random arrival from Corridor_A #5
+PASS Opposite category and door-specific random arrival from Corridor_A #6
+PASS Opposite category and door-specific random arrival from Corridor_A #7
+PASS Opposite category and door-specific random arrival from Corridor_A #8
+PASS Opposite category and door-specific random arrival from Corridor_A #9
+PASS Opposite category and door-specific random arrival from Corridor_A #10
+PASS Opposite category and door-specific random arrival from Corridor_A #11
+PASS Opposite category and door-specific random arrival from Corridor_A #12
+PASS Opposite category and door-specific random arrival from Corridor_A #13
+PASS Opposite category and door-specific random arrival from Corridor_A #14
+PASS Opposite category and door-specific random arrival from Corridor_A #15
+PASS Opposite category and door-specific random arrival from Corridor_A #16
+PASS Opposite category and door-specific random arrival from Corridor_A #17
+PASS Opposite category and door-specific random arrival from Corridor_A #18
+PASS Opposite category and door-specific random arrival from Corridor_A #19
+PASS Opposite category and door-specific random arrival from Corridor_A #20
+PASS Opposite category and door-specific random arrival from Corridor_A #21
+PASS Opposite category and door-specific random arrival from Corridor_A #22
+PASS Opposite category and door-specific random arrival from Corridor_A #23
+PASS Opposite category and door-specific random arrival from Corridor_A #24
+PASS Opposite category and door-specific random arrival from Corridor_A #25
+PASS Opposite category and door-specific random arrival from Corridor_A #26
+PASS Opposite category and door-specific random arrival from Corridor_A #27
+PASS Opposite category and door-specific random arrival from Corridor_A #28
+PASS Opposite category and door-specific random arrival from Corridor_A #29
+PASS Opposite category and door-specific random arrival from Corridor_A #30
+PASS Opposite category and door-specific random arrival from Corridor_A #31
+PASS Opposite category and door-specific random arrival from Corridor_A #32
+PASS Opposite category and door-specific random arrival from Corridor_A #33
+PASS Opposite category and door-specific random arrival from Corridor_A #34
+PASS Opposite category and door-specific random arrival from Corridor_A #35
+PASS Opposite category and door-specific random arrival from Corridor_A #36
+PASS Opposite category and door-specific random arrival from Corridor_A #37
+PASS Opposite category and door-specific random arrival from Corridor_A #38
+PASS Opposite category and door-specific random arrival from Corridor_A #39
+PASS Opposite category and door-specific random arrival from Corridor_A #40
+PASS Opposite category and door-specific random arrival from Corridor_A #41
+PASS Opposite category and door-specific random arrival from Corridor_A #42
+PASS Opposite category and door-specific random arrival from Corridor_A #43
+PASS Opposite category and door-specific random arrival from Corridor_A #44
+PASS Opposite category and door-specific random arrival from Corridor_A #45
+PASS Opposite category and door-specific random arrival from Corridor_A #46
+PASS Opposite category and door-specific random arrival from Corridor_A #47
+PASS Opposite category and door-specific random arrival from Corridor_A #48
+PASS Opposite category and door-specific random arrival from Corridor_A #49
+PASS Both opposite environments and multiple exit doors reached: Corridor_A
+PASS Every active designated door has an exit: Corridor_B
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 01
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 01
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 02
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 03
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 04
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 05
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 06
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 07
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 08
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 09
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 11
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 12
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 13
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 14
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 15
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 16
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 01
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 03
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 09
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 08
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 07
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 12
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 02
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 14
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 06
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 11
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 04
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 15
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 03
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 09
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 08
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 10
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 07
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 12
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 02
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 14
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 06
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 11
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 04
+PASS Clear arrival and first forward step: Corridor_B / DoorExitPoint - Wall with Door B 15
+PASS Opposite category and door-specific random arrival from Corridor_B #0
+PASS Opposite category and door-specific random arrival from Corridor_B #1
+PASS Opposite category and door-specific random arrival from Corridor_B #2
+PASS Opposite category and door-specific random arrival from Corridor_B #3
+PASS Opposite category and door-specific random arrival from Corridor_B #4
+PASS Opposite category and door-specific random arrival from Corridor_B #5
+PASS Opposite category and door-specific random arrival from Corridor_B #6
+PASS Opposite category and door-specific random arrival from Corridor_B #7
+PASS Opposite category and door-specific random arrival from Corridor_B #8
+PASS Opposite category and door-specific random arrival from Corridor_B #9
+PASS Opposite category and door-specific random arrival from Corridor_B #10
+PASS Opposite category and door-specific random arrival from Corridor_B #11
+PASS Opposite category and door-specific random arrival from Corridor_B #12
+PASS Opposite category and door-specific random arrival from Corridor_B #13
+PASS Opposite category and door-specific random arrival from Corridor_B #14
+PASS Opposite category and door-specific random arrival from Corridor_B #15
+PASS Opposite category and door-specific random arrival from Corridor_B #16
+PASS Opposite category and door-specific random arrival from Corridor_B #17
+PASS Opposite category and door-specific random arrival from Corridor_B #18
+PASS Opposite category and door-specific random arrival from Corridor_B #19
+PASS Opposite category and door-specific random arrival from Corridor_B #20
+PASS Opposite category and door-specific random arrival from Corridor_B #21
+PASS Opposite category and door-specific random arrival from Corridor_B #22
+PASS Opposite category and door-specific random arrival from Corridor_B #23
+PASS Opposite category and door-specific random arrival from Corridor_B #24
+PASS Opposite category and door-specific random arrival from Corridor_B #25
+PASS Opposite category and door-specific random arrival from Corridor_B #26
+PASS Opposite category and door-specific random arrival from Corridor_B #27
+PASS Opposite category and door-specific random arrival from Corridor_B #28
+PASS Opposite category and door-specific random arrival from Corridor_B #29
+PASS Opposite category and door-specific random arrival from Corridor_B #30
+PASS Opposite category and door-specific random arrival from Corridor_B #31
+PASS Opposite category and door-specific random arrival from Corridor_B #32
+PASS Opposite category and door-specific random arrival from Corridor_B #33
+PASS Opposite category and door-specific random arrival from Corridor_B #34
+PASS Opposite category and door-specific random arrival from Corridor_B #35
+PASS Opposite category and door-specific random arrival from Corridor_B #36
+PASS Opposite category and door-specific random arrival from Corridor_B #37
+PASS Opposite category and door-specific random arrival from Corridor_B #38
+PASS Opposite category and door-specific random arrival from Corridor_B #39
+PASS Opposite category and door-specific random arrival from Corridor_B #40
+PASS Opposite category and door-specific random arrival from Corridor_B #41
+PASS Opposite category and door-specific random arrival from Corridor_B #42
+PASS Opposite category and door-specific random arrival from Corridor_B #43
+PASS Opposite category and door-specific random arrival from Corridor_B #44
+PASS Opposite category and door-specific random arrival from Corridor_B #45
+PASS Opposite category and door-specific random arrival from Corridor_B #46
+PASS Opposite category and door-specific random arrival from Corridor_B #47
+PASS Opposite category and door-specific random arrival from Corridor_B #48
+PASS Opposite category and door-specific random arrival from Corridor_B #49
+PASS Both opposite environments and multiple exit doors reached: Corridor_B
+PASS Every active designated door has an exit: CorridorA_Prefabs
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 10
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 12
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 15
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 05
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 03
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 11
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 07
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 09
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 09 (1)
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 01
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 06
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 02
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 14
+PASS Clear arrival and first forward step: CorridorA_Prefabs / DoorExitPoint - Wall with Door A 08
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #0
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #1
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #2
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #3
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #4
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #5
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #6
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #7
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #8
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #9
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #10
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #11
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #12
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #13
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #14
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #15
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #16
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #17
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #18
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #19
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #20
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #21
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #22
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #23
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #24
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #25
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #26
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #27
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #28
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #29
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #30
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #31
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #32
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #33
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #34
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #35
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #36
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #37
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #38
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #39
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #40
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #41
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #42
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #43
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #44
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #45
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #46
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #47
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #48
+PASS Opposite category and door-specific random arrival from CorridorA_Prefabs #49
+PASS Both opposite environments and multiple exit doors reached: CorridorA_Prefabs
+PASS Every active designated door has an exit: CorridorB_Prefabs
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 01
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 03
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 09
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 08
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 10
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 10 (1)
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 07
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 12
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 02
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 14
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 06
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 11
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 04
+PASS Clear arrival and first forward step: CorridorB_Prefabs / DoorExitPoint - Wall with Door B 15
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #0
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #1
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #2
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #3
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #4
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #5
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #6
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #7
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #8
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #9
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #10
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #11
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #12
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #13
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #14
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #15
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #16
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #17
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #18
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #19
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #20
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #21
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #22
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #23
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #24
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #25
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #26
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #27
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #28
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #29
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #30
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #31
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #32
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #33
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #34
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #35
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #36
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #37
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #38
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #39
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #40
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #41
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #42
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #43
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #44
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #45
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #46
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #47
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #48
+PASS Opposite category and door-specific random arrival from CorridorB_Prefabs #49
+PASS Both opposite environments and multiple exit doors reached: CorridorB_Prefabs
+PASS No opposite destination means no transition, not a StartPoint fallback
+PASS Existing camera/E interaction opens source door
+PASS Opening without crossing does not teleport or darken
+PASS Opened doorway stays pitch black
+PASS Entrance side arms crossing
+PASS One transition only; repeat callback rejected
+PASS Fade completes exactly one transfer: Corridor_A -> CorridorA_Prefabs
+PASS Arrival uses selected DoorExitPoint: DoorExitPoint - Wall with Door A 07
+PASS Destination door open; player faces outward and can explore immediately
+PASS Arrival cooldown prevents immediate retrigger
+PASS Arrival resets look-back and follower state; correct audio profile
+PASS One global darkness increment per door, clamped at maximum
+PASS No immediate loop while standing at arrival
+PASS Prefab arrival remains outside main look-back loop
+PASS Look-back disabled in prefab destination
+PASS Opening without crossing does not teleport or darken
+PASS Opened doorway stays pitch black
+PASS Entrance side arms crossing
+PASS One transition only; repeat callback rejected
+PASS Fade completes exactly one transfer: Corridor_A -> CorridorB_Prefabs
+PASS Arrival uses selected DoorExitPoint: DoorExitPoint - Wall with Door B 08
+PASS Destination door open; player faces outward and can explore immediately
+PASS Arrival cooldown prevents immediate retrigger
+PASS Arrival resets look-back and follower state; correct audio profile
+PASS One global darkness increment per door, clamped at maximum
+PASS No immediate loop while standing at arrival
+PASS Prefab arrival remains outside main look-back loop
+PASS Look-back disabled in prefab destination
+PASS Existing camera/E interaction opens source door
+PASS Opening without crossing does not teleport or darken
+PASS Opened doorway stays pitch black
+PASS Entrance side arms crossing
+PASS One transition only; repeat callback rejected
+PASS Fade completes exactly one transfer: Corridor_B -> CorridorA_Prefabs
+PASS Arrival uses selected DoorExitPoint: DoorExitPoint - Wall with Door A 06
+PASS Destination door open; player faces outward and can explore immediately
+PASS Arrival cooldown prevents immediate retrigger
+PASS Arrival resets look-back and follower state; correct audio profile
+PASS One global darkness increment per door, clamped at maximum
+PASS No immediate loop while standing at arrival
+PASS Prefab arrival remains outside main look-back loop
+PASS Look-back disabled in prefab destination
+PASS Opening without crossing does not teleport or darken
+PASS Opened doorway stays pitch black
+PASS Entrance side arms crossing
+PASS One transition only; repeat callback rejected
+PASS Fade completes exactly one transfer: Corridor_B -> CorridorB_Prefabs
+PASS Arrival uses selected DoorExitPoint: DoorExitPoint - Wall with Door B 15
+PASS Destination door open; player faces outward and can explore immediately
+PASS Arrival cooldown prevents immediate retrigger
+PASS Arrival resets look-back and follower state; correct audio profile
+PASS One global darkness increment per door, clamped at maximum
+PASS No immediate loop while standing at arrival
+PASS Prefab arrival remains outside main look-back loop
+PASS Look-back disabled in prefab destination
+PASS Set up prefab source environment
+PASS Existing camera/E interaction opens source door
+PASS Opening without crossing does not teleport or darken
+PASS Opened doorway stays pitch black
+PASS Entrance side arms crossing
+PASS One transition only; repeat callback rejected
+PASS Fade completes exactly one transfer: CorridorA_Prefabs -> Corridor_A
+PASS Arrival uses selected DoorExitPoint: DoorExitPoint - Wall with Door A 13
+PASS Destination door open; player faces outward and can explore immediately
+PASS Arrival cooldown prevents immediate retrigger
+PASS Arrival resets look-back and follower state; correct audio profile
+PASS One global darkness increment per door, clamped at maximum
+PASS No immediate loop while standing at arrival
+PASS Main arrival restores exact registered main index
+PASS First look-back after main arrival returns to its own StartPoint
+PASS Second look-back preserves relative position in other main corridor
+PASS Main look-backs do not advance darkness
+PASS Set up prefab source environment
+PASS Opening without crossing does not teleport or darken
+PASS Opened doorway stays pitch black
+PASS Entrance side arms crossing
+PASS One transition only; repeat callback rejected
+PASS Fade completes exactly one transfer: CorridorA_Prefabs -> Corridor_B
+PASS Arrival uses selected DoorExitPoint: DoorExitPoint - Wall with Door B 14
+PASS Destination door open; player faces outward and can explore immediately
+PASS Arrival cooldown prevents immediate retrigger
+PASS Arrival resets look-back and follower state; correct audio profile
+PASS One global darkness increment per door, clamped at maximum
+PASS No immediate loop while standing at arrival
+PASS Main arrival restores exact registered main index
+PASS First look-back after main arrival returns to its own StartPoint
+PASS Second look-back preserves relative position in other main corridor
+PASS Main look-backs do not advance darkness
+PASS Set up prefab source environment
+PASS Existing camera/E interaction opens source door
+PASS Opening without crossing does not teleport or darken
+PASS Opened doorway stays pitch black
+PASS Entrance side arms crossing
+PASS One transition only; repeat callback rejected
+PASS Fade completes exactly one transfer: CorridorB_Prefabs -> Corridor_A
+PASS Arrival uses selected DoorExitPoint: DoorExitPoint - Wall with Door A 10
+PASS Destination door open; player faces outward and can explore immediately
+PASS Arrival cooldown prevents immediate retrigger
+PASS Arrival resets look-back and follower state; correct audio profile
+PASS One global darkness increment per door, clamped at maximum
+PASS No immediate loop while standing at arrival
+PASS Main arrival restores exact registered main index
+PASS First look-back after main arrival returns to its own StartPoint
+PASS Second look-back preserves relative position in other main corridor
+PASS Main look-backs do not advance darkness
+PASS Set up prefab source environment
+PASS Opening without crossing does not teleport or darken
+PASS Opened doorway stays pitch black
+PASS Entrance side arms crossing
+PASS One transition only; repeat callback rejected
+PASS Fade completes exactly one transfer: CorridorB_Prefabs -> Corridor_B
+PASS Arrival uses selected DoorExitPoint: DoorExitPoint - Wall with Door B 11
+PASS Destination door open; player faces outward and can explore immediately
+PASS Arrival cooldown prevents immediate retrigger
+PASS Arrival resets look-back and follower state; correct audio profile
+PASS One global darkness increment per door, clamped at maximum
+PASS No immediate loop while standing at arrival
+PASS Main arrival restores exact registered main index
+PASS First look-back after main arrival returns to its own StartPoint
+PASS Second look-back preserves relative position in other main corridor
+PASS Main look-backs do not advance darkness
+PASS No competing transition or main-loop managers

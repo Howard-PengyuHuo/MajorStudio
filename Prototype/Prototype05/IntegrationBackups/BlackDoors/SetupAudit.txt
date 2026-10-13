@@ -1,0 +1,87 @@
+PASS valid loaded destination Corridor_A
+PASS valid loaded destination Corridor_B
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 10/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 11/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 01/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 07/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 06/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 15/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 11/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 12/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 02/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 14/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 09/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 09 (1)/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 06/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 05/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 08/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 15/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 08/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 14/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 07/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 09/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 03/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 12/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 02/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 10/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 09/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 01/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 03/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_A/Corridor/Wall with Door A 10/Door 2 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B/Door
+PASS portal mask, entrance trigger and moving mesh: Corridor_B/Corridor2/Wall with Door B 04/Door 1 B/Door

@@ -1,0 +1,226 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Text;
+using UnityEngine;
+using UnityEditor;
+using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
+
+public static class CorridorRevisionSetup
+{
+    public const string Folder = "IntegrationBackups/CorridorRevision";
+    public static string PathOf(Transform t) => t.parent ? PathOf(t.parent) + "/" + t.name : t.name;
+    [InitializeOnLoadMethod]
+    static void ListenForFreshPlay()
+    { EditorApplication.playModeStateChanged -= OnPlayState; EditorApplication.playModeStateChanged += OnPlayState; }
+    static void OnPlayState(PlayModeStateChange state)
+    {
+        if(!SessionState.GetBool("CorridorRevisionFreshChecks",false)) return;
+        if(state==PlayModeStateChange.EnteredEditMode) EditorApplication.delayCall += () => EditorApplication.isPlaying=true;
+        if(state==PlayModeStateChange.EnteredPlayMode)
+        { SessionState.SetBool("CorridorRevisionFreshChecks",false); EditorApplication.delayCall += CheckPlay; }
+    }
+    [MenuItem("Tools/Don't Look Back/Corridor Revision/Run Fresh Play Checks")]
+    public static void FreshChecks()
+    {
+        SessionState.SetBool("CorridorRevisionFreshChecks",true);
+        if(EditorApplication.isPlaying) EditorApplication.isPlaying=false;
+        else EditorApplication.isPlaying=true;
+    }
+    [MenuItem("Tools/Don't Look Back/Corridor Revision/Audit Saved Setup")]
+    public static void Audit()
+    {
+        if(AlternatingDoorSetup.IsConfigured){AlternatingDoorSetup.Audit();return;}
+        if(Application.isPlaying) throw new InvalidOperationException("Audit in Edit mode.");
+        var manager=UnityEngine.Object.FindObjectsByType<CorridorManager>(FindObjectsSortMode.None).Single();
+        var selector=manager.blackDoorDestinations;var loop=manager.loop;loop.Initialize(false);Physics.SyncTransforms();
+        var report=new StringBuilder();
+        void Check(bool valid,string text) { if(!valid) throw new InvalidOperationException(text);report.AppendLine("PASS "+text); }
+        Check(loop.corridors.Length==2,"Main loop has exactly two distinct references");
+        Check(selector && selector.groups.Length==2,"Separate weighted prefab registry assigned");
+        foreach(var group in selector.groups)
+        {
+            Check(group.instance && group.instance.kind==CorridorDestination.EnvironmentKind.DoorPrefab && group.prefab,"Scene instance and optional prefab asset: "+group.label);
+            Check(!loop.corridors.Any(c=>c.environment==group.instance.transform),"Not a main corridor: "+group.label);
+            Check(group.instance.doorExits.Length==14 && group.instance.doorExits.All(e=>e.IsValid(loop)),"Fourteen safe exits: "+group.label);
+            var portals=group.instance.GetComponentsInChildren<BlackDoorTransition>();
+            Check(portals.Length==14 && portals.All(p=>p.manager==manager && p.door && p.door.blackVoid && p.Trigger.isTrigger),"Fourteen portals share existing interaction/transition owner: "+group.label);
+            Check(group.instance.GetComponent<CorridorLightingCache>().surfaces.Length>0,"Baked lighting cache retained: "+group.label);
+        }
+        var markers=loop.corridors.Select(c=>c.environment.GetComponent<CorridorDestination>()).Concat(selector.LoadedEnvironments).ToArray();
+        Check(markers.Select(m=>m.audioProfile).Distinct().Count()==4 && markers.All(m=>m.audioProfile && m.audioProfile.clips.Any(c=>c)),"Four independent profiles with real audio clips");
+        Check(UnityEngine.Object.FindObjectsByType<FirstPersonMovement>(FindObjectsSortMode.None).Count(x=>x.isActiveAndEnabled)==1,"One active player");
+        Check(UnityEngine.Object.FindObjectsByType<Camera>(FindObjectsSortMode.None).Count(x=>x.isActiveAndEnabled)==1,"One active gameplay camera");
+        Check(UnityEngine.Object.FindObjectsByType<AudioListener>(FindObjectsSortMode.None).Count(x=>x.isActiveAndEnabled)==1,"One active listener");
+        Check(UnityEngine.Object.FindObjectsByType<DoorCrosshair>(FindObjectsSortMode.None).Length==1,"One crosshair");
+        Check(UnityEngine.Object.FindObjectsByType<FollowerAudioManager>(FindObjectsSortMode.None).Length==1 && UnityEngine.Object.FindObjectsByType<AtmosphereManager>(FindObjectsSortMode.None).Length==1,"One follower and one atmosphere manager");
+        foreach(var r in markers.SelectMany(m=>m.GetComponentsInChildren<Renderer>(true))) Check(r.sharedMaterials.All(m=>m && m.shader && m.shader.isSupported),"Valid material: "+PathOf(r.transform));
+        Check(!ShaderUtil.ShaderHasError(manager.GetComponent<AtmosphereManager>().atmosphereShader),"Atmosphere shader compiles");
+        File.WriteAllText(Folder+"/SavedSetupAudit.txt",report.ToString());Debug.Log("Corridor revision saved setup audit passed.");
+    }
+    [MenuItem("Tools/Don't Look Back/Corridor Revision/Export Configured Prefab Groups")]
+    public static void Export()
+    {
+        if (Application.isPlaying) throw new InvalidOperationException("Export in Edit mode.");
+        var selector=UnityEngine.Object.FindFirstObjectByType<BlackDoorTransitionManager>();
+        Directory.CreateDirectory("Assets/DontLookBack/Prefabs");
+        foreach(var group in selector.groups)
+        {
+            if(group.instance.kind!=CorridorDestination.EnvironmentKind.DoorPrefab)continue;
+            string path="Assets/DontLookBack/Prefabs/"+group.label+".prefab";
+            if(File.Exists(path)) { group.prefab=AssetDatabase.LoadAssetAtPath<GameObject>(path); continue; }
+            var clone=UnityEngine.Object.Instantiate(group.instance.gameObject);
+            try
+            {
+                clone.name=group.label; clone.transform.position=Vector3.zero;
+                foreach(var portal in clone.GetComponentsInChildren<BlackDoorTransition>(true)) { if(portal.manager) portal.manager.UnregisterDoor(portal); portal.manager=null; }
+                // The self-contained cache above replaces scene-external reuse references.
+                foreach(var reuse in clone.GetComponentsInChildren<CorridorBakedLightingReuse>(true)) UnityEngine.Object.DestroyImmediate(reuse);
+                group.prefab=PrefabUtility.SaveAsPrefabAsset(clone,path);
+            }
+            finally { UnityEngine.Object.DestroyImmediate(clone); }
+        }
+        EditorUtility.SetDirty(selector); AssetDatabase.SaveAssets(); EditorSceneManager.SaveScene(SceneManager.GetActiveScene());
+        Debug.Log("Two self-contained prefab assets exported; loaded instances remain preferred.");
+    }
+    [MenuItem("Tools/Don't Look Back/Corridor Revision/Run Play Checks")]
+    public static void CheckPlay()
+    {
+        if(AlternatingDoorSetup.IsConfigured){AlternatingDoorSetup.Checks();return;}
+        if(!Application.isPlaying) throw new InvalidOperationException("Enter a fresh Play session first.");
+        if(UnityEngine.Object.FindFirstObjectByType<CorridorRevisionVerifier>()) throw new InvalidOperationException("Checks already running");
+        var verifier=new GameObject("Temporary corridor revision verifier").AddComponent<CorridorRevisionVerifier>(); verifier.StartCoroutine(verifier.Run());
+    }
+    [MenuItem("Tools/Don't Look Back/Corridor Revision/Configure Systems")]
+    public static void Configure()
+    {
+        Inspect();
+        var manager = UnityEngine.Object.FindFirstObjectByType<CorridorManager>(); var loop = manager.loop;
+        if (loop.corridors.Length != 2 || loop.corridors[0].environment.name != "Corridor_A" || loop.corridors[1].environment.name != "Corridor_B")
+            throw new InvalidOperationException("Main corridor references changed; inspect before setup.");
+        Undo.IncrementCurrentGroup(); int undo = Undo.GetCurrentGroup(); Undo.SetCurrentGroupName("Separate corridor systems");
+        loop.Initialize(false); Physics.SyncTransforms();
+        var selector = manager.GetComponent<BlackDoorTransitionManager>();
+        if (!selector) selector = Undo.AddComponent<BlackDoorTransitionManager>(manager.gameObject);
+        Undo.RecordObject(selector, "Configure explicit prefab destinations"); selector.owner = manager;
+        Undo.RecordObject(manager, "Connect independent door registry"); manager.blackDoorDestinations = selector;
+        var material = AssetDatabase.LoadAssetAtPath<Material>("Assets/DontLookBack/Materials/BlackDoorVoid.mat");
+        var report = new StringBuilder();
+        CorridorAudioProfile Profile(string name, CorridorAudioProfile source, float interval, bool echo)
+        {
+            string path = "Assets/DontLookBack/Audio/" + name + ".asset";
+            var profile = AssetDatabase.LoadAssetAtPath<CorridorAudioProfile>(path);
+            if (!profile) { profile = UnityEngine.Object.Instantiate(source); profile.name = name; AssetDatabase.CreateAsset(profile,path); }
+            Undo.RecordObject(profile, "Set follower timing and audible balance");
+            profile.activationMovingSeconds = 2; profile.stopDelaySeconds = 1; profile.stepInterval = interval;
+            profile.volume = .85f; profile.distanceBehind = 2.2f; profile.timingJitter = echo ? .025f : .12f;
+            profile.subtleEcho = echo; profile.reverbWetMix = .16f; profile.pitchRange = new Vector2(.9f,1);
+            EditorUtility.SetDirty(profile); return profile;
+        }
+        var echoSource = AssetDatabase.LoadAssetAtPath<CorridorAudioProfile>("Assets/DontLookBack/Audio/Corridor A - Echo.asset");
+        var mismatchSource = AssetDatabase.LoadAssetAtPath<CorridorAudioProfile>("Assets/DontLookBack/Audio/Corridor B - Mismatch.asset");
+        for (int i=0;i<2;i++)
+        {
+            var main = loop.corridors[i].environment.GetComponent<CorridorDestination>();
+            Undo.RecordObject(main,"Main corridor identity"); main.kind = CorridorDestination.EnvironmentKind.MainLookBack;
+            main.audioProfile = Profile(i==0 ? "Main A - Regular" : "Main B - Independent", i==0 ? echoSource : mismatchSource, i==0 ? .56f : .62f, i==0);
+            EditorUtility.SetDirty(main);
+        }
+        var groups = new System.Collections.Generic.List<BlackDoorTransitionManager.Group>();
+        foreach (string name in new[] { "CorridorA_Prefabs", "CorridorB_Prefabs" })
+        {
+            var root = SceneManager.GetActiveScene().GetRootGameObjects().Single(g => g.name == name);
+            var marker = root.GetComponent<CorridorDestination>(); if (!marker) marker = Undo.AddComponent<CorridorDestination>(root);
+            Undo.RecordObject(marker,"Register distinct prefab environment"); marker.kind = CorridorDestination.EnvironmentKind.DoorPrefab;
+            if (!marker.spawnPoint)
+            {
+                var frame = new GameObject("Environment Reference (not door arrival)"); Undo.RegisterCreatedObjectUndo(frame,"Add local reference");
+                frame.transform.SetParent(root.transform,false); frame.transform.localPosition = new Vector3(0,.01f,7);
+                marker.spawnPoint = marker.lookBackStart = frame.transform;
+            }
+            bool a = name == "CorridorA_Prefabs";
+            var panels = root.GetComponentsInChildren<MeshRenderer>(true).Where(r => r.name == "Door" && r.gameObject.activeInHierarchy).ToArray();
+            Undo.RecordObject(marker.spawnPoint,"Use this environment's measured center");
+            marker.spawnPoint.position = new Vector3(panels.Average(p=>p.bounds.center.x),root.transform.position.y+.01f,panels.Average(p=>p.bounds.center.z));
+            marker.audioProfile = Profile(a ? "Prefab A - Echo" : "Prefab B - Mismatch", a ? echoSource : mismatchSource, a ? .6f : .69f,a);
+            var exits = new System.Collections.Generic.List<DoorExitPoint>();
+            foreach (var panel in panels)
+            {
+                var portal = BlackDoorSetup.ConfigureDoor(panel.transform, marker, manager, material);
+                if (Vector3.Dot(portal.entranceFrame.forward, marker.spawnPoint.position-portal.entranceFrame.position)>0)
+                { Undo.RecordObject(portal.entranceFrame,"Face portal away from corridor interior"); portal.entranceFrame.Rotate(0,180,0,Space.Self); }
+                UniversalDoorSetup.BindPassageObstacles(marker,portal,manager,report);
+                var exit = portal.entranceFrame.GetComponentInChildren<DoorExitPoint>(true);
+                if (!exit) { var go = new GameObject("DoorExitPoint - " + panel.transform.parent.parent.name); Undo.RegisterCreatedObjectUndo(go,"Add door exit"); go.transform.SetParent(portal.entranceFrame,false); exit = go.AddComponent<DoorExitPoint>(); }
+                Undo.RecordObject(exit,"Wire exit"); Undo.RecordObject(exit.transform,"Position corridor-side exit");
+                exit.environment = marker; exit.portal = portal; exit.weight = 1;
+                bool valid = false;
+                for (float distance=.65f;distance<=1.21f;distance+=.05f)
+                {
+                    exit.transform.SetPositionAndRotation(portal.entranceFrame.position - portal.entranceFrame.forward*distance + Vector3.up*.01f,Quaternion.LookRotation(-portal.entranceFrame.forward,Vector3.up));
+                    Physics.SyncTransforms(); if (exit.IsValid(loop)) { valid=true; break; }
+                }
+                if (!valid) { exit.weight=0; report.AppendLine("EXCLUDED obstructed exit " + PathOf(panel.transform)); }
+                else { exits.Add(exit); report.AppendLine("EXIT " + PathOf(exit.transform) + " position="+exit.transform.position+" forward="+exit.transform.forward); }
+                EditorUtility.SetDirty(exit); PrefabUtility.RecordPrefabInstancePropertyModifications(portal.door);
+            }
+            marker.doorExits=exits.ToArray();
+            if (exits.Count==0) throw new InvalidOperationException("No safe exits for " + name);
+            // Capture this instance's actual baked assignments, independent of main corridor identity.
+            var cache = root.GetComponent<CorridorLightingCache>(); if (!cache) cache = Undo.AddComponent<CorridorLightingCache>(root);
+            Undo.RecordObject(cache,"Preserve prefab environment bake");
+            var maps=LightmapSettings.lightmaps;
+            cache.atlases=maps.Select(m=>new CorridorLightingCache.Atlas {color=m.lightmapColor,direction=m.lightmapDir,shadowMask=m.shadowMask}).ToArray();
+            cache.surfaces=root.GetComponentsInChildren<Renderer>(true).Where(r=>r.lightmapIndex>=0 && r.lightmapIndex<maps.Length).Select(r=>new CorridorLightingCache.Surface {renderer=r,atlas=r.lightmapIndex,scaleOffset=r.lightmapScaleOffset}).ToArray();
+            cache.lamps=root.GetComponentsInChildren<Light>(true).Select(l=>new CorridorLightingCache.Lamp {light=l,isBaked=l.bakingOutput.isBaked,bakeType=l.bakingOutput.lightmapBakeType,mixedMode=l.bakingOutput.mixedLightingMode,probeOcclusionLightIndex=l.bakingOutput.probeOcclusionLightIndex,occlusionMaskChannel=l.bakingOutput.occlusionMaskChannel}).ToArray();
+            EditorUtility.SetDirty(cache); EditorUtility.SetDirty(marker); PrefabUtility.RecordPrefabInstancePropertyModifications(marker);
+            var previous=selector.groups.FirstOrDefault(g=>g!=null && g.instance==marker);
+            groups.Add(new BlackDoorTransitionManager.Group { label=name,instance=marker,prefab=previous?.prefab,weight=previous?.weight ?? 1 });
+            report.AppendLine("GROUP " + name + " exits=" + exits.Count + " baked surfaces="+cache.surfaces.Length+" profile="+marker.audioProfile.name);
+        }
+        groups.AddRange(selector.groups.Where(g=>g!=null && g.instance && g.instance.kind==CorridorDestination.EnvironmentKind.MainLookBack));
+        selector.groups=groups.ToArray();
+        var atmosphere=manager.GetComponent<AtmosphereManager>(); Undo.RecordObject(atmosphere,"Stronger bounded darkness");
+        float[] brightness={1,.75f,.55f,.35f};
+        for(int i=0;i<4;i++) { atmosphere.stages[i].perceivedBrightness=brightness[i]; atmosphere.stages[i].lightMultiplier=1; atmosphere.stages[i].ambientMultiplier=1; atmosphere.stages[i].tint=Color.white; }
+        atmosphere.coldColorShift=false; atmosphere.blendSeconds=1.4f;
+        var follower=manager.GetComponent<FollowerAudioManager>(); Undo.RecordObject(follower,"Follower cadence and audio balance");
+        follower.usePlayerStepTimingForEcho=false; follower.fallbackProfile=null;
+        var audio=follower.footstepSource; Undo.RecordObject(audio,"Spatial follower audibility");
+        audio.volume=.85f; audio.mute=false; audio.spatialBlend=1; audio.dopplerLevel=0; audio.rolloffMode=AudioRolloffMode.Linear;
+        audio.minDistance=2; audio.maxDistance=14; audio.priority=100; audio.playOnAwake=false;
+        var filter=audio.GetComponent<AudioEchoFilter>(); if(!filter) filter=Undo.AddComponent<AudioEchoFilter>(audio.gameObject); filter.enabled=false; follower.echoFilter=filter;
+        var playerAudio=loop.player.GetComponentInChildren<FirstPersonAudio>();
+        foreach(var source in new[]{playerAudio.stepAudio,playerAudio.runningAudio,playerAudio.crouchedAudio}.Where(s=>s)) { Undo.RecordObject(source,"Balance existing player footsteps"); source.volume=.55f; PrefabUtility.RecordPrefabInstancePropertyModifications(source); }
+        foreach(var obj in new UnityEngine.Object[]{manager,selector,atmosphere,follower,audio,filter}) EditorUtility.SetDirty(obj);
+        Undo.CollapseUndoOperations(undo); AssetDatabase.SaveAssets(); EditorSceneManager.MarkSceneDirty(SceneManager.GetActiveScene()); EditorSceneManager.SaveScene(SceneManager.GetActiveScene());
+        File.WriteAllText(Folder+"/Configured.txt",report.ToString()); Debug.Log("Distinct corridor registries, 28 prefab doors, darkness and follower configured.");
+    }
+    [MenuItem("Tools/Don't Look Back/Corridor Revision/Inspect And Back Up")]
+    public static void Inspect()
+    {
+        if (Application.isPlaying || SceneManager.GetActiveScene().name != "DontLookBack") throw new InvalidOperationException("Open DontLookBack in Edit mode.");
+        Directory.CreateDirectory(Folder);
+        string backup = "Assets/DontLookBack/Backups/BeforeCorridorRevision.unity";
+        if (!File.Exists(backup) && !EditorSceneManager.SaveScene(SceneManager.GetActiveScene(), backup, true)) throw new IOException("Backup failed");
+        foreach (string file in Directory.GetFiles("Assets/DontLookBack/Scripts", "*.cs").Concat(new[] { "Assets/Editor/BlackDoorSetup.cs", "Assets/Editor/UniversalDoorSetup.cs", "Assets/Editor/AtmosphereFollowerSetup.cs" }))
+            if (!File.Exists(Folder + "/" + Path.GetFileName(file) + ".txt")) File.Copy(file, Folder + "/" + Path.GetFileName(file) + ".txt");
+        var report = new StringBuilder();
+        foreach (var root in SceneManager.GetActiveScene().GetRootGameObjects())
+        {
+            report.AppendLine("ROOT " + root.name + " pos=" + root.transform.position + " source=" + PrefabUtility.GetPrefabAssetPathOfNearestInstanceRoot(root));
+            if (!root.name.StartsWith("Corridor")) continue;
+            var rs = root.GetComponentsInChildren<Renderer>();
+            if (rs.Length > 0) { var b = rs[0].bounds; foreach (var r in rs) b.Encapsulate(r.bounds); report.AppendLine(" bounds=" + b); }
+            report.AppendLine(" renderers=" + rs.Length + " panels=" + rs.Count(r => r.name == "Door") + " interactions=" + root.GetComponentsInChildren<DoorInteraction>().Length);
+            foreach (var p in rs.Where(r => r.name == "Door")) report.AppendLine(" PANEL " + PathOf(p.transform) + " pos=" + p.transform.position + " bounds=" + p.bounds);
+            foreach (var l in root.GetComponentsInChildren<Light>()) report.AppendLine(" LIGHT " + l.name + " " + l.lightmapBakeType + "=" + l.intensity);
+        }
+        var loop = UnityEngine.Object.FindFirstObjectByType<CorridorLoopManager>();
+        foreach (var c in loop.corridors) report.AppendLine("LOOP " + PathOf(c.environment) + " start=" + c.startPoint.position);
+        foreach (var c in UnityEngine.Object.FindObjectsByType<Camera>(FindObjectsSortMode.None)) report.AppendLine("CAMERA " + c.name + " enabled=" + c.enabled);
+        foreach (var a in UnityEngine.Object.FindObjectsByType<AudioSource>(FindObjectsSortMode.None)) report.AppendLine("AUDIO " + a.name + " vol=" + a.volume + " mute=" + a.mute + " spatial=" + a.spatialBlend + " min=" + a.minDistance + " mixer=" + a.outputAudioMixerGroup);
+        File.WriteAllText(Folder + "/Inspection.txt", report.ToString()); Debug.Log("Corridor revision inspection and backup complete.");
+    }
+}

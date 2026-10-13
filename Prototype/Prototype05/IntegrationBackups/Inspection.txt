@@ -1,0 +1,54 @@
+Global lightmap count: 2
+SCENE Demo 2 dirty=False path=Assets/AK Studio Art/Modular Horror Corridor/Scenes/Demo 2.unity
+ROOT Lighting position=(0.000, 0.000, 0.000) boundsMin=(0.000, 0.000, 0.000) boundsMax=(0.000, 0.000, 0.000) renderers=0 lights=0
+ROOT Assets position=(0.000, 0.000, 0.000) boundsMin=(-5.480, 0.000, -2.060) boundsMax=(5.250, 3.462, 22.750) renderers=239 lights=4
+ FLOOR Floor 01 center=(3.500, 0.000, 17.500) min=(1.750, 0.000, 15.750) max=(5.250, 0.000, 19.250) lm=0
+ FLOOR Floor 02 center=(0.000, 0.000, 3.500) min=(-1.750, 0.000, 1.750) max=(1.750, 0.000, 5.250) lm=0
+ FLOOR Floor 03 center=(0.000, 0.000, 14.000) min=(-1.750, 0.000, 12.250) max=(1.750, 0.000, 15.750) lm=0
+ FLOOR Floor 04 center=(-3.500, 0.000, 21.000) min=(-5.250, 0.000, 19.250) max=(-1.750, 0.000, 22.750) lm=0
+ FLOOR Floor 05 center=(3.500, 0.000, 21.000) min=(1.750, 0.000, 19.250) max=(5.250, 0.000, 22.750) lm=0
+ FLOOR Floor 06 center=(0.000, 0.000, 0.000) min=(-1.750, 0.000, -1.750) max=(1.750, 0.000, 1.750) lm=0
+ FLOOR Floor 07 center=(0.000, 0.000, 21.000) min=(-1.750, 0.000, 19.250) max=(1.750, 0.000, 22.750) lm=0
+ FLOOR Floor 08 center=(0.000, 0.000, 7.000) min=(-1.750, 0.000, 5.250) max=(1.750, 0.000, 8.750) lm=0
+ FLOOR Floor 09 center=(0.000, 0.000, 10.500) min=(-1.750, 0.000, 8.750) max=(1.750, 0.000, 12.250) lm=0
+ FLOOR Floor 10 center=(0.000, 0.000, 17.500) min=(-1.750, 0.000, 15.750) max=(1.750, 0.000, 19.250) lm=0
+ FLOOR Floor 11 center=(-3.500, 0.000, 17.500) min=(-5.250, 0.000, 15.750) max=(-1.750, 0.000, 19.250) lm=0
+ROOT Camera position=(0.000, 1.000, -1.530) boundsMin=(0.000, 1.000, -1.530) boundsMax=(0.000, 1.000, -1.530) renderers=0 lights=0
+ROOT Post Processing position=(0.000, 0.000, 0.000) boundsMin=(0.000, 0.000, 0.000) boundsMax=(0.000, 0.000, 0.000) renderers=0 lights=0
+ROOT ----------Built-in---------- position=(0.000, 0.000, 0.000) boundsMin=(0.000, 0.000, 0.000) boundsMax=(0.000, 0.000, 0.000) renderers=0 lights=0
+ROOT Corridor2 position=(0.000, 0.000, -2.040) boundsMin=(-1.750, -0.043, -18.780) boundsMax=(14.707, 3.462, -0.032) renderers=163 lights=3
+ FLOOR Floor 06 center=(0.000, 0.000, -16.720) min=(-1.750, 0.000, -18.470) max=(1.750, 0.000, -14.970) lm=0
+ FLOOR Floor 08 center=(0.000, 0.000, -9.720) min=(-1.750, 0.000, -11.470) max=(1.750, 0.000, -7.970) lm=0
+ FLOOR Floor 03 center=(0.000, 0.000, -2.720) min=(-1.750, 0.000, -4.470) max=(1.750, 0.000, -0.970) lm=0
+ FLOOR Floor 02 center=(0.000, 0.000, -13.220) min=(-1.750, 0.000, -14.970) max=(1.750, 0.000, -11.470) lm=0
+ FLOOR Floor 09 center=(0.000, 0.000, -6.220) min=(-1.750, 0.000, -7.970) max=(1.750, 0.000, -4.470) lm=0
+SCENE Demo 1 dirty=True path=Assets/AK Studio Art/Modular Horror Corridor/Scenes/Demo 1.unity
+ROOT Lighting position=(0.000, -5.690, 0.000) boundsMin=(0.000, -5.690, 0.000) boundsMax=(0.000, -5.690, 0.000) renderers=0 lights=0
+ROOT Assets position=(0.000, -5.690, 0.000) boundsMin=(-5.250, -5.690, -1.750) boundsMax=(5.250, -2.440, 22.750) renderers=129 lights=4
+ FLOOR Floor 01 center=(3.500, -5.690, 17.500) min=(1.750, -5.690, 15.750) max=(5.250, -5.690, 19.250) lm=1
+ FLOOR Floor 02 center=(0.000, -5.690, 3.500) min=(-1.750, -5.690, 1.750) max=(1.750, -5.690, 5.250) lm=1
+ FLOOR Floor 03 center=(0.000, -5.690, 14.000) min=(-1.750, -5.690, 12.250) max=(1.750, -5.690, 15.750) lm=1
+ FLOOR Floor 04 center=(-3.500, -5.690, 21.000) min=(-5.250, -5.690, 19.250) max=(-1.750, -5.690, 22.750) lm=1
+ FLOOR Floor 05 center=(3.500, -5.690, 21.000) min=(1.750, -5.690, 19.250) max=(5.250, -5.690, 22.750) lm=1
+ FLOOR Floor 06 center=(0.000, -5.690, 0.000) min=(-1.750, -5.690, -1.750) max=(1.750, -5.690, 1.750) lm=1
+ FLOOR Floor 07 center=(0.000, -5.690, 21.000) min=(-1.750, -5.690, 19.250) max=(1.750, -5.690, 22.750) lm=1
+ FLOOR Floor 08 center=(0.000, -5.690, 7.000) min=(-1.750, -5.690, 5.250) max=(1.750, -5.690, 8.750) lm=1
+ FLOOR Floor 09 center=(0.000, -5.690, 10.500) min=(-1.750, -5.690, 8.750) max=(1.750, -5.690, 12.250) lm=1
+ FLOOR Floor 10 center=(0.000, -5.690, 17.500) min=(-1.750, -5.690, 15.750) max=(1.750, -5.690, 19.250) lm=1
+ FLOOR Floor 11 center=(-3.500, -5.690, 17.500) min=(-5.250, -5.690, 15.750) max=(-1.750, -5.690, 19.250) lm=1
+ROOT Camera position=(0.000, -4.690, -1.530) boundsMin=(0.000, -4.690, -1.530) boundsMax=(0.000, -4.690, -1.530) renderers=0 lights=0
+ROOT Post Processing position=(0.000, -5.690, 0.000) boundsMin=(0.000, -5.690, 0.000) boundsMax=(0.000, -5.690, 0.000) renderers=0 lights=0
+ROOT ----------Built-in---------- position=(0.000, -5.690, 0.000) boundsMin=(0.000, -5.690, 0.000) boundsMax=(0.000, -5.690, 0.000) renderers=0 lights=0
+ROOT First Person Controller Minimal position=(0.000, -5.690, -33.770) boundsMin=(-0.500, -5.690, -34.270) boundsMax=(0.500, -3.890, -33.270) renderers=1 lights=0
+ROOT Corridor position=(0.000, -5.690, -16.580) boundsMin=(-1.750, -5.690, -18.330) boundsMax=(1.750, -2.440, -0.830) renderers=80 lights=3
+ FLOOR Floor 06 center=(0.000, -5.690, -16.580) min=(-1.750, -5.690, -18.330) max=(1.750, -5.690, -14.830) lm=1
+ FLOOR Floor 08 center=(0.000, -5.690, -9.580) min=(-1.750, -5.690, -11.330) max=(1.750, -5.690, -7.830) lm=1
+ FLOOR Floor 03 center=(0.000, -5.690, -2.580) min=(-1.750, -5.690, -4.330) max=(1.750, -5.690, -0.830) lm=1
+ FLOOR Floor 02 center=(0.000, -5.690, -13.080) min=(-1.750, -5.690, -14.830) max=(1.750, -5.690, -11.330) lm=1
+ FLOOR Floor 09 center=(0.000, -5.690, -6.080) min=(-1.750, -5.690, -7.830) max=(1.750, -5.690, -4.330) lm=1
+ROOT Corridor (1) position=(0.000, -5.690, -33.310) boundsMin=(-1.750, -5.690, -35.060) boundsMax=(1.750, -2.440, -17.560) renderers=80 lights=3
+ FLOOR Floor 06 center=(0.000, -5.690, -33.310) min=(-1.750, -5.690, -35.060) max=(1.750, -5.690, -31.560) lm=1
+ FLOOR Floor 08 center=(0.000, -5.690, -26.310) min=(-1.750, -5.690, -28.060) max=(1.750, -5.690, -24.560) lm=1
+ FLOOR Floor 03 center=(0.000, -5.690, -19.310) min=(-1.750, -5.690, -21.060) max=(1.750, -5.690, -17.560) lm=1
+ FLOOR Floor 02 center=(0.000, -5.690, -29.810) min=(-1.750, -5.690, -31.560) max=(1.750, -5.690, -28.060) lm=1
+ FLOOR Floor 09 center=(0.000, -5.690, -22.810) min=(-1.750, -5.690, -24.560) max=(1.750, -5.690, -21.060) lm=1

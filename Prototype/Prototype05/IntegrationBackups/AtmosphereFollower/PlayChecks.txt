@@ -1,0 +1,261 @@
+PASS Fresh play session starts Normal
+PASS All 20 baked lamps identified and preserved
+PASS Corridor A/B carry distinct audio profiles
+PASS Real imported clips assigned; no placeholders
+PASS Echo tile and Mismatch wood clips differ
+PASS One spatial footstep voice without Doppler teleport artifacts
+PASS Echo subscribes to actual player step timing while using its own audio voice
+PASS Real player step signal queues Echo independently of clip playback
+PASS Actual Echo begins approximately 0.5 seconds after player step
+PASS First look-back does not darken scene
+PASS Second look-back switches audio profile without darkness progression
+PASS Door approach armed 0
+PASS Actual black door transition completes exactly once 0
+PASS Darkness counts only successful changes to another corridor 0
+PASS Four-stage progression clamps at Dread 0
+PASS Door approach armed 1
+PASS Actual black door transition completes exactly once 1
+PASS Darkness counts only successful changes to another corridor 1
+PASS Four-stage progression clamps at Dread 1
+PASS Door approach armed 2
+PASS Actual black door transition completes exactly once 2
+PASS Darkness counts only successful changes to another corridor 2
+PASS Four-stage progression clamps at Dread 2
+PASS Door approach armed 3
+PASS Actual black door transition completes exactly once 3
+PASS Darkness counts only successful changes to another corridor 3
+PASS Four-stage progression clamps at Dread 3
+PASS Door approach armed 4
+PASS Actual black door transition completes exactly once 4
+PASS Darkness counts only successful changes to another corridor 4
+PASS Four-stage progression clamps at Dread 4
+PASS Rendered Dread darkens corridor without erasing visibility 0 ratio=0.7407607
+PASS Returning to corridor preserves global darkness 0
+PASS Dread route grounded and clear 0/0
+PASS Dread route grounded and clear 0/0.5
+PASS Dread route grounded and clear 0/1
+PASS Dread route grounded and clear 0/1.5
+PASS Dread route grounded and clear 0/2
+PASS Dread route grounded and clear 0/2.5
+PASS Dread route grounded and clear 0/3
+PASS Dread route grounded and clear 0/3.5
+PASS Dread route grounded and clear 0/4
+PASS Dread route grounded and clear 0/4.5
+PASS Dread route grounded and clear 0/5
+PASS Dread route grounded and clear 0/5.5
+PASS Dread route grounded and clear 0/6
+PASS Dread route grounded and clear 0/6.5
+PASS Dread route grounded and clear 0/7
+PASS Dread route grounded and clear 0/7.5
+PASS Dread route grounded and clear 0/8
+PASS Dread route grounded and clear 0/8.5
+PASS Dread route grounded and clear 0/9
+PASS Dread route grounded and clear 0/9.5
+PASS Dread route grounded and clear 0/10
+PASS Dread route grounded and clear 0/10.5
+PASS Dread route grounded and clear 0/11
+PASS Dread route grounded and clear 0/11.5
+PASS Dread route grounded and clear 0/12
+PASS Dread route grounded and clear 0/12.5
+PASS Dread route grounded and clear 0/13
+PASS Dread route grounded and clear 0/13.5
+PASS Dread route grounded and clear 0/14
+PASS Dread route grounded and clear 0/14.5
+PASS Dread route grounded and clear 0/15
+PASS Dread route grounded and clear 0/15.5
+PASS Dread route grounded and clear 0/16
+PASS Dread route grounded and clear 0/16.5
+PASS Dread route grounded and clear 0/17
+PASS Dread route grounded and clear 0/17.5
+PASS Dread route grounded and clear 0/18
+PASS Dread route grounded and clear 0/18.5
+PASS Dread route grounded and clear 0/19
+PASS Dread route grounded and clear 0/19.5
+PASS Dread route grounded and clear 0/20
+PASS Dread route grounded and clear 0/20.5
+PASS Dread route grounded and clear 0/21
+PASS Dread route grounded and clear 0/21.5
+PASS Dread route grounded and clear 0/22
+PASS Dread route grounded and clear 0/22.5
+PASS Dread route grounded and clear 0/23
+PASS Dread route grounded and clear 0/23.5
+PASS Dread route grounded and clear 0/24
+PASS Dread route grounded and clear 0/24.5
+PASS Dread route grounded and clear 0/25
+PASS Dread route grounded and clear 0/25.5
+PASS Dread route grounded and clear 0/26
+PASS Dread route grounded and clear 0/26.5
+PASS Dread route grounded and clear 0/27
+PASS Dread route grounded and clear 0/27.5
+PASS Dread route grounded and clear 0/28
+PASS Dread route grounded and clear 0/28.5
+PASS Dread route grounded and clear 0/29
+PASS Dread route grounded and clear 0/29.5
+PASS Dread route grounded and clear 0/30
+PASS Dread route grounded and clear 0/30.5
+PASS Dread route grounded and clear 0/31
+PASS Dread route grounded and clear 0/31.5
+PASS Dread route grounded and clear 0/32
+PASS Dread route grounded and clear 0/32.5
+PASS Dread route grounded and clear 0/33
+PASS Dread route grounded and clear 0/33.5
+PASS Dread route grounded and clear 0/34
+PASS Dread route grounded and clear 0/34.5
+PASS Dread route grounded and clear 0/35
+PASS Dread route grounded and clear 0/35.5
+PASS Dread route grounded and clear 0/36
+PASS Dread route grounded and clear 0/36.5
+PASS Dread route grounded and clear 0/37
+PASS Dread route grounded and clear 0/37.5
+PASS Dread route grounded and clear 0/38
+PASS Dread route grounded and clear 0/38.5
+PASS Dread route grounded and clear 0/39
+PASS Dread route grounded and clear 0/39.5
+PASS Dread route grounded and clear 0/40
+PASS Dread route grounded and clear 0/40.5
+PASS Dread route grounded and clear 0/41
+PASS Dread route grounded and clear 0/41.5
+PASS Dread route grounded and clear 0/42
+PASS Dread route grounded and clear 0/42.5
+PASS Dread route grounded and clear 0/43
+PASS Dread route grounded and clear 0/43.5
+PASS Dread route grounded and clear 0/44
+PASS Dread route grounded and clear 0/44.5
+PASS Dread route grounded and clear 0/45
+PASS Dread route grounded and clear 0/45.5
+PASS Dread route grounded and clear 0/46
+PASS Dread route grounded and clear 0/46.5
+PASS Dread route grounded and clear 0/47
+PASS Dread route grounded and clear 0/47.5
+PASS Dread route grounded and clear 0/48
+PASS Dread route grounded and clear 0/48.5
+PASS Dread route grounded and clear 0/49
+PASS Dread route grounded and clear 0/49.5
+PASS Dread route grounded and clear 0/50
+PASS Dread route grounded and clear 0/50.5
+PASS Dread route grounded and clear 0/51
+PASS Dread route grounded and clear 0/51.5
+PASS Dread route grounded and clear 0/52
+PASS Dread route grounded and clear 0/52.5
+PASS Rendered Dread darkens corridor without erasing visibility 1 ratio=0.7295782
+PASS Returning to corridor preserves global darkness 1
+PASS Dread route grounded and clear 1/0
+PASS Dread route grounded and clear 1/0.5
+PASS Dread route grounded and clear 1/1
+PASS Dread route grounded and clear 1/1.5
+PASS Dread route grounded and clear 1/2
+PASS Dread route grounded and clear 1/2.5
+PASS Dread route grounded and clear 1/3
+PASS Dread route grounded and clear 1/3.5
+PASS Dread route grounded and clear 1/4
+PASS Dread route grounded and clear 1/4.5
+PASS Dread route grounded and clear 1/5
+PASS Dread route grounded and clear 1/5.5
+PASS Dread route grounded and clear 1/6
+PASS Dread route grounded and clear 1/6.5
+PASS Dread route grounded and clear 1/7
+PASS Dread route grounded and clear 1/7.5
+PASS Dread route grounded and clear 1/8
+PASS Dread route grounded and clear 1/8.5
+PASS Dread route grounded and clear 1/9
+PASS Dread route grounded and clear 1/9.5
+PASS Dread route grounded and clear 1/10
+PASS Dread route grounded and clear 1/10.5
+PASS Dread route grounded and clear 1/11
+PASS Dread route grounded and clear 1/11.5
+PASS Dread route grounded and clear 1/12
+PASS Dread route grounded and clear 1/12.5
+PASS Dread route grounded and clear 1/13
+PASS Dread route grounded and clear 1/13.5
+PASS Dread route grounded and clear 1/14
+PASS Dread route grounded and clear 1/14.5
+PASS Dread route grounded and clear 1/15
+PASS Dread route grounded and clear 1/15.5
+PASS Dread route grounded and clear 1/16
+PASS Dread route grounded and clear 1/16.5
+PASS Dread route grounded and clear 1/17
+PASS Dread route grounded and clear 1/17.5
+PASS Dread route grounded and clear 1/18
+PASS Dread route grounded and clear 1/18.5
+PASS Dread route grounded and clear 1/19
+PASS Dread route grounded and clear 1/19.5
+PASS Dread route grounded and clear 1/20
+PASS Dread route grounded and clear 1/20.5
+PASS Dread route grounded and clear 1/21
+PASS Dread route grounded and clear 1/21.5
+PASS Dread route grounded and clear 1/22
+PASS Dread route grounded and clear 1/22.5
+PASS Dread route grounded and clear 1/23
+PASS Dread route grounded and clear 1/23.5
+PASS Dread route grounded and clear 1/24
+PASS Dread route grounded and clear 1/24.5
+PASS Dread route grounded and clear 1/25
+PASS Dread route grounded and clear 1/25.5
+PASS Dread route grounded and clear 1/26
+PASS Dread route grounded and clear 1/26.5
+PASS Dread route grounded and clear 1/27
+PASS Dread route grounded and clear 1/27.5
+PASS Dread route grounded and clear 1/28
+PASS Dread route grounded and clear 1/28.5
+PASS Dread route grounded and clear 1/29
+PASS Dread route grounded and clear 1/29.5
+PASS Dread route grounded and clear 1/30
+PASS Dread route grounded and clear 1/30.5
+PASS Dread route grounded and clear 1/31
+PASS Dread route grounded and clear 1/31.5
+PASS Dread route grounded and clear 1/32
+PASS Dread route grounded and clear 1/32.5
+PASS Dread route grounded and clear 1/33
+PASS Dread route grounded and clear 1/33.5
+PASS Dread route grounded and clear 1/34
+PASS Dread route grounded and clear 1/34.5
+PASS Dread route grounded and clear 1/35
+PASS Dread route grounded and clear 1/35.5
+PASS Dread route grounded and clear 1/36
+PASS Dread route grounded and clear 1/36.5
+PASS Dread route grounded and clear 1/37
+PASS Dread route grounded and clear 1/37.5
+PASS Dread route grounded and clear 1/38
+PASS Dread route grounded and clear 1/38.5
+PASS Dread route grounded and clear 1/39
+PASS Dread route grounded and clear 1/39.5
+PASS Dread route grounded and clear 1/40
+PASS Dread route grounded and clear 1/40.5
+PASS Dread route grounded and clear 1/41
+PASS Dread route grounded and clear 1/41.5
+PASS Dread route grounded and clear 1/42
+PASS Dread route grounded and clear 1/42.5
+PASS Dread route grounded and clear 1/43
+PASS Dread route grounded and clear 1/43.5
+PASS Dread route grounded and clear 1/44
+PASS Dread route grounded and clear 1/44.5
+PASS Dread route grounded and clear 1/45
+PASS Dread route grounded and clear 1/45.5
+PASS Dread route grounded and clear 1/46
+PASS Dread route grounded and clear 1/46.5
+PASS Dread route grounded and clear 1/47
+PASS Dread route grounded and clear 1/47.5
+PASS Dread route grounded and clear 1/48
+PASS Dread route grounded and clear 1/48.5
+PASS Dread route grounded and clear 1/49
+PASS Dread route grounded and clear 1/49.5
+PASS Dread route grounded and clear 1/50
+PASS Dread route grounded and clear 1/50.5
+PASS Dread route grounded and clear 1/51
+PASS Dread route grounded and clear 1/51.5
+PASS Dread route grounded and clear 1/52
+PASS Dread route grounded and clear 1/52.5
+PASS Baked light intensities and original lightmap textures unchanged
+PASS Dread exposure bounded above pitch-black range
+PASS Rejected doorway attempt cannot advance atmosphere
+PASS Follower waits for movement activation time
+PASS Echo beat queued for delayed playback
+PASS Echo plays imported tile clip after delayed movement beat
+PASS 3D source stays behind movement direction
+PASS Looking backward silences voice and cancels queued beats
+PASS Forward return waits for randomized resume delay
+PASS Fade/teleport suppression clears temporary follower state
+PASS Mismatch schedules at most three tail steps after stopping
+PASS Mismatch plays different imported wood clips
+PASS Tail sequence is bounded and drains without stacking
+PASS Unsignaled teleport displacement cannot generate footsteps

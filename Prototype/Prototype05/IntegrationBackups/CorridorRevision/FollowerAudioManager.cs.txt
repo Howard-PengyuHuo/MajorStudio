@@ -1,0 +1,185 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+[DisallowMultipleComponent, DefaultExecutionOrder(1300)]
+public sealed class FollowerAudioManager : MonoBehaviour
+{
+    public CorridorLoopManager loop;
+    public CorridorManager doors;
+    public AudioSource footstepSource;
+    public GroundCheck groundCheck;
+    [Tooltip("Optional timing signal only. Follower clips, voice, volume and activation remain independent.")]
+    public FirstPersonAudio playerFootsteps;
+    public bool usePlayerStepTimingForEcho = true;
+    public CorridorAudioProfile fallbackProfile;
+    [Min(0)] public float minimumMovingSpeed = .12f;
+    [Min(1)] public float teleportDistance = 2;
+    [Range(90, 175)] public float lookBackAngle = 110;
+    [Range(5, 70)] public float forwardResumeAngle = 40;
+    [Min(0)] public float silenceFadeSeconds = .08f;
+    [Min(.05f)] public float maximumStepSeconds = .45f;
+    public bool debugLogs;
+    public CorridorAudioProfile CurrentProfile { get; private set; }
+    public int PendingSteps => dueSteps.Count;
+    public int PlayedFootsteps { get; private set; }
+    public bool LookingBack { get; private set; }
+    public float MovingSeconds { get; private set; }
+    public Vector3 TravelDirection { get; private set; } = Vector3.forward;
+    public event Action<AudioClip> FootstepPlayed;
+    readonly List<float> dueSteps = new List<float>(8);
+    Vector3 previousPosition;
+    float clock, resumeAt, strideDistance, walkingDuration, lateral, voiceElapsed;
+    bool hasPosition, wasMoving, tailing, fading;
+    int currentCorridor = -1;
+    AudioClip previousClip;
+
+    void OnEnable()
+    {
+        if (!Application.isPlaying || !loop || !doors || !footstepSource) return;
+        footstepSource.playOnAwake = false; footstepSource.loop = false; footstepSource.spatialBlend = 1;
+        footstepSource.dopplerLevel = 0; footstepSource.rolloffMode = AudioRolloffMode.Logarithmic;
+        loop.PlayerTeleported += OnTeleported;
+        if (playerFootsteps) playerFootsteps.StepStarted += NotifyPlayerStep;
+        ApplyCorridor(loop.CurrentCorridor);
+    }
+    void OnTeleported(int index) { ApplyCorridor(index); }
+    public void ApplyCorridor(int index)
+    {
+        currentCorridor = index;
+        var marker = index >= 0 && index < loop.corridors.Length && loop.corridors[index].environment
+            ? loop.corridors[index].environment.GetComponent<CorridorDestination>() : null;
+        CurrentProfile = marker && marker.audioProfile ? marker.audioProfile : fallbackProfile;
+        TravelDirection = index >= 0 && index < loop.corridors.Length ? loop.corridors[index].startPoint.forward : Vector3.forward;
+        ResetTransient();
+        if (debugLogs) Debug.Log("Follower profile: " + (CurrentProfile ? CurrentProfile.name : "unassigned (silent)"), this);
+    }
+    public void ResetTransient()
+    {
+        dueSteps.Clear(); MovingSeconds = strideDistance = walkingDuration = 0;
+        wasMoving = tailing = fading = LookingBack = false;
+        if (footstepSource) { footstepSource.Stop(); footstepSource.clip = null; }
+        previousPosition = loop && loop.player ? loop.player.position : Vector3.zero; hasPosition = true;
+        resumeAt = clock + ResumeDelay();
+        PositionSource();
+    }
+    float ResumeDelay() => CurrentProfile ? UnityEngine.Random.Range(Mathf.Max(0, CurrentProfile.resumeDelay.x), Mathf.Max(CurrentProfile.resumeDelay.x, CurrentProfile.resumeDelay.y)) : 0;
+    bool HasPlayerStepTiming => usePlayerStepTimingForEcho && playerFootsteps && playerFootsteps.isActiveAndEnabled
+        && playerFootsteps.stepAudio && playerFootsteps.stepAudio.enabled && playerFootsteps.stepAudio.clip;
+    public void NotifyPlayerStep()
+    {
+        if (!isActiveAndEnabled || !CurrentProfile || CurrentProfile.rhythm != CorridorAudioProfile.Rhythm.Echo
+            || LookingBack || doors.IsBusy || loop.TransitionSuspended || clock < resumeAt
+            || MovingSeconds < CurrentProfile.activationMovingSeconds) return;
+        QueueStep(clock + Mathf.Max(0, CurrentProfile.echoDelay));
+    }
+    void LateUpdate()
+    {
+        if (!loop || !loop.player || !loop.view || !doors || !footstepSource) return;
+        if (currentCorridor != loop.CurrentCorridor) ApplyCorridor(loop.CurrentCorridor);
+        bool grounded = groundCheck ? groundCheck.isGrounded : Physics.Raycast(loop.player.position + Vector3.up * .1f, Vector3.down, .3f, loop.obstructionMask, QueryTriggerInteraction.Ignore);
+        SampleMotion(loop.player.position, loop.view.forward, Time.deltaTime, grounded, doors.IsBusy || loop.TransitionSuspended || Time.timeScale <= 0);
+    }
+    // Movement cadence is independent of the player's AudioSource or its mute state.
+    public void SampleMotion(Vector3 position, Vector3 gaze, float deltaTime, bool grounded, bool suspended)
+    {
+        if (!CurrentProfile || !footstepSource) return;
+        clock += Mathf.Max(0, deltaTime);
+        if (!hasPosition) { previousPosition = position; hasPosition = true; return; }
+        Vector3 displacement = Vector3.ProjectOnPlane(position - previousPosition, Vector3.up);
+        previousPosition = position;
+        if (suspended || displacement.magnitude > teleportDistance)
+        { ResetTransient(); previousPosition = position; return; }
+        if (deltaTime <= 0) return;
+        var frame = loop.corridors[loop.CurrentCorridor].startPoint;
+        Vector3 horizontalGaze = Vector3.ProjectOnPlane(gaze, frame.up);
+        float angle = horizontalGaze.sqrMagnitude > .01f ? Vector3.Angle(horizontalGaze, frame.forward) : 0;
+        if (!LookingBack && angle >= lookBackAngle)
+        { LookingBack = true; dueSteps.Clear(); strideDistance = 0; tailing = false; fading = true; }
+        else if (LookingBack && angle <= forwardResumeAngle)
+        { LookingBack = false; resumeAt = clock + ResumeDelay(); dueSteps.Clear(); strideDistance = 0; }
+        bool moving = grounded && displacement.magnitude / deltaTime >= minimumMovingSpeed;
+        if (moving)
+        {
+            TravelDirection = displacement.normalized; MovingSeconds += deltaTime; walkingDuration += deltaTime;
+        }
+        PositionSource();
+        UpdateVoice(deltaTime);
+        if (LookingBack || clock < resumeAt)
+        { dueSteps.Clear(); strideDistance = 0; wasMoving = moving; return; }
+        bool activated = MovingSeconds >= Mathf.Max(0, CurrentProfile.activationMovingSeconds);
+        if (!activated) { strideDistance = 0; wasMoving = moving; return; }
+        if (moving)
+        {
+            if (tailing) { dueSteps.Clear(); tailing = false; }
+            strideDistance += displacement.magnitude;
+            if (strideDistance >= Mathf.Max(.2f, CurrentProfile.strideMeters))
+            {
+                strideDistance %= Mathf.Max(.2f, CurrentProfile.strideMeters);
+                float delay = CurrentProfile.rhythm == CorridorAudioProfile.Rhythm.Echo ? CurrentProfile.echoDelay
+                    : Mathf.Max(0, CurrentProfile.echoDelay + UnityEngine.Random.Range(-CurrentProfile.timingJitter, CurrentProfile.timingJitter));
+                if (CurrentProfile.rhythm != CorridorAudioProfile.Rhythm.Echo || !HasPlayerStepTiming)
+                    QueueStep(clock + Mathf.Max(0, delay));
+            }
+        }
+        else if (wasMoving && CurrentProfile.rhythm != CorridorAudioProfile.Rhythm.Echo)
+        {
+            dueSteps.Clear(); tailing = true;
+            if (UnityEngine.Random.value < CurrentProfile.extraStepsChance)
+            {
+                int count = UnityEngine.Random.Range(Mathf.Clamp(CurrentProfile.extraSteps.x, 1, 3), Mathf.Clamp(CurrentProfile.extraSteps.y, 1, 3) + 1);
+                float time = clock;
+                for (int i = 0; i < count; i++)
+                { time += Mathf.Max(.15f, CurrentProfile.extraStepInterval + UnityEngine.Random.Range(-CurrentProfile.timingJitter, CurrentProfile.timingJitter)); QueueStep(time); }
+            }
+        }
+        wasMoving = moving;
+        while (dueSteps.Count > 0 && dueSteps[0] <= clock)
+        {
+            float due = dueSteps[0]; dueSteps.RemoveAt(0);
+            // Skip late/busy beats, never stack voices or replay a teleport backlog.
+            if (clock - due <= .2f && !footstepSource.isPlaying && !fading) PlayStep();
+        }
+    }
+    void QueueStep(float due) { if (dueSteps.Count < 8) { dueSteps.Add(due); dueSteps.Sort(); } }
+    void PositionSource()
+    {
+        if (!CurrentProfile || !footstepSource || !loop || !loop.player) return;
+        float distance = Mathf.Max(.5f, CurrentProfile.distanceBehind);
+        if (CurrentProfile.rhythm == CorridorAudioProfile.Rhythm.Pursuit)
+            distance = Mathf.Max(CurrentProfile.pursuitMinimumDistance, distance - walkingDuration * CurrentProfile.pursuitApproachPerSecond);
+        Vector3 right = Vector3.Cross(Vector3.up, TravelDirection).normalized;
+        footstepSource.transform.position = loop.player.position - TravelDirection * distance + right * lateral + Vector3.up * CurrentProfile.height;
+    }
+    void PlayStep()
+    {
+        var clips = CurrentProfile.clips;
+        if (clips == null || clips.Length == 0) return;
+        int offset = UnityEngine.Random.Range(0, clips.Length); AudioClip selected = null;
+        for (int i = 0; i < clips.Length; i++)
+        { var clip = clips[(offset + i) % clips.Length]; if (clip && clip != previousClip) { selected = clip; break; } }
+        if (!selected) foreach (var clip in clips) if (clip) { selected = clip; break; }
+        if (!selected) return; // Missing assets stay silent; no runtime placeholders.
+        previousClip = selected; lateral = UnityEngine.Random.Range(CurrentProfile.lateralOffset.x, CurrentProfile.lateralOffset.y);
+        PositionSource(); voiceElapsed = 0; fading = false;
+        footstepSource.clip = selected; footstepSource.volume = Mathf.Clamp01(CurrentProfile.volume);
+        footstepSource.pitch = UnityEngine.Random.Range(Mathf.Clamp(CurrentProfile.pitchRange.x, .5f, 2), Mathf.Clamp(CurrentProfile.pitchRange.y, .5f, 2));
+        footstepSource.Play(); PlayedFootsteps++; FootstepPlayed?.Invoke(selected);
+    }
+    void UpdateVoice(float deltaTime)
+    {
+        voiceElapsed += deltaTime;
+        if (voiceElapsed >= maximumStepSeconds) fading = true;
+        if (fading)
+        {
+            footstepSource.volume = silenceFadeSeconds <= 0 ? 0 : Mathf.MoveTowards(footstepSource.volume, 0, deltaTime / silenceFadeSeconds);
+            if (footstepSource.volume <= 0) { footstepSource.Stop(); fading = false; }
+        }
+    }
+    void OnDisable()
+    {
+        if (loop) loop.PlayerTeleported -= OnTeleported;
+        if (playerFootsteps) playerFootsteps.StepStarted -= NotifyPlayerStep;
+        dueSteps.Clear(); if (footstepSource) footstepSource.Stop();
+    }
+}

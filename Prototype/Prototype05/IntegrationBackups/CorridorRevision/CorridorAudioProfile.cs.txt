@@ -1,0 +1,24 @@
+using UnityEngine;
+
+[CreateAssetMenu(menuName = "Don't Look Back/Corridor Audio Profile")]
+public sealed class CorridorAudioProfile : ScriptableObject
+{
+    public enum Rhythm { Echo, Mismatch, Pursuit }
+    public Rhythm rhythm;
+    public AudioClip[] clips = new AudioClip[0];
+    [Range(0, 1)] public float volume = .45f;
+    public Vector2 pitchRange = new Vector2(.85f, .95f);
+    [Min(0)] public float activationMovingSeconds = 2;
+    [Min(.2f)] public float strideMeters = 1;
+    [Min(0)] public float echoDelay = .5f;
+    [Min(0)] public float timingJitter = .08f;
+    public Vector2 resumeDelay = new Vector2(.7f, 1.4f);
+    [Min(.5f)] public float distanceBehind = 3;
+    public Vector2 lateralOffset = new Vector2(-.25f, .25f);
+    [Min(0)] public float height = .15f;
+    [Range(0, 1)] public float extraStepsChance = .6f;
+    public Vector2Int extraSteps = new Vector2Int(1, 3);
+    [Min(.1f)] public float extraStepInterval = .55f;
+    [Min(.5f)] public float pursuitMinimumDistance = 1.5f;
+    [Min(0)] public float pursuitApproachPerSecond = .08f;
+}

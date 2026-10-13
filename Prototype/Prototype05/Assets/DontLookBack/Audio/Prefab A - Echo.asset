@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acf44f9c066b5a5439b86d29a30e45ab, type: 3}
+  m_Name: Prefab A - Echo
+  m_EditorClassIdentifier: 
+  rhythm: 0
+  clips:
+  - {fileID: 8300000, guid: b993df4a93c1d304ab19d8b2eb88c9a5, type: 3}
+  - {fileID: 8300000, guid: 5c9bdbce37b06a24fa6ea793bcfd1907, type: 3}
+  - {fileID: 8300000, guid: 0909de896e9029541b92ae05fe15e4b6, type: 3}
+  - {fileID: 8300000, guid: 6ad0cf00f050bee41a2dee098475dc78, type: 3}
+  - {fileID: 8300000, guid: 7ca5a9710db4327439c9f8cb8204615e, type: 3}
+  - {fileID: 8300000, guid: 14ae706fef2303e4cb71112dbd5d250b, type: 3}
+  volume: 0.85
+  pitchRange: {x: 0.9, y: 1}
+  activationMovingSeconds: 2
+  stopDelaySeconds: 1
+  stepInterval: 0.6
+  subtleEcho: 1
+  reverbDelayMilliseconds: 120
+  reverbWetMix: 0.16
+  strideMeters: 1
+  echoDelay: 0.5
+  timingJitter: 0.025
+  resumeDelay: {x: 0.7, y: 1.4}
+  distanceBehind: 2.2
+  lateralOffset: {x: -0.25, y: 0.25}
+  height: 0.15
+  extraStepsChance: 0.6
+  extraSteps: {x: 1, y: 3}
+  extraStepInterval: 0.55
+  pursuitMinimumDistance: 1.5
+  pursuitApproachPerSecond: 0.08

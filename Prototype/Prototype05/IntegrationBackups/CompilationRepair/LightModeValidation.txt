@@ -1,0 +1,34 @@
+Unity=6000.0.59f2
+URP=17.0.4
+Editor=E:/Unity/6000.0.59f2/Editor/Unity.exe
+Active build target=StandaloneWindows64
+Pipeline=Assets/Settings/PC_RPAsset.asset
+Corridor_B/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_B/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_A/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_A/Point Light authored=Baked runtime=Baked isBaked=True
+CorridorB_Prefabs/Point Light authored=Baked runtime=Realtime isBaked=False
+Corridor_A/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_B/Point Light authored=Baked runtime=Baked isBaked=True
+CorridorA_Prefabs/Point Light authored=Baked runtime=Realtime isBaked=False
+Corridor_A/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_B/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_A/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_B/Point Light authored=Baked runtime=Baked isBaked=True
+CorridorA_Prefabs/Point Light authored=Baked runtime=Realtime isBaked=False
+CorridorA_Prefabs/Point Light authored=Baked runtime=Realtime isBaked=False
+Corridor_B/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_B/Point Light authored=Baked runtime=Baked isBaked=True
+CorridorB_Prefabs/Point Light authored=Baked runtime=Realtime isBaked=False
+CorridorB_Prefabs/Point Light authored=Baked runtime=Realtime isBaked=False
+Corridor_A/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_B/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_A/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_A/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_A/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_B/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_A/Point Light authored=Baked runtime=Baked isBaked=True
+Corridor_B/Point Light authored=Baked runtime=Baked isBaked=True
+PASS authored/runtime bake mode Baked
+PASS authored/runtime bake mode Mixed
+PASS authored/runtime bake mode Realtime

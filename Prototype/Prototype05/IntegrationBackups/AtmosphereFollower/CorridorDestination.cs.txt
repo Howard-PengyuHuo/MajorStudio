@@ -1,0 +1,11 @@
+using UnityEngine;
+
+// Put this on a loaded corridor root or a self-contained corridor prefab root.
+public sealed class CorridorDestination : MonoBehaviour
+{
+    public Transform spawnPoint;
+    public Transform lookBackStart;
+    public Transform Environment => transform;
+    public bool HasValidReferences => spawnPoint && spawnPoint.IsChildOf(transform)
+        && (!lookBackStart || lookBackStart.IsChildOf(transform));
+}

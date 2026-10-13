@@ -1,0 +1,8 @@
+Original capsule radius=0.4320523; fitting radius with 1cm margin=0.3600001. Center (-0.04, 0.90, 0.04), height 1.8, movement settings unchanged.
+radius=0.4321 blocked by Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B at (201.35, -5.68, 0.20)
+radius=0.4300 blocked by Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B at (201.35, -5.68, 0.20)
+radius=0.4200 blocked by Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B at (201.35, -5.68, 0.20)
+radius=0.4100 blocked by Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B at (201.40, -5.68, 0.20)
+radius=0.4000 blocked by Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B at (201.40, -5.68, 0.20)
+radius=0.3900 blocked by Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B at (201.45, -5.68, 0.20)
+radius=0.3800 blocked by Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B at (201.50, -5.68, 0.20)

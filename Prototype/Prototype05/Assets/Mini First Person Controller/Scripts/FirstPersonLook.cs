@@ -19,8 +19,18 @@ public class FirstPersonLook : MonoBehaviour
 
     void Start()
     {
+        SynchronizeAfterTeleport();
         // Lock the mouse cursor to the game screen.
         Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    // Keeps the accumulated mouse-look yaw/pitch in step with an external teleport.
+    public void SynchronizeAfterTeleport()
+    {
+        if (!character) character = GetComponentInParent<FirstPersonMovement>().transform;
+        velocity.x = character.localEulerAngles.y;
+        velocity.y = -Mathf.DeltaAngle(0, transform.localEulerAngles.x);
+        frameVelocity = Vector2.zero;
     }
 
     void Update()

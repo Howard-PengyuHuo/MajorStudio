@@ -1,0 +1,91 @@
+PASS Prefer a different valid corridor 0
+PASS Prefer a different valid corridor 1
+PASS Prefer a different valid corridor 2
+PASS Prefer a different valid corridor 3
+PASS Prefer a different valid corridor 4
+PASS Prefer a different valid corridor 5
+PASS Prefer a different valid corridor 6
+PASS Prefer a different valid corridor 7
+PASS Prefer a different valid corridor 8
+PASS Prefer a different valid corridor 9
+PASS Prefer a different valid corridor 10
+PASS Prefer a different valid corridor 11
+PASS Single valid corridor supported
+PASS Missing and invalid destinations skipped
+PASS Random choice valid 0
+PASS Random choice valid 1
+PASS Random choice valid 2
+PASS Random choice valid 3
+PASS Random choice valid 4
+PASS Random choice valid 5
+PASS Random choice valid 6
+PASS Random choice valid 7
+PASS Random choice valid 8
+PASS Random choice valid 9
+PASS Random choice valid 10
+PASS Random choice valid 11
+PASS Random choice valid 12
+PASS Random choice valid 13
+PASS Random choice valid 14
+PASS Random choice valid 15
+PASS Random choice valid 16
+PASS Random choice valid 17
+PASS Random choice valid 18
+PASS Random choice valid 19
+PASS Random choice valid 20
+PASS Random choice valid 21
+PASS Random choice valid 22
+PASS Random choice valid 23
+PASS Random choice valid 24
+PASS Random choice valid 25
+PASS Random choice valid 26
+PASS Random choice valid 27
+PASS Random choice valid 28
+PASS Random choice valid 29
+PASS Random choice valid 30
+PASS Random choice valid 31
+PASS Random choice valid 32
+PASS Random choice valid 33
+PASS Random choice valid 34
+PASS Random choice valid 35
+PASS Random choice valid 36
+PASS Random choice valid 37
+PASS Random choice valid 38
+PASS Random choice valid 39
+PASS Random choice valid 40
+PASS Random choice valid 41
+PASS Random choice valid 42
+PASS Random choice valid 43
+PASS Random choice valid 44
+PASS Random choice valid 45
+PASS Random choice valid 46
+PASS Random choice valid 47
+PASS Random choice valid 48
+PASS Random choice valid 49
+PASS Random choice valid 50
+PASS Random choice valid 51
+PASS Random choice valid 52
+PASS Random choice valid 53
+PASS Random choice valid 54
+PASS Random choice valid 55
+PASS Random choice valid 56
+PASS Random choice valid 57
+PASS Random choice valid 58
+PASS Random choice valid 59
+PASS Random choice valid 60
+PASS Random choice valid 61
+PASS Random choice valid 62
+PASS Random choice valid 63
+PASS Random pool reaches both corridors
+PASS Optional prefab destination instantiated safely
+PASS Prefab instance reused instead of repeatedly instantiated
+PASS Prefab spawning adds no player or camera
+PASS Existing opening animation can be requested
+PASS Existing looping Open01 clip plays and holds its open pose
+PASS E interaction respects range
+PASS Center-view ray opens configured A door
+PASS Dark mask enabled before door starts opening
+PASS Door hinge opens correctly
+PASS Repeated E does not restart opening
+PASS A uses opaque lighting-independent void shader
+FAIL A void renders black with intensity-10000 light: RGBA(0.012, 0.012, 0.012, 1.000)

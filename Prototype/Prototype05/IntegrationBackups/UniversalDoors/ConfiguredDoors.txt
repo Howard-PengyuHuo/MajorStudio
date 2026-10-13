@@ -1,0 +1,114 @@
+Active doors: 80; dormant doors: 5. New portals this run: 0; reused: 85; skipped: 0
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 01
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 02
+SCOPED player collision exemption after opening: Corridor_A/Assets/Decals/Decal 4 (3)
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 03
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 04
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 05
+SCOPED player collision exemption after opening: Corridor_A/Assets/Decals/Decal 4 (4)
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 06
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 07
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 08
+DORMANT Corridor_A/Assets/Wall with Door A Group/Wall with Door A 09/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 09
+SCOPED player collision exemption after opening: Corridor_A/Assets/Decals/Decal 3 (1)
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 10
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 11
+SCOPED player collision exemption after opening: Corridor_A/Assets/Decals/Decal 1 (2)
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 12
+SCOPED player collision exemption after opening: Corridor_A/Assets/Decals/Decal 4 (2)
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 13
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 14
+SCOPED player collision exemption after opening: Corridor_A/Assets/Decals/Decal 3 (2)
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 15
+SCOPED player collision exemption after opening: Corridor_A/Assets/Decals/Decal 4 (1)
+REUSED Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 16
+SCOPED player collision exemption after opening: Corridor_A/Corridor/Decal 3 (1)
+REUSED Corridor_A/Corridor/Wall with Door A 10/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 10
+SCOPED player collision exemption after opening: Corridor_A/Corridor/Decal 1 (2)
+REUSED Corridor_A/Corridor/Wall with Door A 12/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 12
+SCOPED player collision exemption after opening: Corridor_A/Corridor/Decal 3 (2)
+REUSED Corridor_A/Corridor/Wall with Door A 15/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 15
+REUSED Corridor_A/Corridor/Wall with Door A 05/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 05
+SCOPED player collision exemption after opening: Corridor_A/Corridor/Decal 4 (3)
+REUSED Corridor_A/Corridor/Wall with Door A 03/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 03
+REUSED Corridor_A/Corridor/Wall with Door A 11/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 11
+REUSED Corridor_A/Corridor/Wall with Door A 07/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 07
+DORMANT Corridor_A/Corridor/Wall with Door A 09/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 09
+DORMANT Corridor_A/Corridor/Wall with Door A 09 (1)/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 09 (1)
+REUSED Corridor_A/Corridor/Wall with Door A 01/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 01
+SCOPED player collision exemption after opening: Corridor_A/Corridor/Decal 4 (4)
+REUSED Corridor_A/Corridor/Wall with Door A 06/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 06
+REUSED Corridor_A/Corridor/Wall with Door A 02/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 02
+REUSED Corridor_A/Corridor/Wall with Door A 14/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 14
+REUSED Corridor_A/Corridor/Wall with Door A 08/Door 2 B/Door | existing animation Base Layer.Open02 | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 08
+SCOPED player collision exemption after opening: Corridor_A/Corridor (1)/Decal 3 (1)
+REUSED Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 10
+SCOPED player collision exemption after opening: Corridor_A/Corridor (1)/Decal 1 (2)
+REUSED Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 12
+SCOPED player collision exemption after opening: Corridor_A/Corridor (1)/Decal 3 (2)
+REUSED Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 15
+REUSED Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 05
+SCOPED player collision exemption after opening: Corridor_A/Corridor (1)/Decal 4 (3)
+REUSED Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 03
+REUSED Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 11
+REUSED Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 07
+SCOPED player collision exemption after opening: Corridor_A/Corridor (1)/Decal 1 (1)
+REUSED Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 09
+REUSED Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 01
+SCOPED player collision exemption after opening: Corridor_A/Corridor (1)/Decal 4 (4)
+REUSED Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 06
+REUSED Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 02
+REUSED Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 14
+REUSED Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B/Door | hinge | portal=Corridor_A/Black Door - Door 2 B - Wall with Door A 08
+SCOPED player collision exemption after opening: Corridor_B/Original Environment/Decals/Decal 1 (2)
+SCOPED player collision exemption after opening: Corridor_B/Original Environment/Decals/Decal 3 (2)
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 01
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 02
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 03
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 04
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 05
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 06
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 07
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 08
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 09
+DORMANT Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 10/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 10
+SCOPED player collision exemption after opening: Corridor_B/Original Environment/Decals/Decal 3 (1)
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 11
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 12
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 13
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 14
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 15
+REUSED Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 16
+SCOPED player collision exemption after opening: Corridor_B/Corridor2/Decal 1 (2)
+SCOPED player collision exemption after opening: Corridor_B/Corridor2/Decal 3 (2)
+REUSED Corridor_B/Corridor2/Wall with Door B 01/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 01
+REUSED Corridor_B/Corridor2/Wall with Door B 03/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 03
+REUSED Corridor_B/Corridor2/Wall with Door B 09/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 09
+REUSED Corridor_B/Corridor2/Wall with Door B 08/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 08
+DORMANT Corridor_B/Corridor2/Wall with Door B 10/Door 1 B/Door | existing open pose | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 10
+REUSED Corridor_B/Corridor2/Wall with Door B 07/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 07
+REUSED Corridor_B/Corridor2/Wall with Door B 12/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 12
+REUSED Corridor_B/Corridor2/Wall with Door B 02/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 02
+REUSED Corridor_B/Corridor2/Wall with Door B 14/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 14
+REUSED Corridor_B/Corridor2/Wall with Door B 06/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 06
+SCOPED player collision exemption after opening: Corridor_B/Corridor2/Decal 3 (1)
+REUSED Corridor_B/Corridor2/Wall with Door B 11/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 11
+REUSED Corridor_B/Corridor2/Wall with Door B 04/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 04
+REUSED Corridor_B/Corridor2/Wall with Door B 15/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 15
+SCOPED player collision exemption after opening: Corridor_B/Corridor2 Extension/Decal 1 (2)
+SCOPED player collision exemption after opening: Corridor_B/Corridor2 Extension/Decal 3 (2)
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 01
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 03
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 09
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 08
+SCOPED player collision exemption after opening: Corridor_B/Corridor2 Extension/Decal 1 (1)
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 10
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 07
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 12
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 02
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 14
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 06
+SCOPED player collision exemption after opening: Corridor_B/Corridor2 Extension/Decal 3 (1)
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B/Door | hinge | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 11
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 04
+REUSED Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B/Door | existing animation Base Layer.Open01 | portal=Corridor_B/Black Door - Door 1 B - Wall with Door B 15

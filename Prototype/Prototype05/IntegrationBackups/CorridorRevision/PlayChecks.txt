@@ -1,0 +1,296 @@
+PASS Exactly two main references and two separate prefab groups
+PASS Prefab groups are distinct from main loop objects
+PASS Fresh session is reference brightness
+PASS Main 0 first look-back returns to its start
+PASS Main 0 second look-back preserves local position in other MAIN corridor
+PASS Main transfer preserves local forward orientation 0
+PASS Main 1 first look-back returns to its start
+PASS Main 1 second look-back preserves local position in other MAIN corridor
+PASS Main transfer preserves local forward orientation 1
+PASS Look-back teleports never advance darkness
+PASS Shared center-camera interaction detects prefab door Wall with Door A 10 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 12 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 15 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 05 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 03 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 11 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 07 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 09 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 09 (1) / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 01 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 06 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 02 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 14 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door A 08 / CorridorA_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 01 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 03 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 09 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 08 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 10 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 10 (1) / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 07 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 12 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 02 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 14 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 06 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 11 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 04 / CorridorB_Prefabs
+PASS Shared center-camera interaction detects prefab door Wall with Door B 15 / CorridorB_Prefabs
+PASS Fourteen explicitly configured door exits: CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 10 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 12 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 15 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 05 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 03 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 11 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 07 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 09 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 09 (1) / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 01 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 06 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 02 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 14 / CorridorA_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door A 08 / CorridorA_Prefabs
+PASS Fourteen explicitly configured door exits: CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 01 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 03 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 09 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 08 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 10 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 10 (1) / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 07 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 12 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 02 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 14 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 06 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 11 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 04 / CorridorB_Prefabs
+PASS Valid grounded corridor-side door exit DoorExitPoint - Wall with Door B 15 / CorridorB_Prefabs
+PASS Weighted selection valid 0
+PASS Weighted selection valid 1
+PASS Weighted selection valid 2
+PASS Weighted selection valid 3
+PASS Weighted selection valid 4
+PASS Weighted selection valid 5
+PASS Weighted selection valid 6
+PASS Weighted selection valid 7
+PASS Weighted selection valid 8
+PASS Weighted selection valid 9
+PASS Weighted selection valid 10
+PASS Weighted selection valid 11
+PASS Weighted selection valid 12
+PASS Weighted selection valid 13
+PASS Weighted selection valid 14
+PASS Weighted selection valid 15
+PASS Weighted selection valid 16
+PASS Weighted selection valid 17
+PASS Weighted selection valid 18
+PASS Weighted selection valid 19
+PASS Weighted selection valid 20
+PASS Weighted selection valid 21
+PASS Weighted selection valid 22
+PASS Weighted selection valid 23
+PASS Weighted selection valid 24
+PASS Weighted selection valid 25
+PASS Weighted selection valid 26
+PASS Weighted selection valid 27
+PASS Weighted selection valid 28
+PASS Weighted selection valid 29
+PASS Weighted selection valid 30
+PASS Weighted selection valid 31
+PASS Weighted selection valid 32
+PASS Weighted selection valid 33
+PASS Weighted selection valid 34
+PASS Weighted selection valid 35
+PASS Weighted selection valid 36
+PASS Weighted selection valid 37
+PASS Weighted selection valid 38
+PASS Weighted selection valid 39
+PASS Weighted selection valid 40
+PASS Weighted selection valid 41
+PASS Weighted selection valid 42
+PASS Weighted selection valid 43
+PASS Weighted selection valid 44
+PASS Weighted selection valid 45
+PASS Weighted selection valid 46
+PASS Weighted selection valid 47
+PASS Weighted selection valid 48
+PASS Weighted selection valid 49
+PASS Weighted selection valid 50
+PASS Weighted selection valid 51
+PASS Weighted selection valid 52
+PASS Weighted selection valid 53
+PASS Weighted selection valid 54
+PASS Weighted selection valid 55
+PASS Weighted selection valid 56
+PASS Weighted selection valid 57
+PASS Weighted selection valid 58
+PASS Weighted selection valid 59
+PASS Weighted selection valid 60
+PASS Weighted selection valid 61
+PASS Weighted selection valid 62
+PASS Weighted selection valid 63
+PASS Weighted selection valid 64
+PASS Weighted selection valid 65
+PASS Weighted selection valid 66
+PASS Weighted selection valid 67
+PASS Weighted selection valid 68
+PASS Weighted selection valid 69
+PASS Weighted selection valid 70
+PASS Weighted selection valid 71
+PASS Weighted selection valid 72
+PASS Weighted selection valid 73
+PASS Weighted selection valid 74
+PASS Weighted selection valid 75
+PASS Weighted selection valid 76
+PASS Weighted selection valid 77
+PASS Weighted selection valid 78
+PASS Weighted selection valid 79
+PASS Weighted selection valid 80
+PASS Weighted selection valid 81
+PASS Weighted selection valid 82
+PASS Weighted selection valid 83
+PASS Weighted selection valid 84
+PASS Weighted selection valid 85
+PASS Weighted selection valid 86
+PASS Weighted selection valid 87
+PASS Weighted selection valid 88
+PASS Weighted selection valid 89
+PASS Weighted selection valid 90
+PASS Weighted selection valid 91
+PASS Weighted selection valid 92
+PASS Weighted selection valid 93
+PASS Weighted selection valid 94
+PASS Weighted selection valid 95
+PASS Weighted selection valid 96
+PASS Weighted selection valid 97
+PASS Weighted selection valid 98
+PASS Weighted selection valid 99
+PASS Weighted selection valid 100
+PASS Weighted selection valid 101
+PASS Weighted selection valid 102
+PASS Weighted selection valid 103
+PASS Weighted selection valid 104
+PASS Weighted selection valid 105
+PASS Weighted selection valid 106
+PASS Weighted selection valid 107
+PASS Weighted selection valid 108
+PASS Weighted selection valid 109
+PASS Weighted selection valid 110
+PASS Weighted selection valid 111
+PASS Weighted selection valid 112
+PASS Weighted selection valid 113
+PASS Weighted selection valid 114
+PASS Weighted selection valid 115
+PASS Weighted selection valid 116
+PASS Weighted selection valid 117
+PASS Weighted selection valid 118
+PASS Weighted selection valid 119
+PASS Two-stage weighted group/door randomness reaches both groups and many doors (24,96)
+PASS Zero group weight excludes destination
+PASS Zero group weight excludes destination
+PASS Zero group weight excludes destination
+PASS Zero group weight excludes destination
+PASS Zero group weight excludes destination
+PASS Asset-only prefab instantiates a valid world-space door exit
+PASS Selected exit belongs to the instantiated environment, not the asset
+PASS Instantiated prefab reused
+PASS All four environments have independent assigned audio profiles
+PASS Opening without crossing does not transition or darken 0
+PASS Doorway remains opaque pure black under bright light at stage 0
+PASS Intended entrance side arms 0
+PASS Exactly one transition begins 0
+PASS Successful door commit advances darkness, including same-group revisits 0
+PASS Prefab arrival disables main look-back without expanding its registry
+PASS Player emerges at selected OPEN door, facing corridor
+PASS Prefab look-backs remain disabled
+PASS Arrival cannot immediately retrigger
+PASS Darkness clamps at final stage
+PASS Rendered stage 1 environment 0 brightness ratio=0.753
+PASS Rendered stage 1 environment 1 brightness ratio=0.754
+PASS Rendered stage 1 environment 2 brightness ratio=0.751
+PASS Rendered stage 1 environment 3 brightness ratio=0.712
+PASS Opening without crossing does not transition or darken 1
+PASS Doorway remains opaque pure black under bright light at stage 1
+PASS Intended entrance side arms 1
+PASS Exactly one transition begins 1
+PASS Successful door commit advances darkness, including same-group revisits 1
+PASS Prefab arrival disables main look-back without expanding its registry
+PASS Player emerges at selected OPEN door, facing corridor
+PASS Prefab look-backs remain disabled
+PASS Arrival cannot immediately retrigger
+PASS Darkness clamps at final stage
+PASS Rendered stage 2 environment 0 brightness ratio=0.551
+PASS Rendered stage 2 environment 1 brightness ratio=0.553
+PASS Rendered stage 2 environment 2 brightness ratio=0.551
+PASS Rendered stage 2 environment 3 brightness ratio=0.522
+PASS Opening without crossing does not transition or darken 2
+PASS Doorway remains opaque pure black under bright light at stage 2
+PASS Intended entrance side arms 2
+PASS Exactly one transition begins 2
+PASS Successful door commit advances darkness, including same-group revisits 2
+PASS Prefab arrival disables main look-back without expanding its registry
+PASS Player emerges at selected OPEN door, facing corridor
+PASS Prefab look-backs remain disabled
+PASS Arrival cannot immediately retrigger
+PASS Darkness clamps at final stage
+PASS Rendered stage 3 environment 0 brightness ratio=0.353
+PASS Rendered stage 3 environment 1 brightness ratio=0.355
+PASS Rendered stage 3 environment 2 brightness ratio=0.351
+PASS Rendered stage 3 environment 3 brightness ratio=0.333
+PASS Opening without crossing does not transition or darken 3
+PASS Doorway remains opaque pure black under bright light at stage 3
+PASS Intended entrance side arms 3
+PASS Exactly one transition begins 3
+PASS Successful door commit advances darkness, including same-group revisits 3
+PASS Prefab arrival disables main look-back without expanding its registry
+PASS Player emerges at selected OPEN door, facing corridor
+PASS Prefab look-backs remain disabled
+PASS Arrival cannot immediately retrigger
+PASS Darkness clamps at final stage
+PASS Original light values and baked textures preserved
+PASS Correct audio profile: Corridor_A
+PASS Silent for first 1.9 seconds: Corridor_A
+PASS Follower begins at 2 seconds: Corridor_A
+PASS Audible source is spatial and behind player: Corridor_A
+PASS Follower continues during stop grace period
+PASS Resuming cancels pending stop without new activation
+PASS Follower stops after approximately 1 second
+PASS Backward look silences follower
+PASS Forward return requires a NEW movement delay
+PASS Follower restarts after new 2-second delay
+PASS Teleport displacement resets all transient audio
+PASS Correct audio profile: Corridor_B
+PASS Silent for first 1.9 seconds: Corridor_B
+PASS Follower begins at 2 seconds: Corridor_B
+PASS Audible source is spatial and behind player: Corridor_B
+PASS Follower continues during stop grace period
+PASS Resuming cancels pending stop without new activation
+PASS Follower stops after approximately 1 second
+PASS Backward look silences follower
+PASS Forward return requires a NEW movement delay
+PASS Follower restarts after new 2-second delay
+PASS Teleport displacement resets all transient audio
+PASS Correct audio profile: CorridorA_Prefabs
+PASS Silent for first 1.9 seconds: CorridorA_Prefabs
+PASS Follower begins at 2 seconds: CorridorA_Prefabs
+PASS Audible source is spatial and behind player: CorridorA_Prefabs
+PASS Follower continues during stop grace period
+PASS Resuming cancels pending stop without new activation
+PASS Follower stops after approximately 1 second
+PASS Backward look silences follower
+PASS Forward return requires a NEW movement delay
+PASS Follower restarts after new 2-second delay
+PASS Teleport displacement resets all transient audio
+PASS Correct audio profile: CorridorB_Prefabs
+PASS Silent for first 1.9 seconds: CorridorB_Prefabs
+PASS Follower begins at 2 seconds: CorridorB_Prefabs
+PASS Audible source is spatial and behind player: CorridorB_Prefabs
+PASS Follower continues during stop grace period
+PASS Resuming cancels pending stop without new activation
+PASS Follower stops after approximately 1 second
+PASS Backward look silences follower
+PASS Forward return requires a NEW movement delay
+PASS Follower restarts after new 2-second delay
+PASS Teleport displacement resets all transient audio
+PASS One player, gameplay camera and AudioListener

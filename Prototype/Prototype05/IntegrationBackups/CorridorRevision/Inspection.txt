@@ -1,0 +1,159 @@
+ROOT Camera pos=(0.00, -4.69, -1.53) source=
+ROOT Post Processing pos=(0.00, -5.69, 0.00) source=
+ROOT ----------Built-in---------- pos=(0.00, -5.69, 0.00) source=
+ROOT First Person Controller Minimal pos=(0.00, -5.68, -33.77) source=Assets/Mini First Person Controller/First Person Controller Minimal.prefab
+ROOT Corridor_A pos=(0.00, 0.00, 0.00) source=
+ bounds=Center: (0.00, -4.07, -6.16), Extents: (5.25, 1.63, 28.91)
+ renderers=279 panels=40 interactions=40
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B/Door pos=(1.61, -4.69, 13.54) bounds=Center: (1.60, -4.72, 13.95), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B/Door pos=(-1.61, -4.69, 8.86) bounds=Center: (-1.60, -4.72, 8.45), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B/Door pos=(1.61, -4.69, 10.79) bounds=Center: (1.60, -4.72, 11.20), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B/Door pos=(-4.47, -4.69, 20.01) bounds=Center: (-4.45, -4.72, 19.60), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B/Door pos=(1.61, -4.69, 8.04) bounds=Center: (1.60, -4.72, 8.45), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B/Door pos=(-1.61, -4.69, 11.61) bounds=Center: (-1.60, -4.72, 11.20), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B/Door pos=(-1.61, -4.69, 3.36) bounds=Center: (-1.60, -4.72, 2.95), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B/Door pos=(1.61, -4.69, 2.54) bounds=Center: (1.60, -4.72, 2.95), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B/Door pos=(1.61, -4.69, 5.29) bounds=Center: (1.60, -4.72, 5.70), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B/Door pos=(-1.61, -4.69, 14.36) bounds=Center: (-1.60, -4.72, 13.95), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B/Door pos=(-1.61, -4.69, 0.61) bounds=Center: (-1.60, -4.72, 0.20), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B/Door pos=(4.47, -4.69, 19.19) bounds=Center: (4.45, -4.72, 19.60), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B/Door pos=(1.61, -4.69, -0.21) bounds=Center: (1.60, -4.72, 0.20), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B/Door pos=(-1.61, -4.69, 6.11) bounds=Center: (-1.60, -4.72, 5.70), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B/Door pos=(0.41, -4.69, 21.19) bounds=Center: (0.00, -4.72, 21.17), Extents: (0.41, 0.96, 0.03)
+ PANEL Corridor_A/Corridor/Wall with Door A 10/Door 2 B/Door pos=(1.61, -4.69, -11.29) bounds=Center: (1.60, -4.72, -10.88), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor/Wall with Door A 12/Door 2 B/Door pos=(-1.62, -4.70, -15.97) bounds=Center: (-1.60, -4.72, -16.38), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor/Wall with Door A 15/Door 2 B/Door pos=(-1.61, -4.70, -10.47) bounds=Center: (-1.60, -4.72, -10.88), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor/Wall with Door A 05/Door 2 B/Door pos=(1.61, -4.69, -8.54) bounds=Center: (1.60, -4.72, -8.13), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor/Wall with Door A 03/Door 2 B/Door pos=(1.62, -4.69, -5.79) bounds=Center: (1.60, -4.72, -5.38), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor/Wall with Door A 11/Door 2 B/Door pos=(-1.61, -4.70, -2.22) bounds=Center: (-1.59, -4.72, -2.63), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor/Wall with Door A 07/Door 2 B/Door pos=(-1.61, -4.70, -13.22) bounds=Center: (-1.60, -4.72, -13.63), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor/Wall with Door A 01/Door 2 B/Door pos=(1.62, -4.69, -3.04) bounds=Center: (1.60, -4.72, -2.63), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor/Wall with Door A 06/Door 2 B/Door pos=(-1.61, -4.70, -4.97) bounds=Center: (-1.60, -4.72, -5.38), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor/Wall with Door A 02/Door 2 B/Door pos=(-1.61, -4.70, -7.72) bounds=Center: (-1.60, -4.72, -8.13), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor/Wall with Door A 14/Door 2 B/Door pos=(1.61, -4.69, -16.79) bounds=Center: (1.60, -4.72, -16.38), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor/Wall with Door A 08/Door 2 B/Door pos=(1.61, -4.69, -14.04) bounds=Center: (1.60, -4.72, -13.63), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B/Door pos=(1.61, -4.69, -28.02) bounds=Center: (1.60, -4.72, -27.61), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B/Door pos=(-1.61, -4.69, -32.70) bounds=Center: (-1.60, -4.72, -33.11), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B/Door pos=(-1.61, -4.69, -27.20) bounds=Center: (-1.60, -4.72, -27.61), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B/Door pos=(1.61, -4.69, -25.27) bounds=Center: (1.60, -4.72, -24.86), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B/Door pos=(1.61, -4.69, -22.52) bounds=Center: (1.60, -4.72, -22.11), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B/Door pos=(-1.61, -4.69, -18.95) bounds=Center: (-1.60, -4.72, -19.36), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B/Door pos=(-1.61, -4.69, -29.95) bounds=Center: (-1.60, -4.72, -30.36), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B/Door pos=(-0.41, -4.69, -34.67) bounds=Center: (0.00, -4.72, -34.66), Extents: (0.41, 0.96, 0.03)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B/Door pos=(1.61, -4.69, -19.77) bounds=Center: (1.60, -4.72, -19.36), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B/Door pos=(-1.61, -4.69, -21.70) bounds=Center: (-1.60, -4.72, -22.11), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B/Door pos=(-1.61, -4.69, -24.45) bounds=Center: (-1.60, -4.72, -24.86), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B/Door pos=(1.61, -4.69, -33.52) bounds=Center: (1.60, -4.72, -33.11), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B/Door pos=(1.61, -4.69, -30.77) bounds=Center: (1.60, -4.72, -30.36), Extents: (0.03, 0.96, 0.41)
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ROOT Corridor_B pos=(0.00, 0.00, 0.00) source=
+ bounds=Center: (204.61, -4.00, -6.31), Extents: (10.09, 1.77, 29.06)
+ renderers=555 panels=40 interactions=40
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B/Door pos=(198.39, -4.69, 0.61) bounds=Center: (198.40, -4.72, 0.20), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B/Door pos=(201.61, -4.69, 13.54) bounds=Center: (201.60, -4.72, 13.95), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B/Door pos=(198.39, -4.69, 8.86) bounds=Center: (198.40, -4.72, 8.45), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B/Door pos=(201.61, -4.69, 10.79) bounds=Center: (201.60, -4.72, 11.20), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B/Door pos=(195.53, -4.69, 20.01) bounds=Center: (195.55, -4.72, 19.60), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B/Door pos=(201.61, -4.69, 8.04) bounds=Center: (201.60, -4.72, 8.45), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B/Door pos=(198.39, -4.69, 11.61) bounds=Center: (198.40, -4.72, 11.20), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B/Door pos=(198.39, -4.69, 3.36) bounds=Center: (198.40, -4.72, 2.95), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B/Door pos=(201.61, -4.69, 2.54) bounds=Center: (201.60, -4.72, 2.95), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B/Door pos=(201.61, -4.69, 5.29) bounds=Center: (201.60, -4.72, 5.70), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B/Door pos=(198.39, -4.69, 14.36) bounds=Center: (198.40, -4.72, 13.95), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B/Door pos=(204.47, -4.69, 19.19) bounds=Center: (204.45, -4.72, 19.60), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B/Door pos=(201.61, -4.69, -0.21) bounds=Center: (201.60, -4.72, 0.20), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B/Door pos=(198.39, -4.69, 6.11) bounds=Center: (198.40, -4.72, 5.70), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B/Door pos=(200.41, -4.69, 21.19) bounds=Center: (200.00, -4.72, 21.17), Extents: (0.41, 0.96, 0.03)
+ PANEL Corridor_B/Corridor2/Wall with Door B 01/Door 1 B/Door pos=(198.39, -4.73, -16.13) bounds=Center: (198.40, -4.76, -16.54), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2/Wall with Door B 03/Door 1 B/Door pos=(198.39, -4.73, -7.88) bounds=Center: (198.40, -4.76, -8.29), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2/Wall with Door B 09/Door 1 B/Door pos=(201.61, -4.73, -14.20) bounds=Center: (201.60, -4.76, -13.79), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2/Wall with Door B 08/Door 1 B/Door pos=(198.39, -4.73, -13.38) bounds=Center: (198.40, -4.76, -13.79), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2/Wall with Door B 07/Door 1 B/Door pos=(198.39, -4.73, -5.13) bounds=Center: (198.40, -4.76, -5.54), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2/Wall with Door B 12/Door 1 B/Door pos=(198.39, -4.73, -2.38) bounds=Center: (198.40, -4.76, -2.79), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2/Wall with Door B 02/Door 1 B/Door pos=(201.61, -4.73, -3.20) bounds=Center: (201.60, -4.76, -2.79), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2/Wall with Door B 14/Door 1 B/Door pos=(201.61, -4.73, -16.95) bounds=Center: (201.60, -4.76, -16.54), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2/Wall with Door B 06/Door 1 B/Door pos=(201.61, -4.73, -8.70) bounds=Center: (201.60, -4.76, -8.29), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2/Wall with Door B 11/Door 1 B/Door pos=(201.61, -4.73, -11.45) bounds=Center: (201.60, -4.76, -11.04), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2/Wall with Door B 04/Door 1 B/Door pos=(201.61, -4.73, -5.95) bounds=Center: (201.60, -4.76, -5.54), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2/Wall with Door B 15/Door 1 B/Door pos=(198.39, -4.73, -10.63) bounds=Center: (198.40, -4.76, -11.04), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B/Door pos=(198.39, -4.69, -32.70) bounds=Center: (198.40, -4.72, -33.11), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B/Door pos=(198.39, -4.69, -24.45) bounds=Center: (198.40, -4.72, -24.86), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B/Door pos=(201.61, -4.69, -30.77) bounds=Center: (201.60, -4.72, -30.36), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B/Door pos=(198.39, -4.69, -29.95) bounds=Center: (198.40, -4.72, -30.36), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B/Door pos=(199.59, -4.69, -34.67) bounds=Center: (200.00, -4.72, -34.66), Extents: (0.41, 0.96, 0.03)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B/Door pos=(198.39, -4.69, -21.70) bounds=Center: (198.40, -4.72, -22.11), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B/Door pos=(198.39, -4.69, -18.95) bounds=Center: (198.40, -4.72, -19.36), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B/Door pos=(201.61, -4.69, -19.77) bounds=Center: (201.60, -4.72, -19.36), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B/Door pos=(201.61, -4.69, -33.52) bounds=Center: (201.60, -4.72, -33.11), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B/Door pos=(201.61, -4.69, -25.27) bounds=Center: (201.60, -4.72, -24.86), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B/Door pos=(201.61, -4.69, -28.02) bounds=Center: (201.60, -4.72, -27.61), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B/Door pos=(201.61, -4.69, -22.52) bounds=Center: (201.60, -4.72, -22.11), Extents: (0.03, 0.96, 0.41)
+ PANEL Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B/Door pos=(198.39, -4.69, -27.20) bounds=Center: (198.40, -4.72, -27.61), Extents: (0.03, 0.96, 0.41)
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ROOT Corridor Loop System pos=(0.00, 0.00, 0.00) source=
+ renderers=0 panels=0 interactions=0
+ROOT CorridorA_Prefabs pos=(-37.24, 0.00, -16.58) source=Assets/AK Studio Art/Modular Horror Corridor/Prefabs/Corridor.prefab
+ bounds=Center: (-37.24, 1.63, -9.58), Extents: (1.75, 1.63, 8.75)
+ renderers=85 panels=14 interactions=14
+ PANEL CorridorA_Prefabs/Wall with Door A 10/Door 2 B/Door pos=(-35.63, 1.00, -11.29) bounds=Center: (-35.64, 0.97, -10.88), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorA_Prefabs/Wall with Door A 12/Door 2 B/Door pos=(-38.85, 1.00, -15.97) bounds=Center: (-38.84, 0.97, -16.38), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorA_Prefabs/Wall with Door A 15/Door 2 B/Door pos=(-38.85, 1.00, -10.47) bounds=Center: (-38.84, 0.97, -10.88), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorA_Prefabs/Wall with Door A 05/Door 2 B/Door pos=(-35.63, 1.00, -8.54) bounds=Center: (-35.64, 0.97, -8.13), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorA_Prefabs/Wall with Door A 03/Door 2 B/Door pos=(-35.63, 1.00, -5.79) bounds=Center: (-35.64, 0.97, -5.38), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorA_Prefabs/Wall with Door A 11/Door 2 B/Door pos=(-38.85, 1.00, -2.22) bounds=Center: (-38.84, 0.97, -2.63), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorA_Prefabs/Wall with Door A 07/Door 2 B/Door pos=(-38.85, 1.00, -13.22) bounds=Center: (-38.84, 0.97, -13.63), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorA_Prefabs/Wall with Door A 09/Door 2 B/Door pos=(-37.65, 1.00, -17.94) bounds=Center: (-37.24, 0.97, -17.93), Extents: (0.41, 0.96, 0.03)
+ PANEL CorridorA_Prefabs/Wall with Door A 09 (1)/Door 2 B/Door pos=(-36.81, 1.00, -1.25) bounds=Center: (-37.24, 0.97, -1.26), Extents: (0.43, 0.96, 0.03)
+ PANEL CorridorA_Prefabs/Wall with Door A 01/Door 2 B/Door pos=(-35.63, 1.00, -3.04) bounds=Center: (-35.64, 0.97, -2.63), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorA_Prefabs/Wall with Door A 06/Door 2 B/Door pos=(-38.85, 1.00, -4.97) bounds=Center: (-38.84, 0.97, -5.38), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorA_Prefabs/Wall with Door A 02/Door 2 B/Door pos=(-38.85, 1.00, -7.72) bounds=Center: (-38.84, 0.97, -8.13), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorA_Prefabs/Wall with Door A 14/Door 2 B/Door pos=(-35.63, 1.00, -16.79) bounds=Center: (-35.64, 0.97, -16.38), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorA_Prefabs/Wall with Door A 08/Door 2 B/Door pos=(-35.63, 1.00, -14.04) bounds=Center: (-35.64, 0.97, -13.63), Extents: (0.03, 0.96, 0.41)
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ROOT CorridorB_Prefabs pos=(33.48, -24.37, -2.04) source=Assets/AK Studio Art/Modular Horror Corridor/Prefabs/Corridor2.prefab
+ bounds=Center: (39.96, -22.66, -9.41), Extents: (8.23, 1.75, 9.37)
+ renderers=167 panels=14 interactions=14
+ PANEL CorridorB_Prefabs/Wall with Door B 01/Door 1 B/Door pos=(31.87, -23.37, -16.11) bounds=Center: (31.88, -23.40, -16.52), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorB_Prefabs/Wall with Door B 03/Door 1 B/Door pos=(31.87, -23.37, -7.86) bounds=Center: (31.88, -23.40, -8.27), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorB_Prefabs/Wall with Door B 09/Door 1 B/Door pos=(35.09, -23.37, -14.18) bounds=Center: (35.08, -23.40, -13.77), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorB_Prefabs/Wall with Door B 08/Door 1 B/Door pos=(31.87, -23.37, -13.36) bounds=Center: (31.88, -23.40, -13.77), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorB_Prefabs/Wall with Door B 10/Door 1 B/Door pos=(33.07, -23.37, -18.08) bounds=Center: (33.48, -23.40, -18.07), Extents: (0.41, 0.96, 0.03)
+ PANEL CorridorB_Prefabs/Wall with Door B 10 (1)/Door 1 B/Door pos=(33.95, -23.37, -1.40) bounds=Center: (33.49, -23.40, -1.42), Extents: (0.46, 0.96, 0.03)
+ PANEL CorridorB_Prefabs/Wall with Door B 07/Door 1 B/Door pos=(31.87, -23.37, -5.11) bounds=Center: (31.88, -23.40, -5.52), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorB_Prefabs/Wall with Door B 12/Door 1 B/Door pos=(31.87, -23.37, -2.36) bounds=Center: (31.88, -23.40, -2.77), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorB_Prefabs/Wall with Door B 02/Door 1 B/Door pos=(35.09, -23.37, -3.18) bounds=Center: (35.08, -23.40, -2.77), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorB_Prefabs/Wall with Door B 14/Door 1 B/Door pos=(35.09, -23.37, -16.93) bounds=Center: (35.08, -23.40, -16.52), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorB_Prefabs/Wall with Door B 06/Door 1 B/Door pos=(35.09, -23.37, -8.68) bounds=Center: (35.08, -23.40, -8.27), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorB_Prefabs/Wall with Door B 11/Door 1 B/Door pos=(35.09, -23.37, -11.43) bounds=Center: (35.08, -23.40, -11.02), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorB_Prefabs/Wall with Door B 04/Door 1 B/Door pos=(35.09, -23.37, -5.93) bounds=Center: (35.08, -23.40, -5.52), Extents: (0.03, 0.96, 0.41)
+ PANEL CorridorB_Prefabs/Wall with Door B 15/Door 1 B/Door pos=(31.87, -23.37, -10.61) bounds=Center: (31.88, -23.40, -11.02), Extents: (0.03, 0.96, 0.41)
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+ LIGHT Point Light Baked=1
+LOOP Corridor_A start=(0.00, -5.68, -33.77)
+LOOP Corridor_B start=(200.00, -5.68, -33.77)
+CAMERA Camera enabled=False
+CAMERA First Person Camera enabled=True
+AUDIO Invisible Follower Footsteps vol=0.85 mute=False spatial=1 min=2 mixer=
+AUDIO Landing Audio vol=1 mute=False spatial=1 min=1 mixer=
+AUDIO Step Audio vol=0.55 mute=False spatial=1 min=1 mixer=

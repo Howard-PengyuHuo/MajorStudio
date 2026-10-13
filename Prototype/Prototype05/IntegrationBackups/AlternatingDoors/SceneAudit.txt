@@ -1,0 +1,23 @@
+PASS Four distinct registry instances; two main loop references
+PASS Complete exit list CorridorA_Prefabs: 14
+PASS Safe exits and shared owner: CorridorA_Prefabs
+PASS Exactly one exit per active door: CorridorA_Prefabs
+PASS Original audio profile retained: CorridorA_Prefabs / Prefab A - Echo
+PASS Prefab fallback retained and excluded from main loop
+PASS Complete exit list CorridorB_Prefabs: 14
+PASS Safe exits and shared owner: CorridorB_Prefabs
+PASS Exactly one exit per active door: CorridorB_Prefabs
+PASS Original audio profile retained: CorridorB_Prefabs / Prefab B - Mismatch
+PASS Prefab fallback retained and excluded from main loop
+PASS Complete exit list Corridor_A: 40
+PASS Safe exits and shared owner: Corridor_A
+PASS Exactly one exit per active door: Corridor_A
+PASS Original audio profile retained: Corridor_A / Main A - Regular
+PASS Main arrival maps to existing main loop
+PASS Complete exit list Corridor_B: 40
+PASS Safe exits and shared owner: Corridor_B
+PASS Exactly one exit per active door: Corridor_B
+PASS Original audio profile retained: Corridor_B / Main B - Independent
+PASS Main arrival maps to existing main loop
+PASS One gameplay camera and listener
+PASS One player controller

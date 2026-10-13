@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class FirstPersonAudio : MonoBehaviour
 {
+    public event System.Action StepStarted;
     public FirstPersonMovement character;
     public GroundCheck groundCheck;
 
@@ -30,6 +31,14 @@ public class FirstPersonAudio : MonoBehaviour
     public AudioClip[] crouchStartSFX, crouchEndSFX;
 
     AudioSource[] MovingAudios => new AudioSource[] { stepAudio, runningAudio, crouchedAudio };
+
+    // Teleports are position changes, not walking. Clear the displacement sample
+    // synchronously so the next physics tick cannot play an artificial step.
+    public void ResetMotionAudio()
+    {
+        if (character) lastCharacterPosition = CurrentCharacterPosition;
+        foreach (var audio in MovingAudios) if (audio) audio.Stop();
+    }
 
 
     void Reset()
@@ -107,6 +116,7 @@ public class FirstPersonAudio : MonoBehaviour
         if (audioToPlay && !audioToPlay.isPlaying)
         {
             audioToPlay.Play();
+            StepStarted?.Invoke();
         }
     }
 

@@ -1,0 +1,118 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+
+[DisallowMultipleComponent, DefaultExecutionOrder(1250)]
+public sealed class AtmosphereManager : MonoBehaviour
+{
+    [Serializable] public class Stage
+    {
+        public string name;
+        [Range(0.5f, 1)] public float lightMultiplier = 1, ambientMultiplier = 1;
+        [Range(-1, 0)] public float exposure;
+        public Color tint = Color.white;
+    }
+    public CorridorManager corridors;
+    public Camera gameplayCamera;
+    public Shader atmosphereShader;
+    public Stage[] stages = {
+        new Stage { name = "Normal" },
+        new Stage { name = "Unease", lightMultiplier = .9f, ambientMultiplier = .9f, exposure = -.2f, tint = new Color(.97f,.99f,1) },
+        new Stage { name = "Suspicion", lightMultiplier = .8f, ambientMultiplier = .8f, exposure = -.4f, tint = new Color(.94f,.98f,1) },
+        new Stage { name = "Dread", lightMultiplier = .7f, ambientMultiplier = .7f, exposure = -.65f, tint = new Color(.91f,.96f,1) }
+    };
+    [Min(.01f)] public float blendSeconds = 2;
+    public bool coldColorShift = true;
+    public bool debugLogs;
+    public int CompletedDoorTransitions { get; private set; }
+    public int StageIndex => Mathf.Clamp(CompletedDoorTransitions, 0, Mathf.Min(3, stages.Length - 1));
+    public string StageName => stages.Length > 0 ? stages[StageIndex].name : "Normal";
+    public float CurrentExposure => currentExposure;
+    public int BakedLightCount { get; private set; }
+    readonly Dictionary<Light, float> originalLights = new Dictionary<Light, float>();
+    readonly HashSet<Light> bakedLights = new HashSet<Light>();
+    Material runtimeMaterial;
+    AtmosphereRenderPass renderPass;
+    UniversalAdditionalCameraData cameraData;
+    bool initialized;
+    float ambientIntensity, currentLight = 1, currentAmbient = 1, currentExposure;
+    Color ambientSky, ambientEquator, ambientGround, ambientFlat, currentTint = Color.white;
+    void OnEnable()
+    {
+        if (!Application.isPlaying) return;
+        if (!(GraphicsSettings.currentRenderPipeline is UniversalRenderPipelineAsset))
+        { Debug.LogError("AtmosphereManager requires this project's URP pipeline.", this); enabled = false; return; }
+        if (!corridors || !gameplayCamera || !atmosphereShader || stages.Length != 4)
+        { Debug.LogError("Assign the atmosphere manager, camera, multiply shader and four stages.", this); enabled = false; return; }
+        ambientIntensity = RenderSettings.ambientIntensity;
+        ambientSky = RenderSettings.ambientSkyColor; ambientEquator = RenderSettings.ambientEquatorColor;
+        ambientGround = RenderSettings.ambientGroundColor; ambientFlat = RenderSettings.ambientLight;
+        cameraData = gameplayCamera.GetUniversalAdditionalCameraData();
+        runtimeMaterial = CoreUtils.CreateEngineMaterial(atmosphereShader);
+        renderPass = new AtmosphereRenderPass(runtimeMaterial);
+        RenderPipelineManager.beginCameraRendering += EnqueueAtmosphere;
+        initialized = true;
+        RegisterCorridorLights();
+        corridors.DoorTransitionCompleted += OnDoorCompleted;
+        currentLight = currentAmbient = 1; currentExposure = 0; currentTint = Color.white;
+        Apply(0);
+    }
+    void OnDoorCompleted(CorridorDestination destination, bool changedCorridor)
+    {
+        // A failed teleport or a one-corridor fallback must not advance darkness.
+        if (!changedCorridor) return;
+        CompletedDoorTransitions++;
+        RegisterCorridorLights();
+        if (debugLogs) Debug.Log($"Atmosphere: {StageName}, successful corridor door changes={CompletedDoorTransitions}", this);
+    }
+    public void RegisterCorridorLights()
+    {
+        foreach (var corridor in corridors.loop.corridors)
+        {
+            if (!corridor.environment) continue;
+            foreach (var light in corridor.environment.GetComponentsInChildren<Light>(true))
+            {
+                if (light.lightmapBakeType == LightmapBakeType.Baked) { bakedLights.Add(light); continue; }
+                if (!originalLights.ContainsKey(light)) originalLights.Add(light, light.intensity);
+            }
+        }
+        BakedLightCount = bakedLights.Count;
+    }
+    void LateUpdate() { if (initialized) Apply(Time.deltaTime); }
+    void EnqueueAtmosphere(ScriptableRenderContext context, Camera camera)
+    {
+        if (initialized && camera == gameplayCamera) cameraData.scriptableRenderer.EnqueuePass(renderPass);
+    }
+    public void Apply(float deltaTime)
+    {
+        if (!initialized) return;
+        Stage stage = stages[StageIndex];
+        float step = blendSeconds > 0 ? Mathf.Max(0, deltaTime) / blendSeconds : 1;
+        currentLight = Mathf.MoveTowards(currentLight, Mathf.Clamp(stage.lightMultiplier, .5f, 1), step);
+        currentAmbient = Mathf.MoveTowards(currentAmbient, Mathf.Clamp(stage.ambientMultiplier, .5f, 1), step);
+        currentExposure = Mathf.MoveTowards(currentExposure, Mathf.Clamp(stage.exposure, -1, 0), step);
+        currentTint = Color.Lerp(currentTint, coldColorShift ? stage.tint : Color.white, Mathf.Clamp01(step * 4));
+        foreach (var pair in originalLights) if (pair.Key) pair.Key.intensity = pair.Value * currentLight;
+        RenderSettings.ambientIntensity = ambientIntensity * currentAmbient;
+        RenderSettings.ambientSkyColor = ambientSky * currentAmbient; RenderSettings.ambientEquatorColor = ambientEquator * currentAmbient;
+        RenderSettings.ambientGroundColor = ambientGround * currentAmbient; RenderSettings.ambientLight = ambientFlat * currentAmbient;
+        Color multiplier = currentTint * Mathf.Pow(2, currentExposure);
+        if (QualitySettings.activeColorSpace == ColorSpace.Gamma) multiplier = multiplier.gamma;
+        runtimeMaterial.SetVector("_AtmosphereMultiplier", multiplier);
+    }
+    void OnDisable()
+    {
+        if (corridors) corridors.DoorTransitionCompleted -= OnDoorCompleted;
+        RenderPipelineManager.beginCameraRendering -= EnqueueAtmosphere;
+        if (!initialized) return;
+        foreach (var pair in originalLights) if (pair.Key) pair.Key.intensity = pair.Value;
+        originalLights.Clear(); bakedLights.Clear();
+        RenderSettings.ambientIntensity = ambientIntensity;
+        RenderSettings.ambientSkyColor = ambientSky; RenderSettings.ambientEquatorColor = ambientEquator;
+        RenderSettings.ambientGroundColor = ambientGround; RenderSettings.ambientLight = ambientFlat;
+        CoreUtils.Destroy(runtimeMaterial); renderPass = null;
+        initialized = false;
+    }
+}

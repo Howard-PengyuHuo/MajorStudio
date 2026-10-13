@@ -1,0 +1,8 @@
+MAIN reference Corridor_A start=(0.00, -5.68, -33.77)
+MAIN reference Corridor_B start=(200.00, -5.68, -33.77)
+ENV Corridor_A category=MainLookBack pos=(0.00, 0.00, 0.00) profile=Main A - Regular (CorridorAudioProfile) exits=0 active doors=40 prefab=
+ENV Corridor_B category=MainLookBack pos=(0.00, 0.00, 0.00) profile=Main B - Independent (CorridorAudioProfile) exits=0 active doors=40 prefab=
+ENV CorridorA_Prefabs category=DoorPrefab pos=(-37.24, 0.00, -16.58) profile=Prefab A - Echo (CorridorAudioProfile) exits=14 active doors=14 prefab=Assets/AK Studio Art/Modular Horror Corridor/Prefabs/Corridor.prefab
+ENV CorridorB_Prefabs category=DoorPrefab pos=(33.48, -24.37, -2.04) profile=Prefab B - Mismatch (CorridorAudioProfile) exits=14 active doors=14 prefab=Assets/AK Studio Art/Modular Horror Corridor/Prefabs/Corridor2.prefab
+REGISTRY CorridorA_Prefabs instance=CorridorA_Prefabs (CorridorDestination) asset=Assets/DontLookBack/Prefabs/CorridorA_Prefabs.prefab weight=1
+REGISTRY CorridorB_Prefabs instance=CorridorB_Prefabs (CorridorDestination) asset=Assets/DontLookBack/Prefabs/CorridorB_Prefabs.prefab weight=1

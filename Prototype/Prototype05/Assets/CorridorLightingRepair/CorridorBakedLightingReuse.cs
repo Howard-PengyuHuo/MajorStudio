@@ -41,7 +41,7 @@ public sealed class CorridorBakedLightingReuse : MonoBehaviour
         }
         foreach (var binding in lights)
         {
-            if (!binding.target || !binding.source || binding.target.lightmapBakeType != LightmapBakeType.Baked
+            if (!binding.target || !binding.source || LightBakeTypeUtility.GetBakeType(binding.target) != LightmapBakeType.Baked
                 || binding.target.bakingOutput.isBaked || !binding.source.bakingOutput.isBaked) continue;
             // Duplicated Baked lights have no bake output and otherwise contribute
             // extra direct lighting until baked. Their contribution is already

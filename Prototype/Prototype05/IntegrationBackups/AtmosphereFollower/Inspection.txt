@@ -1,0 +1,27 @@
+Pipeline=PC_RPAsset (UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset) ambient=Flat intensity=0
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Light Point Light mode=Baked intensity=1
+Camera Camera PP=False
+Camera First Person Camera PP=False
+Audio Landing Audio clip=Landing 1 (UnityEngine.AudioClip) loop=False spatial=1
+Audio Invisible Follower Footsteps clip= loop=False spatial=1
+Audio Step Audio clip=Footsteps_MetalV1_Walk_03 (UnityEngine.AudioClip) loop=False spatial=1
+Player audio: First Person Audio

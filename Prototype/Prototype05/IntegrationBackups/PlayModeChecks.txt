@@ -1,0 +1,13 @@
+PASS Small camera movements ignored
+PASS Brief backward glance ignored
+PASS Looking backward alone does not teleport
+PASS First completed turn returns to current start
+PASS Second completed turn changes corridor and resets counter
+PASS A to B preserves local position and facing
+PASS Rigidbody velocity cleared safely
+PASS Mouse-look accumulator synchronized
+PASS First B turn returns to B start
+PASS B to A loops and preserves position
+PASS CharacterController remains enabled after transfer
+PASS Actual rotated-corridor transfer preserves pose
+PASS Player finishes on clear floor

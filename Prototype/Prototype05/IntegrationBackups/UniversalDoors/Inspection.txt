@@ -1,0 +1,170 @@
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B/Door
+  position=(198.386, -4.693, 0.609) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, 0.20), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B/Door
+  position=(201.614, -4.693, 13.541) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, 13.95), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B/Door
+  position=(198.386, -4.693, 8.859) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, 8.45), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B/Door
+  position=(201.614, -4.693, 10.791) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, 11.20), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B/Door
+  position=(195.528, -4.693, 20.009) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (195.55, -4.72, 19.60), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B/Door
+  position=(201.614, -4.693, 8.041) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, 8.45), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B/Door
+  position=(198.386, -4.693, 11.609) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, 11.20), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B/Door
+  position=(198.386, -4.693, 3.359) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, 2.95), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B/Door
+  position=(201.614, -4.693, 2.541) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, 2.95), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 10/Door 1 B/Door
+  position=(199.591, -4.693, -1.364) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 0.00, 0.00) bounds=Center: (200.00, -4.72, -1.35), Extents: (0.41, 0.96, 0.03) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B/Door
+  position=(201.614, -4.693, 5.291) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, 5.70), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B/Door
+  position=(198.386, -4.693, 14.359) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, 13.95), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B/Door
+  position=(204.472, -4.693, 19.191) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (204.45, -4.72, 19.60), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B/Door
+  position=(201.614, -4.693, -0.209) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, 0.20), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B/Door
+  position=(198.386, -4.693, 6.109) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, 5.70), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B/Door
+  position=(200.409, -4.693, 21.188) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 180.00, 0.00) bounds=Center: (200.00, -4.72, 21.17), Extents: (0.41, 0.96, 0.03) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 01/Door 1 B/Door
+  position=(198.386, -4.733, -16.131) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.76, -16.54), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 03/Door 1 B/Door
+  position=(198.386, -4.733, -7.881) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.76, -8.29), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 09/Door 1 B/Door
+  position=(201.614, -4.733, -14.199) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.76, -13.79), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 08/Door 1 B/Door
+  position=(198.386, -4.733, -13.381) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.76, -13.79), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 10/Door 1 B/Door
+  position=(199.591, -4.733, -18.104) localRotation=(0.00, 100.00, 0.00) parentRotation=(0.00, 0.00, 0.00) bounds=Center: (199.54, -4.76, -18.51), Extents: (0.10, 0.96, 0.41) collider=BoxCollider,BoxCollider,MeshCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 07/Door 1 B/Door
+  position=(198.386, -4.733, -5.131) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.76, -5.54), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 12/Door 1 B/Door
+  position=(198.386, -4.733, -2.381) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.76, -2.79), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 02/Door 1 B/Door
+  position=(201.614, -4.733, -3.199) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.76, -2.79), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 14/Door 1 B/Door
+  position=(201.614, -4.733, -16.949) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.76, -16.54), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 06/Door 1 B/Door
+  position=(201.614, -4.733, -8.699) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.76, -8.29), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 11/Door 1 B/Door
+  position=(201.614, -4.733, -11.449) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.76, -11.04), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 04/Door 1 B/Door
+  position=(201.614, -4.733, -5.949) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.76, -5.54), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Corridor2/Wall with Door B 15/Door 1 B/Door
+  position=(198.386, -4.733, -10.631) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.76, -11.04), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B/Door
+  position=(198.386, -4.693, -32.701) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, -33.11), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B/Door
+  position=(198.386, -4.693, -24.451) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, -24.86), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B/Door
+  position=(201.614, -4.693, -30.769) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, -30.36), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B/Door
+  position=(198.386, -4.693, -29.951) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, -30.36), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B/Door
+  position=(199.591, -4.693, -34.674) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 0.00, 0.00) bounds=Center: (200.00, -4.72, -34.66), Extents: (0.41, 0.96, 0.03) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B/Door
+  position=(198.386, -4.693, -21.701) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, -22.11), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B/Door
+  position=(198.386, -4.693, -18.951) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, -19.36), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B/Door
+  position=(201.614, -4.693, -19.769) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, -19.36), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B/Door
+  position=(201.614, -4.693, -33.519) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, -33.11), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B/Door
+  position=(201.614, -4.693, -25.269) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, -24.86), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B/Door
+  position=(201.614, -4.693, -28.019) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, -27.61), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B/Door
+  position=(201.614, -4.693, -22.519) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (201.60, -4.72, -22.11), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B/Door
+  position=(198.386, -4.693, -27.201) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (198.40, -4.72, -27.61), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door configured=True sourceRotation=no prefab
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B/Door
+  position=(1.614, -4.693, 13.541) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, 13.95), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B/Door
+  position=(-1.614, -4.693, 8.859) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, 8.45), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B/Door
+  position=(1.614, -4.693, 10.791) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, 11.20), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B/Door
+  position=(-4.472, -4.693, 20.009) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-4.45, -4.72, 19.60), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B/Door
+  position=(1.614, -4.693, 8.041) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, 8.45), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B/Door
+  position=(-1.614, -4.693, 11.609) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, 11.20), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B/Door
+  position=(-1.614, -4.693, 3.359) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, 2.95), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B/Door
+  position=(1.614, -4.693, 2.541) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, 2.95), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 09/Door 2 B/Door
+  position=(-0.409, -4.693, -1.364) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 0.00, 0.00) bounds=Center: (0.00, -4.72, -1.35), Extents: (0.41, 0.96, 0.03) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B/Door
+  position=(1.614, -4.693, 5.291) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, 5.70), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B/Door
+  position=(-1.614, -4.693, 14.359) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, 13.95), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B/Door
+  position=(-1.614, -4.693, 0.609) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, 0.20), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B/Door
+  position=(4.472, -4.693, 19.191) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (4.45, -4.72, 19.60), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B/Door
+  position=(1.614, -4.693, -0.209) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, 0.20), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B/Door
+  position=(-1.614, -4.693, 6.109) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, 5.70), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B/Door
+  position=(0.409, -4.693, 21.188) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 180.00, 0.00) bounds=Center: (0.00, -4.72, 21.17), Extents: (0.41, 0.96, 0.03) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 10/Door 2 B/Door
+  position=(1.614, -4.691, -11.290) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.08, 270.02, 0.00) bounds=Center: (1.60, -4.72, -10.88), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 12/Door 2 B/Door
+  position=(-1.615, -4.695, -15.970) localRotation=(0.00, 0.00, 0.00) parentRotation=(359.92, 90.02, 0.00) bounds=Center: (-1.60, -4.72, -16.38), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 15/Door 2 B/Door
+  position=(-1.614, -4.696, -10.470) localRotation=(0.00, 0.00, 0.00) parentRotation=(359.92, 90.02, 0.00) bounds=Center: (-1.60, -4.72, -10.88), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 05/Door 2 B/Door
+  position=(1.615, -4.691, -8.540) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.08, 270.02, 0.00) bounds=Center: (1.60, -4.72, -8.13), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 03/Door 2 B/Door
+  position=(1.616, -4.691, -5.790) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.08, 270.02, 0.00) bounds=Center: (1.60, -4.72, -5.38), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 11/Door 2 B/Door
+  position=(-1.612, -4.696, -2.220) localRotation=(0.00, 0.00, 0.00) parentRotation=(359.92, 90.02, 0.00) bounds=Center: (-1.59, -4.72, -2.63), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 07/Door 2 B/Door
+  position=(-1.615, -4.696, -13.220) localRotation=(0.00, 0.00, 0.00) parentRotation=(359.92, 90.02, 0.00) bounds=Center: (-1.60, -4.72, -13.63), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 09/Door 2 B/Door
+  position=(-0.411, -4.694, -17.944) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 0.02, 0.08) bounds=Center: (0.00, -4.72, -17.93), Extents: (0.41, 0.96, 0.03) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 09 (1)/Door 2 B/Door
+  position=(0.429, -4.693, -1.247) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 180.02, 359.92) bounds=Center: (0.01, -4.72, -1.26), Extents: (0.43, 0.96, 0.03) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 01/Door 2 B/Door
+  position=(1.616, -4.692, -3.040) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.08, 270.02, 0.00) bounds=Center: (1.60, -4.72, -2.63), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 06/Door 2 B/Door
+  position=(-1.612, -4.696, -4.970) localRotation=(0.00, 0.00, 0.00) parentRotation=(359.92, 90.02, 0.00) bounds=Center: (-1.60, -4.72, -5.38), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 02/Door 2 B/Door
+  position=(-1.613, -4.696, -7.720) localRotation=(0.00, 0.00, 0.00) parentRotation=(359.92, 90.02, 0.00) bounds=Center: (-1.60, -4.72, -8.13), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 14/Door 2 B/Door
+  position=(1.613, -4.691, -16.790) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.08, 270.02, 0.00) bounds=Center: (1.60, -4.72, -16.38), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor/Wall with Door A 08/Door 2 B/Door
+  position=(1.613, -4.691, -14.040) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.08, 270.02, 0.00) bounds=Center: (1.60, -4.72, -13.63), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator=Door01 configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B/Door
+  position=(1.614, -4.693, -28.019) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, -27.61), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B/Door
+  position=(-1.614, -4.693, -32.701) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, -33.11), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B/Door
+  position=(-1.614, -4.693, -27.201) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, -27.61), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B/Door
+  position=(1.614, -4.693, -25.269) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, -24.86), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B/Door
+  position=(1.614, -4.693, -22.519) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, -22.11), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B/Door
+  position=(-1.614, -4.693, -18.951) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, -19.36), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B/Door
+  position=(-1.614, -4.693, -29.951) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, -30.36), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B/Door
+  position=(-0.409, -4.693, -34.674) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 0.00, 0.00) bounds=Center: (0.00, -4.72, -34.66), Extents: (0.41, 0.96, 0.03) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B/Door
+  position=(1.614, -4.693, -19.769) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, -19.36), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B/Door
+  position=(-1.614, -4.693, -21.701) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, -22.11), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B/Door
+  position=(-1.614, -4.693, -24.451) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 90.00, 0.00) bounds=Center: (-1.60, -4.72, -24.86), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B/Door
+  position=(1.614, -4.693, -33.519) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, -33.11), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)
+Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B/Door
+  position=(1.614, -4.693, -30.769) localRotation=(0.00, 0.00, 0.00) parentRotation=(0.00, 270.00, 0.00) bounds=Center: (1.60, -4.72, -30.36), Extents: (0.03, 0.96, 0.41) collider=BoxCollider,BoxCollider animator= configured=True sourceRotation=(0.00, 0.00, 0.00)

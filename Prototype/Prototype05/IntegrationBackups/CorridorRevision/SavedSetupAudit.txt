@@ -1,0 +1,1243 @@
+PASS Main loop has exactly two distinct references
+PASS Separate weighted prefab registry assigned
+PASS Scene instance and optional prefab asset: CorridorA_Prefabs
+PASS Not a main corridor: CorridorA_Prefabs
+PASS Fourteen safe exits: CorridorA_Prefabs
+PASS Fourteen portals share existing interaction/transition owner: CorridorA_Prefabs
+PASS Baked lighting cache retained: CorridorA_Prefabs
+PASS Scene instance and optional prefab asset: CorridorB_Prefabs
+PASS Not a main corridor: CorridorB_Prefabs
+PASS Fourteen safe exits: CorridorB_Prefabs
+PASS Fourteen portals share existing interaction/transition owner: CorridorB_Prefabs
+PASS Baked lighting cache retained: CorridorB_Prefabs
+PASS Four independent profiles with real audio clips
+PASS One active player
+PASS One active gameplay camera
+PASS One active listener
+PASS One crosshair
+PASS One follower and one atmosphere manager
+PASS Valid material: Corridor_A/Assets/Floor/Floor 01
+PASS Valid material: Corridor_A/Assets/Floor/Floor 02
+PASS Valid material: Corridor_A/Assets/Floor/Floor 03
+PASS Valid material: Corridor_A/Assets/Floor/Floor 04
+PASS Valid material: Corridor_A/Assets/Floor/Floor 05
+PASS Valid material: Corridor_A/Assets/Floor/Floor 06
+PASS Valid material: Corridor_A/Assets/Floor/Floor 07
+PASS Valid material: Corridor_A/Assets/Floor/Floor 08
+PASS Valid material: Corridor_A/Assets/Floor/Floor 09
+PASS Valid material: Corridor_A/Assets/Floor/Floor 10
+PASS Valid material: Corridor_A/Assets/Floor/Floor 11
+PASS Valid material: Corridor_A/Assets/Walls/Wall 90 A (1)
+PASS Valid material: Corridor_A/Assets/Walls/Wall 90 A (2)
+PASS Valid material: Corridor_A/Assets/Walls/Wall (1)
+PASS Valid material: Corridor_A/Assets/Walls/Wall (2)
+PASS Valid material: Corridor_A/Assets/Walls/Wall Corner A (1)
+PASS Valid material: Corridor_A/Assets/Walls/Wall Corner A (2)
+PASS Valid material: Corridor_A/Assets/Walls/Wall Corner 01
+PASS Valid material: Corridor_A/Assets/Walls/Wall Corner 02
+PASS Valid material: Corridor_A/Assets/Walls/Wall Corner 03
+PASS Valid material: Corridor_A/Assets/Walls/Wall Corner 04
+PASS Valid material: Corridor_A/Assets/Walls/Wall Corner 05
+PASS Valid material: Corridor_A/Assets/Walls/Wall Corner 06
+PASS Valid material: Corridor_A/Assets/Walls/Wall Corner 07
+PASS Valid material: Corridor_A/Assets/Walls/Wall Corner 08
+PASS Valid material: Corridor_A/Assets/Walls/Wall Corner 09
+PASS Valid material: Corridor_A/Assets/Ceiling/Ceiling 01
+PASS Valid material: Corridor_A/Assets/Ceiling/Ceiling 02
+PASS Valid material: Corridor_A/Assets/Ceiling/Ceiling 03
+PASS Valid material: Corridor_A/Assets/Ceiling/Ceiling 04
+PASS Valid material: Corridor_A/Assets/Ceiling/Ceiling 05
+PASS Valid material: Corridor_A/Assets/Ceiling/Ceiling 06
+PASS Valid material: Corridor_A/Assets/Ceiling/Ceiling 07
+PASS Valid material: Corridor_A/Assets/Ceiling/Ceiling 08
+PASS Valid material: Corridor_A/Assets/Ceiling/Ceiling 09
+PASS Valid material: Corridor_A/Assets/Ceiling/Ceiling 10
+PASS Valid material: Corridor_A/Assets/Ceiling/Ceiling 11
+PASS Valid material: Corridor_A/Assets/Decals/Decal Puddle (1)
+PASS Valid material: Corridor_A/Assets/Decals/Decal Puddle (2)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 1 (1)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 1 (2)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 2 (1)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 2 (2)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 3 (1)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 3 (2)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 4 (1)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 4 (2)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 4 (3)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 4 (4)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 4 (5)
+PASS Valid material: Corridor_A/Assets/Decals/Decal 5
+PASS Valid material: Corridor_A/Assets/Decals/Decal 6
+PASS Valid material: Corridor_A/Assets/Ceiling Lights/Ceiling Light 01
+PASS Valid material: Corridor_A/Assets/Ceiling Lights/Ceiling Light 02
+PASS Valid material: Corridor_A/Assets/Ceiling Lights/Ceiling Light 03
+PASS Valid material: Corridor_A/Assets/Ceiling Lights/Ceiling Light 04
+PASS Valid material: Corridor_A/Assets/Ceiling Lights/Ceiling Light 05
+PASS Valid material: Corridor_A/Assets/Ceiling Lights/Ceiling Light 06
+PASS Valid material: Corridor_A/Assets/Ceiling Lights/Ceiling Light 07
+PASS Valid material: Corridor_A/Assets/Cardboard Boxes/Box 1
+PASS Valid material: Corridor_A/Assets/Cardboard Boxes/Box 2
+PASS Valid material: Corridor_A/Assets/Cardboard Boxes/Box 3
+PASS Valid material: Corridor_A/Assets/Cardboard Boxes/Box 4
+PASS Valid material: Corridor_A/Assets/Cardboard Boxes/Box 5
+PASS Valid material: Corridor_A/Assets/Cardboard Boxes/Box 6
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 01/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 02/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 03/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 04/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 05/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 06/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 07/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 08/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 09
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 09/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 09/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 09/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 10/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 11/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 12/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 13/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 14/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 15/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B/Door
+PASS Valid material: Corridor_A/Assets/Wall with Door A Group/Wall with Door A 16/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Floor 06
+PASS Valid material: Corridor_A/Corridor/Wall Corner 09
+PASS Valid material: Corridor_A/Corridor/Ceiling Light 02
+PASS Valid material: Corridor_A/Corridor/Wall Corner 02
+PASS Valid material: Corridor_A/Corridor/Decal 3 (1)
+PASS Valid material: Corridor_A/Corridor/Ceiling Light 05
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 10
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 10/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 10/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 10/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Floor 08
+PASS Valid material: Corridor_A/Corridor/Decal 4 (4)
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 12
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 12/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 12/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 12/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Floor 03
+PASS Valid material: Corridor_A/Corridor/Wall Corner 05
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 15
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 15/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 15/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 15/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 05
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 05/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 05/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 05/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Wall Corner 01
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 03
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 03/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 03/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 03/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 11
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 11/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 11/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 11/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Ceiling 11
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 07
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 07/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 07/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 07/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Ceiling 01
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 09
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 09/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 09/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 09/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 09 (1)
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 09 (1)/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 09 (1)/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 09 (1)/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Floor 02
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 01
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 01/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 01/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 01/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 06
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 06/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 06/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 06/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Decal 1 (1)
+PASS Valid material: Corridor_A/Corridor/Decal 1 (3)
+PASS Valid material: Corridor_A/Corridor/Ceiling 02
+PASS Valid material: Corridor_A/Corridor/Ceiling 10
+PASS Valid material: Corridor_A/Corridor/Decal 1 (2)
+PASS Valid material: Corridor_A/Corridor/Ceiling 05
+PASS Valid material: Corridor_A/Corridor/Ceiling Light 04
+PASS Valid material: Corridor_A/Corridor/Decal 4 (5)
+PASS Valid material: Corridor_A/Corridor/Wall Corner 03
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 02
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 02/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 02/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 02/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Floor 09
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 14
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 14/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 14/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 14/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Wall Corner 08
+PASS Valid material: Corridor_A/Corridor/Decal 2 (2)
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 08
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 08/Door 2 B
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 08/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor/Wall with Door A 08/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor/Wall Corner 06
+PASS Valid material: Corridor_A/Corridor/Decal 3 (2)
+PASS Valid material: Corridor_A/Corridor/Decal 4 (3)
+PASS Valid material: Corridor_A/Corridor (1)/Floor 06
+PASS Valid material: Corridor_A/Corridor (1)/Wall Corner 09
+PASS Valid material: Corridor_A/Corridor (1)/Ceiling Light 02
+PASS Valid material: Corridor_A/Corridor (1)/Wall Corner 02
+PASS Valid material: Corridor_A/Corridor (1)/Decal 3 (1)
+PASS Valid material: Corridor_A/Corridor (1)/Ceiling Light 05
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 10
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 10/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Floor 08
+PASS Valid material: Corridor_A/Corridor (1)/Decal 4 (4)
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 12
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 12/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Floor 03
+PASS Valid material: Corridor_A/Corridor (1)/Wall Corner 05
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 15
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 15/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 05
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 05/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Wall Corner 01
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 03
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 03/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 11
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 11/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Ceiling 11
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 07
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 07/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Ceiling 01
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 09
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 09/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Floor 02
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 01
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 01/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 06
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 06/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Decal 1 (1)
+PASS Valid material: Corridor_A/Corridor (1)/Ceiling 02
+PASS Valid material: Corridor_A/Corridor (1)/Ceiling 10
+PASS Valid material: Corridor_A/Corridor (1)/Decal 1 (2)
+PASS Valid material: Corridor_A/Corridor (1)/Ceiling 05
+PASS Valid material: Corridor_A/Corridor (1)/Ceiling Light 04
+PASS Valid material: Corridor_A/Corridor (1)/Decal 4 (5)
+PASS Valid material: Corridor_A/Corridor (1)/Wall Corner 03
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 02
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 02/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Floor 09
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 14
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 14/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Wall Corner 08
+PASS Valid material: Corridor_A/Corridor (1)/Decal 2 (2)
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 08
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B/Door
+PASS Valid material: Corridor_A/Corridor (1)/Wall with Door A 08/Door 2 B/Door/Handles
+PASS Valid material: Corridor_A/Corridor (1)/Wall Corner 06
+PASS Valid material: Corridor_A/Corridor (1)/Decal 3 (2)
+PASS Valid material: Corridor_A/Corridor (1)/Decal 4 (3)
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 12/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 01/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 02/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 03/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 04/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 05/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 06/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 07/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 08/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 09/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 10/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 11/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 12/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 13/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 14/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 15/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 16/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 10/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 12/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 15/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 05/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 03/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 11/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 07/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 09/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 09 (1)/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 01/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 06/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 02/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 14/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 08/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 10/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 15/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 05/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 03/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 11/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 07/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 09/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 01/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 06/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 02/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 14/Opaque Black Void
+PASS Valid material: Corridor_A/Black Door - Door 2 B - Wall with Door A 08/Opaque Black Void
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 01
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 01/Support 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 02
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 02/Support 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 03
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 03/Support 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 04
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 04/Support 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 05
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 05/Support 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 06
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 06/Support 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 07
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 07/Support 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 08
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 08/Support 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 09
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 09/Support 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 10
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 10/Support 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 11
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 11/Support 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 12
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 13
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 13/Support 2
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 14
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 14/Support 2
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 15
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 15/Support 2
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 16
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 16/Support 2
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 17
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 17/Support 2
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 18
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 18/Support 2
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 19
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 19/Support 2
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 20
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 20/Support 2
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 21
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 21/Support 2
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 22
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 22/Support 2
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 23
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 24
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 90 1
+PASS Valid material: Corridor_B/Original Environment/Pipes/Pipe 90 2
+PASS Valid material: Corridor_B/Original Environment/Floor/Floor 01
+PASS Valid material: Corridor_B/Original Environment/Floor/Floor 02
+PASS Valid material: Corridor_B/Original Environment/Floor/Floor 03
+PASS Valid material: Corridor_B/Original Environment/Floor/Floor 04
+PASS Valid material: Corridor_B/Original Environment/Floor/Floor 05
+PASS Valid material: Corridor_B/Original Environment/Floor/Floor 06
+PASS Valid material: Corridor_B/Original Environment/Floor/Floor 07
+PASS Valid material: Corridor_B/Original Environment/Floor/Floor 08
+PASS Valid material: Corridor_B/Original Environment/Floor/Floor 09
+PASS Valid material: Corridor_B/Original Environment/Floor/Floor 10
+PASS Valid material: Corridor_B/Original Environment/Floor/Floor 11
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Simple
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Simple
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall 90 B
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall 90 B
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Corner B
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Corner B
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Corner 4
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Corner 4
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Corner 4
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Corner 3
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Corner 4
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Corner 4
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Corner 3
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Corner 4
+PASS Valid material: Corridor_B/Original Environment/Walls/Wall Corner 3
+PASS Valid material: Corridor_B/Original Environment/Ceiling/Ceiling 01
+PASS Valid material: Corridor_B/Original Environment/Ceiling/Ceiling 02
+PASS Valid material: Corridor_B/Original Environment/Ceiling/Ceiling 03
+PASS Valid material: Corridor_B/Original Environment/Ceiling/Ceiling 04
+PASS Valid material: Corridor_B/Original Environment/Ceiling/Ceiling 05
+PASS Valid material: Corridor_B/Original Environment/Ceiling/Ceiling 06
+PASS Valid material: Corridor_B/Original Environment/Ceiling/Ceiling 07
+PASS Valid material: Corridor_B/Original Environment/Ceiling/Ceiling 08
+PASS Valid material: Corridor_B/Original Environment/Ceiling/Ceiling 09
+PASS Valid material: Corridor_B/Original Environment/Ceiling/Ceiling 10
+PASS Valid material: Corridor_B/Original Environment/Ceiling/Ceiling 11
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal Puddle (1)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal Puddle (2)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 1 (1)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 1 (2)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 2 (1)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 2 (2)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 3 (1)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 3 (2)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 4 (1)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 4 (2)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 4 (3)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 4 (4)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 4 (5)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 5
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 6
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 7 (1)
+PASS Valid material: Corridor_B/Original Environment/Decals/Decal 7 (2)
+PASS Valid material: Corridor_B/Original Environment/Ceiling Lights/Fluorescent Lamp 01
+PASS Valid material: Corridor_B/Original Environment/Ceiling Lights/Fluorescent Lamp 02
+PASS Valid material: Corridor_B/Original Environment/Ceiling Lights/Fluorescent Lamp 03
+PASS Valid material: Corridor_B/Original Environment/Ceiling Lights/Fluorescent Lamp 04
+PASS Valid material: Corridor_B/Original Environment/Ceiling Lights/Fluorescent Lamp 05
+PASS Valid material: Corridor_B/Original Environment/Ceiling Lights/Fluorescent Lamp 06
+PASS Valid material: Corridor_B/Original Environment/Ceiling Lights/Fluorescent Lamp 07
+PASS Valid material: Corridor_B/Original Environment/Cardboard Boxes/Box 1
+PASS Valid material: Corridor_B/Original Environment/Cardboard Boxes/Box 2
+PASS Valid material: Corridor_B/Original Environment/Cardboard Boxes/Box 3
+PASS Valid material: Corridor_B/Original Environment/Cardboard Boxes/Box 4
+PASS Valid material: Corridor_B/Original Environment/Cardboard Boxes/Box 5
+PASS Valid material: Corridor_B/Original Environment/Cardboard Boxes/Box 6
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 01/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 02/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 03/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 04/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 05/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 06/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 07/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 08/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 09/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 10
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 10/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 10/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 10/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 11/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 12/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 13/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 14/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 15/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B/Door
+PASS Valid material: Corridor_B/Original Environment/Wall with Door B Group/Wall with Door B 16/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (1)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (1)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (2)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (2)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (3)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (3)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (4)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (4)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (5)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (5)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (6)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (6)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (7)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (7)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (8)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (8)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (9)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (9)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (10)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (10)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (11)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (11)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (12)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (12)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (13)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (13)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (14)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (14)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (15)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (15)/Cables 2
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 2 (16)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (1)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (1)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (2)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (2)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (3)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (3)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (4)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (4)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (5)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (5)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (6)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (6)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (7)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (7)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (8)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (8)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (9)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (9)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (10)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (10)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (11)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (11)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (12)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (12)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (13)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (13)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (14)
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1 (14)/Cables 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1
+PASS Valid material: Corridor_B/Original Environment/Electrical Cables/Cable Box 1/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Floor 06
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 01
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 01/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 01/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 01/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Pipe 03
+PASS Valid material: Corridor_B/Corridor2/Pipe 03/Support 1
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (6)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (6)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (5)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (5)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Decal 7 (1)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (8)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (8)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Pipe 09
+PASS Valid material: Corridor_B/Corridor2/Pipe 09/Support 1
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (3)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (3)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Pipe 16
+PASS Valid material: Corridor_B/Corridor2/Pipe 16/Support 2
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (1)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (1)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Pipe 02
+PASS Valid material: Corridor_B/Corridor2/Pipe 02/Support 1
+PASS Valid material: Corridor_B/Corridor2/Pipe 14
+PASS Valid material: Corridor_B/Corridor2/Pipe 14/Support 2
+PASS Valid material: Corridor_B/Corridor2/Decal 3 (1)
+PASS Valid material: Corridor_B/Corridor2/Pipe 06
+PASS Valid material: Corridor_B/Corridor2/Pipe 06/Support 1
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (2)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (2)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Wall Corner 4 (4)
+PASS Valid material: Corridor_B/Corridor2/Pipe 07
+PASS Valid material: Corridor_B/Corridor2/Pipe 07/Support 1
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 03
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 03/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 03/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 03/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Floor 08
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 09
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 09/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 09/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 09/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Pipe 24
+PASS Valid material: Corridor_B/Corridor2/Decal 4 (4)
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 08
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 08/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 08/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 08/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 10
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 10/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 10/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 10/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 10/Door 1 B/Door/Decal 1 (1)
+PASS Valid material: Corridor_B/Corridor2/Floor 03
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 07
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 07/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 07/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 07/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Pipe 13
+PASS Valid material: Corridor_B/Corridor2/Pipe 13/Support 2
+PASS Valid material: Corridor_B/Corridor2/Pipe 19
+PASS Valid material: Corridor_B/Corridor2/Pipe 19/Support 2
+PASS Valid material: Corridor_B/Corridor2/Ceiling 11
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (7)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (7)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (1)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (1)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Ceiling 01
+PASS Valid material: Corridor_B/Corridor2/Wall Corner 4 (3)
+PASS Valid material: Corridor_B/Corridor2/Pipe 18
+PASS Valid material: Corridor_B/Corridor2/Pipe 18/Support 2
+PASS Valid material: Corridor_B/Corridor2/Wall Corner 4
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 12
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 12/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 12/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 12/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (4)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (4)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (5)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (5)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Decal 7 (2)
+PASS Valid material: Corridor_B/Corridor2/Pipe 10
+PASS Valid material: Corridor_B/Corridor2/Pipe 10/Support 1
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (11)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (11)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Pipe 04
+PASS Valid material: Corridor_B/Corridor2/Pipe 04/Support 1
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 02
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 02/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 02/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 02/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Floor 02
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (10)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (10)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Wall Corner 3
+PASS Valid material: Corridor_B/Corridor2/Wall Corner 4 (1)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (12)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (12)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 14
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 14/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 14/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 14/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Fluorescent Lamp 04
+PASS Valid material: Corridor_B/Corridor2/Ceiling 02
+PASS Valid material: Corridor_B/Corridor2/Ceiling 10
+PASS Valid material: Corridor_B/Corridor2/Decal 1 (2)
+PASS Valid material: Corridor_B/Corridor2/Wall Corner 4 (2)
+PASS Valid material: Corridor_B/Corridor2/Ceiling 05
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (7)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (7)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (9)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (9)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Pipe 15
+PASS Valid material: Corridor_B/Corridor2/Pipe 15/Support 2
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (4)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (4)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (6)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (6)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Fluorescent Lamp 03
+PASS Valid material: Corridor_B/Corridor2/Decal 4 (5)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (9)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (9)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (11)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (11)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 06
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 06/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 06/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 06/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (8)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (8)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (10)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 2 (10)/Cables 2
+PASS Valid material: Corridor_B/Corridor2/Floor 09
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (12)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (12)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Fluorescent Lamp 01
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 11
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 11/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 11/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 11/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (2)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (2)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Decal 2 (2)
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 04
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 04/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 04/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 04/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Pipe 05
+PASS Valid material: Corridor_B/Corridor2/Pipe 05/Support 1
+PASS Valid material: Corridor_B/Corridor2/Decal 3 (2)
+PASS Valid material: Corridor_B/Corridor2/Pipe 08
+PASS Valid material: Corridor_B/Corridor2/Pipe 08/Support 1
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (3)
+PASS Valid material: Corridor_B/Corridor2/Cable Box 1 (3)/Cables 1
+PASS Valid material: Corridor_B/Corridor2/Pipe 17
+PASS Valid material: Corridor_B/Corridor2/Pipe 17/Support 2
+PASS Valid material: Corridor_B/Corridor2/Decal 4 (3)
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 15
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 15/Door 1 B
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 15/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2/Wall with Door B 15/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2/Support 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Floor 06
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 01
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 01/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 03
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 03/Support 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (6)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (6)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (5)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (5)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Decal 7 (1)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (8)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (8)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 09
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 09/Support 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (3)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (3)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 16
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 16/Support 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (1)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (1)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 02
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 02/Support 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 14
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 14/Support 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Decal 3 (1)
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 06
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 06/Support 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (2)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (2)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall Corner 4 (4)
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 07
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 07/Support 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 03
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 03/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Floor 08
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 09
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 09/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 24
+PASS Valid material: Corridor_B/Corridor2 Extension/Decal 4 (4)
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 08
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 08/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 10
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 10/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Floor 03
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 07
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 07/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 13
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 13/Support 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 19
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 19/Support 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Ceiling 11
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (7)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (7)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (1)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (1)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Ceiling 01
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall Corner 4 (3)
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 18
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 18/Support 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall Corner 4
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 12
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 12/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (4)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (4)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (5)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (5)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Decal 7 (2)
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 10
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 10/Support 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (11)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (11)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 04
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 04/Support 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 02
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 02/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Floor 02
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (10)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (10)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall Corner 3
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall Corner 4 (1)
+PASS Valid material: Corridor_B/Corridor2 Extension/Decal 1 (1)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (12)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (12)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 14
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 14/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Fluorescent Lamp 04
+PASS Valid material: Corridor_B/Corridor2 Extension/Ceiling 02
+PASS Valid material: Corridor_B/Corridor2 Extension/Ceiling 10
+PASS Valid material: Corridor_B/Corridor2 Extension/Decal 1 (2)
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall Corner 4 (2)
+PASS Valid material: Corridor_B/Corridor2 Extension/Ceiling 05
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (7)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (7)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (9)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (9)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 15
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 15/Support 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (4)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (4)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (6)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (6)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Fluorescent Lamp 03
+PASS Valid material: Corridor_B/Corridor2 Extension/Decal 4 (5)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (9)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (9)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (11)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (11)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 06
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 06/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (8)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (8)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (10)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 2 (10)/Cables 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Floor 09
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (12)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (12)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Fluorescent Lamp 01
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 11
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 11/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (2)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (2)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Decal 2 (2)
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 04
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 04/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 05
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 05/Support 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Decal 3 (2)
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 08
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 08/Support 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (3)
+PASS Valid material: Corridor_B/Corridor2 Extension/Cable Box 1 (3)/Cables 1
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 17
+PASS Valid material: Corridor_B/Corridor2 Extension/Pipe 17/Support 2
+PASS Valid material: Corridor_B/Corridor2 Extension/Decal 4 (3)
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 15
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B/Door
+PASS Valid material: Corridor_B/Corridor2 Extension/Wall with Door B 15/Door 1 B/Door/Handles
+PASS Valid material: Corridor_B/Corridor2 Extension/Support 2
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 01/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 01/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 02/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 03/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 04/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 05/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 06/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 07/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 08/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 09/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 10/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 11/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 12/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 13/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 14/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 15/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 16/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 01/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 03/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 09/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 08/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 10/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 07/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 12/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 02/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 14/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 06/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 11/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 04/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 15/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 03/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 09/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 08/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 10/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 07/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 12/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 02/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 14/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 06/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 11/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 04/Opaque Black Void
+PASS Valid material: Corridor_B/Black Door - Door 1 B - Wall with Door B 15/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Floor 06
+PASS Valid material: CorridorA_Prefabs/Wall Corner 09
+PASS Valid material: CorridorA_Prefabs/Ceiling Light 02
+PASS Valid material: CorridorA_Prefabs/Wall Corner 02
+PASS Valid material: CorridorA_Prefabs/Decal 3 (1)
+PASS Valid material: CorridorA_Prefabs/Ceiling Light 05
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 10
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 10/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 10/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 10/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Floor 08
+PASS Valid material: CorridorA_Prefabs/Decal 4 (4)
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 12
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 12/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 12/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 12/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Floor 03
+PASS Valid material: CorridorA_Prefabs/Wall Corner 05
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 15
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 15/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 15/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 15/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 05
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 05/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 05/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 05/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Wall Corner 01
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 03
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 03/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 03/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 03/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 11
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 11/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 11/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 11/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Ceiling 11
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 07
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 07/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 07/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 07/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Ceiling 01
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 09
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 09/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 09/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 09/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 09 (1)
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 09 (1)/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 09 (1)/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 09 (1)/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Floor 02
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 01
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 01/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 01/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 01/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 06
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 06/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 06/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 06/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Decal 1 (1)
+PASS Valid material: CorridorA_Prefabs/Decal 1 (3)
+PASS Valid material: CorridorA_Prefabs/Ceiling 02
+PASS Valid material: CorridorA_Prefabs/Ceiling 10
+PASS Valid material: CorridorA_Prefabs/Decal 1 (2)
+PASS Valid material: CorridorA_Prefabs/Ceiling 05
+PASS Valid material: CorridorA_Prefabs/Ceiling Light 04
+PASS Valid material: CorridorA_Prefabs/Decal 4 (5)
+PASS Valid material: CorridorA_Prefabs/Wall Corner 03
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 02
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 02/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 02/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 02/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Floor 09
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 14
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 14/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 14/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 14/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Wall Corner 08
+PASS Valid material: CorridorA_Prefabs/Decal 2 (2)
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 08
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 08/Door 2 B
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 08/Door 2 B/Door
+PASS Valid material: CorridorA_Prefabs/Wall with Door A 08/Door 2 B/Door/Handles
+PASS Valid material: CorridorA_Prefabs/Wall Corner 06
+PASS Valid material: CorridorA_Prefabs/Decal 3 (2)
+PASS Valid material: CorridorA_Prefabs/Decal 4 (3)
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 10/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 12/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 15/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 05/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 03/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 11/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 07/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 09/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 09 (1)/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 01/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 06/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 02/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 14/Opaque Black Void
+PASS Valid material: CorridorA_Prefabs/Black Door - Door 2 B - Wall with Door A 08/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Floor 06
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 01
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 01/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 01/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 01/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Pipe 03
+PASS Valid material: CorridorB_Prefabs/Pipe 03/Support 1
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (6)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (6)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (5)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (5)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Decal 7 (1)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (8)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (8)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Pipe 09
+PASS Valid material: CorridorB_Prefabs/Pipe 09/Support 1
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (3)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (3)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Pipe 16
+PASS Valid material: CorridorB_Prefabs/Pipe 16/Support 2
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (1)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (1)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Pipe 02
+PASS Valid material: CorridorB_Prefabs/Pipe 02/Support 1
+PASS Valid material: CorridorB_Prefabs/Pipe 14
+PASS Valid material: CorridorB_Prefabs/Pipe 14/Support 2
+PASS Valid material: CorridorB_Prefabs/Decal 3 (1)
+PASS Valid material: CorridorB_Prefabs/Pipe 06
+PASS Valid material: CorridorB_Prefabs/Pipe 06/Support 1
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (2)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (2)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Wall Corner 4 (4)
+PASS Valid material: CorridorB_Prefabs/Pipe 07
+PASS Valid material: CorridorB_Prefabs/Pipe 07/Support 1
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 03
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 03/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 03/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 03/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Floor 08
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 09
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 09/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 09/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 09/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Pipe 24
+PASS Valid material: CorridorB_Prefabs/Decal 4 (4)
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 08
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 08/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 08/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 08/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 10
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 10/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 10/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 10/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 10 (1)
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 10 (1)/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 10 (1)/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 10 (1)/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Floor 03
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 07
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 07/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 07/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 07/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Pipe 13
+PASS Valid material: CorridorB_Prefabs/Pipe 13/Support 2
+PASS Valid material: CorridorB_Prefabs/Pipe 19
+PASS Valid material: CorridorB_Prefabs/Pipe 19/Support 2
+PASS Valid material: CorridorB_Prefabs/Ceiling 11
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (7)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (7)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (1)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (1)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Ceiling 01
+PASS Valid material: CorridorB_Prefabs/Wall Corner 4 (3)
+PASS Valid material: CorridorB_Prefabs/Pipe 18
+PASS Valid material: CorridorB_Prefabs/Pipe 18/Support 2
+PASS Valid material: CorridorB_Prefabs/Wall Corner 4
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 12
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 12/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 12/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 12/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (4)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (4)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (5)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (5)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Decal 7 (2)
+PASS Valid material: CorridorB_Prefabs/Pipe 10
+PASS Valid material: CorridorB_Prefabs/Pipe 10/Support 1
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (11)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (11)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Pipe 04
+PASS Valid material: CorridorB_Prefabs/Pipe 04/Support 1
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 02
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 02/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 02/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 02/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Floor 02
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (10)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (10)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Wall Corner 3
+PASS Valid material: CorridorB_Prefabs/Wall Corner 4 (1)
+PASS Valid material: CorridorB_Prefabs/Decal 1 (1)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (12)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (12)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 14
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 14/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 14/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 14/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Fluorescent Lamp 04
+PASS Valid material: CorridorB_Prefabs/Ceiling 02
+PASS Valid material: CorridorB_Prefabs/Ceiling 10
+PASS Valid material: CorridorB_Prefabs/Decal 1 (2)
+PASS Valid material: CorridorB_Prefabs/Wall Corner 4 (2)
+PASS Valid material: CorridorB_Prefabs/Ceiling 05
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (7)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (7)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (9)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (9)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Pipe 15
+PASS Valid material: CorridorB_Prefabs/Pipe 15/Support 2
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (4)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (4)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (6)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (6)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Fluorescent Lamp 03
+PASS Valid material: CorridorB_Prefabs/Decal 4 (5)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (9)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (9)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (11)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (11)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 06
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 06/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 06/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 06/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (8)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (8)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (10)
+PASS Valid material: CorridorB_Prefabs/Cable Box 2 (10)/Cables 2
+PASS Valid material: CorridorB_Prefabs/Floor 09
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (12)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (12)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Fluorescent Lamp 01
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 11
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 11/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 11/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 11/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (2)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (2)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Decal 2 (2)
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 04
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 04/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 04/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 04/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Pipe 05
+PASS Valid material: CorridorB_Prefabs/Pipe 05/Support 1
+PASS Valid material: CorridorB_Prefabs/Decal 3 (2)
+PASS Valid material: CorridorB_Prefabs/Pipe 08
+PASS Valid material: CorridorB_Prefabs/Pipe 08/Support 1
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (3)
+PASS Valid material: CorridorB_Prefabs/Cable Box 1 (3)/Cables 1
+PASS Valid material: CorridorB_Prefabs/Pipe 17
+PASS Valid material: CorridorB_Prefabs/Pipe 17/Support 2
+PASS Valid material: CorridorB_Prefabs/Decal 4 (3)
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 15
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 15/Door 1 B
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 15/Door 1 B/Door
+PASS Valid material: CorridorB_Prefabs/Wall with Door B 15/Door 1 B/Door/Handles
+PASS Valid material: CorridorB_Prefabs/Support 2
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 01/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 03/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 09/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 08/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 10/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 10 (1)/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 07/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 12/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 02/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 14/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 06/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 11/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 04/Opaque Black Void
+PASS Valid material: CorridorB_Prefabs/Black Door - Door 1 B - Wall with Door B 15/Opaque Black Void
+PASS Atmosphere shader compiles

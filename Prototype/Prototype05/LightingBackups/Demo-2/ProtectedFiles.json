@@ -1,0 +1,454 @@
+[
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials General.meta",
+    "sha256": "EEBBB1CDC3CFC40E96F7849FE7EF824FA044811F62DC3C9C7087563A48CFD7ED"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects.meta",
+    "sha256": "CC20EEF29283CCE248428663E51116923A0304B347A3ECBB79565855DCB8B185"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials General\\Concrete Wall.mat",
+    "sha256": "0D4B9D7D0DF44A317956D3C6B9AB6576BFDF983E182EC40685AF32B6C80454CD"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials General\\Concrete Wall.mat.meta",
+    "sha256": "F1314C0F7CAA1CE310259150D409895389CFB79D059818ED06AF894D45A4A8F4"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials General\\Tiles.mat",
+    "sha256": "99243001709E9612D19CDF656BC8CAE53BBBC2909067A7A62B8C50FBD885A0E2"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials General\\Tiles.mat.meta",
+    "sha256": "F458D57F2065EA2E89C7437D527E897C5210C0E2A8A0C3341DF0986899526353"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials General\\Wall Plaster Damaged.mat",
+    "sha256": "E1FE60275D313FF6FE5F1165F58E30B8FE7136209F37D8DE57FEE266CB818708"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials General\\Wall Plaster Damaged.mat.meta",
+    "sha256": "4E35AD186B861F0F643C5B3283A5BDB1428428E5F6F272E6C9E1700D535EB0FE"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials General\\Wallpaper.mat",
+    "sha256": "C3C109392CA316B6C439B547B606BBCED7DFD9FDAEC3026466D4AAE191C26FE4"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials General\\Wallpaper.mat.meta",
+    "sha256": "1ED722BABF8FA3F6D7DD0E12A9C8AD7437939FD78DD579D4A25417FF97B1805F"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials General\\Wood.mat",
+    "sha256": "2A30F5D9C82ED642EA9CF88CD766DE38A9BBE0C5B7689F6D48E1BB746DDCEFB1"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials General\\Wood.mat.meta",
+    "sha256": "5BE927BF1CFE608EF17C87766088942814282094A58701C90D9BF1C1D51EB163"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Cardboard Boxes.mat",
+    "sha256": "0104EBE1A584C0EFFC944A9953592E3F15BA109EB7768B7CEA0DC7F235F5F5E3"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Cardboard Boxes.mat.meta",
+    "sha256": "F8FB4A5DB3E52C9844A755A1550F61AAF4199156659C68552B5541B67F4B9989"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Ceiling Light Off.mat",
+    "sha256": "22646BC9FCDE6D5B8ED88398F03DDA0D0FFAAE582831D5051821FA4CF0B3AF7C"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Ceiling Light Off.mat.meta",
+    "sha256": "4C7686E8C11AFA5D165A75ABDA33143B84E8B759E2E455FE6D53FE986E3BFF19"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Ceiling Light On.mat",
+    "sha256": "D0D42CDB9F0763B2AA7EC06A33F78CC1A9A1652FBBFA9275CFF2AC55DBF2C60B"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Ceiling Light On.mat.meta",
+    "sha256": "CEFD2AFDA8212D41DBD2EFB7054977A033EA05399CA6A1BB65D67646E1CD1A6C"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Decals.mat",
+    "sha256": "D055589B6F7AA27658918567F71E60A5437B5224EDA1240FAC69F59EFD2A011A"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Decals.mat.meta",
+    "sha256": "16B2A623EE08C95DC8ED278F6251505EADECC16C8249C4E9ECB8EE456325A393"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Door 1 A.mat",
+    "sha256": "47F67C3F06026AC2DA1D2CC912C4062E619882CA5BF5EE077F27FA82DA2531F9"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Door 1 A.mat.meta",
+    "sha256": "4E9322B06E833563855806330D4E63C476BF0C22F314793A636FF68BC73AC8D2"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Door 1 B.mat",
+    "sha256": "C26D26BF9985BEC8C3A31ABF6397B3675BB17EB3881711522F1C12742BB73C47"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Door 1 B.mat.meta",
+    "sha256": "61FB493452D9EC10981BFFC71ED7047429BC9FE1F497B8B7251391BF9C16A984"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Door 2 A.mat",
+    "sha256": "90C4E7F67ED7A6CB342035C312FF88F2FE024D62A76335985DD861EF35708114"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Door 2 A.mat.meta",
+    "sha256": "DBBDB9CF674BDAA2B26D0ECF8D72A6369791DE30D08DAF627D7FB99AC14FD883"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Door 2 B.mat",
+    "sha256": "F5A9BB03330A0A46962973F0A6088863E4DE46AF8521D342C503E3999659F5DF"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Door 2 B.mat.meta",
+    "sha256": "0D12667E1B38EBACFF6A28B1FC7B8D033BBDB5917FFC5E8A6741CDE039345A45"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Electrical Cables.mat",
+    "sha256": "9C30A529836B94FF1A697349EE4544BCCEF53562EBC103FE085DC82FAB2916F6"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Electrical Cables.mat.meta",
+    "sha256": "AE14874D18A777FB9253A393C905077F935D761D4AF7760FC43B217EF9B9C09C"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Fluorescent Lamp Off.mat",
+    "sha256": "1D8D95B96CC1724BCBA77D0A9942F3481658BF7D54AF5ACD5D28CCE11341667B"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Fluorescent Lamp Off.mat.meta",
+    "sha256": "C66CB8F16DD74EAE37CC822B6D4737494264F0F18520FA58DDAB668E46D2CA55"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Fluorescent Lamp On.mat",
+    "sha256": "26C6173B85EB1B3E97ACF0A78F5C5F1E9A88E1024ABE631DCE618E6A6CE3290C"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Fluorescent Lamp On.mat.meta",
+    "sha256": "8F12BDA59622488831C557ED89978F774B1E6D4366436C8F6BE5543632A196A6"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Pipes.mat",
+    "sha256": "D8F76CDF4A8BA34C57DACF458C00ECD28FD7016979FF5E720CB81185BA9B6FF0"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Pipes.mat.meta",
+    "sha256": "A65DC8F6856DD2CDBC9BA70369B47D2AF178211EF7A07C61B90D91D8096FE737"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Puddle 1.mat",
+    "sha256": "672FDCC7394D5D0D35D96E658861FAA5C968C497906F54DB937DFBCCDE8CC626"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Puddle 1.mat.meta",
+    "sha256": "3B70A44F8467EB3FD2261CA86E40649AE939E41D6DBD657758D1B3C7B26E238A"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Puddle 2.mat",
+    "sha256": "51D2F587B808132DC361DCC9B798F29646A49EC891FBE4578458FFD4046BE72C"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Materials\\Materials Objects\\Puddle 2.mat.meta",
+    "sha256": "0D1A2850B458A39DEB5BBF0EE04D7AEE6DAD3268D1C6F1AB5A010A43E202DFE3"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Concrete Wall.meta",
+    "sha256": "9E2ECF353FF333262B81D6A9AF6A217817AC8E64AF401453C788CAD4B192A31A"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Tiles.meta",
+    "sha256": "2E8E415A09F52B5430DBE01DA2286262955A06B96BDB1A3D42E74788A7039626"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wall Plaster Damaged.meta",
+    "sha256": "691AF34DA146A881AB40367B0E33217B12BC6EE539515DFAC4C183EBBC55D09B"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wallpaper.meta",
+    "sha256": "81EF115AFB6C75E80EA6736F80EA4AEAC623DDB14EE90B7F0D3FCF7F2E3B4F32"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wood.meta",
+    "sha256": "DC83AB66F1ECBA8EECBFD7C3F3FDAD030DBF5C29059990E2734CF05E32AC4074"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Concrete Wall\\Concrete Wall BaseMap.png",
+    "sha256": "FFE040A68ADB33BC759B46F4E0F07EC4DD274F99A3C2365605558B7AC377DA94"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Concrete Wall\\Concrete Wall BaseMap.png.meta",
+    "sha256": "9CEF9D0374E50E73FE0C914754731FC368DD371F0159D96784F229C70E3E752F"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Concrete Wall\\Concrete Wall MaskMap.png",
+    "sha256": "43D26041C7CE0CA2BC2E5531908580B59CC917FA415D9854625594D3214F6AB9"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Concrete Wall\\Concrete Wall MaskMap.png.meta",
+    "sha256": "DC8D759E821EF445B7992FBC5B508158586C8489E78D09BACD97B44F042AE077"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Concrete Wall\\Concrete Wall Normal.png",
+    "sha256": "362D75705E6B7B952098C280E71795A20DFFF5D3FC7BE830838B5EDA3EEE82B5"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Concrete Wall\\Concrete Wall Normal.png.meta",
+    "sha256": "B1123E520E720FB99F7E6B7BAAF641D86A163F522A516CA85F07F3B5CD231B09"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Tiles\\Tiles BaseMap.png",
+    "sha256": "E701FA0A182C107FB8E1DA16F6B0E369D7DFEFE36C8C1E46D98DB7151DB7BECA"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Tiles\\Tiles BaseMap.png.meta",
+    "sha256": "A9E51F6F93385947B0B085F14BF634B8D0D7DFD28EF0BD051029642924567FE5"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Tiles\\Tiles MaskMap.png",
+    "sha256": "8826F76464CEF6D3F3B1B4B0B941E6EB2DB5ED182666C19816A49AC61D8C4A25"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Tiles\\Tiles MaskMap.png.meta",
+    "sha256": "8BCAF11BFFBD2E23DCEC4E361046BB2C9C1A813AC67343C0064C44A72014B2CC"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Tiles\\Tiles Normal.png",
+    "sha256": "C56A2473EE3B5A1980B780C42AA760A8765F8EDD100D9F2924F9903FD339E9A6"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Tiles\\Tiles Normal.png.meta",
+    "sha256": "EEBB3EFEC38A10A535EAFD4A52E38A9E2D7A22A0E48904CF2D2D3838610B2A9A"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wall Plaster Damaged\\Wall Plaster Damaged  BaseMap.png",
+    "sha256": "B8C980B41F21B89887CE67C54FEC74A14E96913A14B8099D724275AB41059BE0"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wall Plaster Damaged\\Wall Plaster Damaged  BaseMap.png.meta",
+    "sha256": "3937C15CCA5E8F099B92A7B291830910C3BB7FF50CFD19361AB7B519EE6224DA"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wall Plaster Damaged\\Wall Plaster Damaged  MaskMap.png",
+    "sha256": "E52D6D5E6C6F881BC4DEF93A66E12F1347B00FA5C5525589E5C18E329FAF0724"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wall Plaster Damaged\\Wall Plaster Damaged  MaskMap.png.meta",
+    "sha256": "8DD5337A0585EC037F8EC0FCB2AF781B01CCD4AE7F09AD66DCFDB5D8BAA478D1"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wall Plaster Damaged\\Wall Plaster Damaged  Normal.png",
+    "sha256": "36E099F48CC7F7D0C164998247114091D68AB8D8064D64CA2974F2A8E6117BD6"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wall Plaster Damaged\\Wall Plaster Damaged  Normal.png.meta",
+    "sha256": "A61AB90351302CC7CDE25ED2128F6EBA8788AB2C076F74FC516A3BC57C1977F5"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wallpaper\\Wallpaper 1 BaseMap.png",
+    "sha256": "485E5506AFE8FDD73C21D36AF5B4496D09C59A95C01581964E56C7933721974A"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wallpaper\\Wallpaper 1 BaseMap.png.meta",
+    "sha256": "BB751D3D2DA35C087783BB8EDA492222A910C237642FFF32556B6A204B0834FA"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wallpaper\\Wallpaper 1 MaskMap.png",
+    "sha256": "8E3B3FF0FF53E815E029670A39B31E59A458C435A31249A582559A75C00510C8"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wallpaper\\Wallpaper 1 MaskMap.png.meta",
+    "sha256": "78D95F6A125F4A54EF7E690E1D072E7A4191A7C170D93DC3A39517FEF19FDFE0"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wallpaper\\Wallpaper 1 Normal.png",
+    "sha256": "85B9E84A0EA750EA46EC4D4137D690C1068D660C127C0573C7812547AC8710A0"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wallpaper\\Wallpaper 1 Normal.png.meta",
+    "sha256": "8661E4A07798CCD5996B4AAC8A91522E8C0519EA61FA00063F75189A5763EBAD"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wood\\Wood BaseMap.png",
+    "sha256": "D1DF72F747F4BF56C25758B521F682C2648A1E0D67FDFA6E7FD4F401D88A9273"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wood\\Wood BaseMap.png.meta",
+    "sha256": "F40599413DC8F621BB2B7F6B1B19CB7A217B04BAF8DF834FD64A469F4C57AC8F"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wood\\Wood MaskMap.png",
+    "sha256": "2E456CF414D78F77E2D6B9D28B48900062E8C863AF66D684E665B0283C1436E7"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wood\\Wood MaskMap.png.meta",
+    "sha256": "9F0771485D4EBB86DBC484E53C61FC6B7A8EA88E793395DB0D534E6D9C50ED14"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wood\\Wood Normal.png",
+    "sha256": "DC630206F923FD3B5612A84DDA5B4CC4E4FE955C8BC9EBAC97C7E1010D125D70"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Textures\\Wood\\Wood Normal.png.meta",
+    "sha256": "3C57D9C914DB066B15D08A1A347CF68B064BE0ECE6D60EDE8AEF6B84DDD9E24E"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\LightingData.asset",
+    "sha256": "4DB836C7F2D0C12AE2194C1E4B13F64A534595DFBA4F0CEE4D1FDB4C3DBDFC01"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\LightingData.asset.meta",
+    "sha256": "6592A8CAC8DFC3CC737DF43C001309B9362F4C7E6A18C71F181FE7DCA58E3FCB"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\Lightmap-0_comp_dir.png",
+    "sha256": "9AF0586BD8AEEE80897336E9C8E87874929ADD2F5ED348D892CF1B619CA4FF49"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\Lightmap-0_comp_dir.png.meta",
+    "sha256": "22109A81C8347D72B6013F6D79393E8ECA9C4BC33645EC3E2E3ECC229CFC0A04"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\Lightmap-0_comp_light.exr",
+    "sha256": "40D33A52E4705FDD9DDA226181DAD94A940292C728B7804EA4C1CD956E010590"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\Lightmap-0_comp_light.exr.meta",
+    "sha256": "AB72A0AAA9B4385EB671D84B2B91640F1F0C3F4B20850B6C30479EC6531741E7"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\ReflectionProbe-0.exr",
+    "sha256": "D7809694F7037CF8C8BCC87044FC4CBD2BD7ACC8EBA5F429C7E325AD4C6B9740"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\ReflectionProbe-0.exr.meta",
+    "sha256": "FBAA702B5526D951946D5ACB3119E4E79B44E429D2B2A5ED3075DE5A78EEE368"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\ReflectionProbe-1.exr",
+    "sha256": "83986A800C4694E14B61C3704A26DDD18BA703889C9D7602B72CB7D3C29D311A"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\ReflectionProbe-1.exr.meta",
+    "sha256": "8F19263ACD3B2F172CAFEF8414D56DF1B11BCBA0A51023F0B56B0696A6538516"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\ReflectionProbe-2.exr",
+    "sha256": "6AD22DD99D5F21C2003EF2600845C5373AB9430AD79D4270595351117AECA318"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\Assets\\AK Studio Art\\Modular Horror Corridor\\Scenes\\Demo 2\\ReflectionProbe-2.exr.meta",
+    "sha256": "0013FC4F85E5C5F9092EAE74784D56336127EB8318017532033EE48291DC1B71"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\AudioManager.asset",
+    "sha256": "AEEDEB3243F07B61DBBE854AA08B5EF6F0B5274DD9852AD9F6129DDE3E105A31"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\ClusterInputManager.asset",
+    "sha256": "40E65DD214BF254955D2C8829CA8CE2130FD3510485560CE012E9A1DDD93E623"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\DynamicsManager.asset",
+    "sha256": "B7C9A9DC08B98990109D4346F68745E15E238DE400F96C583E53E1C83C743A78"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\EditorBuildSettings.asset",
+    "sha256": "348BA1ECA4B0698957F264F877F76227B78583ACD3138FD5FC85BE92F158E261"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\EditorSettings.asset",
+    "sha256": "1EF9414984AE135D74E2D05DFBEB10A04CA7F8434B867C2B2053F46B78A365A6"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\GraphicsSettings.asset",
+    "sha256": "9C1BB28A2AAC0FEE9D3CFD844F6F345FE573F18D35A5C9FD3048B9E9A066C4DF"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\InputManager.asset",
+    "sha256": "7A1BB836A1008D26D0860D143E9D9DF7CA41731D30A72901B518063819C62DF2"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\McpUnitySettings.json",
+    "sha256": "6324891485F7BEA01855A9F446615DCBFDC235AF93D932C11415F1EC0D30E142"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\MemorySettings.asset",
+    "sha256": "1E8379A461B10AE09F3F696911088C16875D63E87ED5F2D95DF9E1892703F9FD"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\MultiplayerManager.asset",
+    "sha256": "ABA89FD1A1DDAD182727AD82727E536D27372E90328A8196DA2A4560398983DD"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\NavMeshAreas.asset",
+    "sha256": "80106CFA7E6181A1928B142C075F3E510D527441E3D79BC83590E4AC91E7CD66"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\PackageManagerSettings.asset",
+    "sha256": "0489572349AAB513DCC30155F76CACF0936B6B8BA3035B0DCAC99C6EBAE1EB9E"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\Physics2DSettings.asset",
+    "sha256": "E3CBDBF0BE15244B7B67D2F07BDB8E8981911C11A8C7FE8035F5261272FEC658"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\PresetManager.asset",
+    "sha256": "29C125923FE6E29F90190D4FCE1C82D660E7051546E2C9D02908D18C9CF2436C"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\ProjectSettings.asset",
+    "sha256": "DC52428005A88902251014126334028B51CCACDC63BBBA17867E408A1268EF04"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\ProjectVersion.txt",
+    "sha256": "CBF8FE771E248D4016DF03AB44EC91CDD7946CB585319485441C4E5B41E2DD7E"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\QualitySettings.asset",
+    "sha256": "6814D6CC3EB850DD7D2A069A8B17BA9F7591DEBA8B1758A855978BD9C8627643"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\SceneTemplateSettings.json",
+    "sha256": "BB9098B3BFCDE78D93E264B96F7B77B5430E64E8C57A7AAD7F5A5D9C3945E16A"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\ShaderGraphSettings.asset",
+    "sha256": "CDBA1E5D65BCF6E3269D76ED3E60B6C21F98322002996642C9D74F1EB89F6B91"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\TagManager.asset",
+    "sha256": "23FC56B484AA3D7EDF5914CD3591F7A823CCEF5E3F3496F8A51F30388EAD63DC"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\TimeManager.asset",
+    "sha256": "1A83E54ADBBDA7C9F4851103A0C6AB7F6448A3343D4EA5B7620452FA08416ECD"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\UnityConnectSettings.asset",
+    "sha256": "D6034ACBEF6C9E3179866486C31EAB81FCBE5E7ED350CE71E0FA2B1449B77109"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\URPProjectSettings.asset",
+    "sha256": "596D5C8BF4F957B03684C949BEBC252AE1918F25415A1147A00684C4B086EFDA"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\VersionControlSettings.asset",
+    "sha256": "E7BDA45BF7A394745FEE1316E6C71FA676004D591AD1F3AA247FD3E4CEB86071"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\VFXManager.asset",
+    "sha256": "F066C6483919961332415EE64204F74FE52F38C02E82892EB02B7A5B2E381F0E"
+  },
+  {
+    "path": "D:\\Repo\\MajorStudio\\Prototype\\Prototype05\\ProjectSettings\\XRSettings.asset",
+    "sha256": "EDD2BEB4A2E388312B4B7DA241AA51070434005D82C59363F1237DD2E567585F"
+  }
+]

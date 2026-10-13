@@ -1,0 +1,2 @@
+Reused original lighting for 72 static renderers; matched 8 unlightmapped probe anchors; assigned 2 original reflection cubemaps. Translation: (0.00, 0.00, -16.58). No light settings, ambient/URP settings, transforms, geometry, materials or gameplay components changed. Added one rendering-only lightmap persistence component. Backup: Assets/CorridorLightingRepair/BeforeLightingRepair.unity
+Matched 3 copied lamps' LightBakingOutput to their original Baked lamps, removing their additional direct-light contribution. Intensity, range, shadows, light type and Baked mode unchanged.

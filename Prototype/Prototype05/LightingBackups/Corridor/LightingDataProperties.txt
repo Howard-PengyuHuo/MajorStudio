@@ -1,0 +1,17 @@
+m_ObjectHideFlags type=Integer value=0
+m_CorrespondingSourceObject type=ObjectReference value=
+m_CorrespondingSourceObject.m_FileID type=Integer value=0
+m_CorrespondingSourceObject.m_PathID type=Integer value=0
+m_PrefabInstance type=ObjectReference value=
+m_PrefabInstance.m_FileID type=Integer value=0
+m_PrefabInstance.m_PathID type=Integer value=0
+m_PrefabAsset type=ObjectReference value=
+m_PrefabAsset.m_FileID type=Integer value=0
+m_PrefabAsset.m_PathID type=Integer value=0
+m_Name type=String value=
+m_Name.Array type=Generic value=
+m_Name.Array.size type=ArraySize value=
+m_Name.Array.data[0] type=Integer value=76
+m_Scene type=ObjectReference value=Assets/AK Studio Art/Modular Horror Corridor/Scenes/Demo 1.unity
+m_Scene.m_FileID type=Integer value=55848
+m_Scene.m_PathID type=Integer value=0

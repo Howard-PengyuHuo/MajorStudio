@@ -1,0 +1,4 @@
+Result=Succeeded
+Errors=0 Warnings=0
+Duration=00:02:36.0444552 Bytes=280643663
+Output=D:/Repo/MajorStudio/Prototype/Prototype05/Builds/CompilationRepair/DontLookBack.exe
